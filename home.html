@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>涉外知识产权多语种法务咨询平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #d5ebf8;
+            min-height: 100vh;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #d5ebf8;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .logo-text h1 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .logo-text p {
+            color: #6a5acd;
+            font-size: 12px;
+        }
+        
+        .auth-section {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .auth-btn {
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .search-section {
+            margin-top: 20px;
+            text-align: right;
+            padding: 0 20px;
+        }
+        
+        .hot-search {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .hot-search span {
+            margin-right: 10px;
+        }
+        
+        .search-box {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 5px 15px;
+            background-color: white;
+        }
+        
+        .search-box input {
+            border: none;
+            outline: none;
+            padding: 5px;
+            width: 200px;
+        }
+        
+        .search-icon {
+            color: #999;
+            margin-left: 5px;
+        }
+        
+        .lang-section {
+            text-align: right;
+            padding: 10px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .lang-btn {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .current-lang {
+            font-weight: bold;
+        }
+        
+        .nav-bar {
+            display: flex;
+            background-color: white;
+        }
+        
+        .nav-item {
+            flex: 1;
+            text-align: center;
+            padding: 15px 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: #4682B4;
+            border-right: 1px solid #d5ebf8;
+        }
+        
+        .nav-item:last-child {
+            border-right: none;
+        }
+        
+        .content-area {
+            display: flex;
+            margin: 20px;
+            gap: 20px;
+        }
+        
+        .content-left {
+            flex: 1;
+            background-color: white;
+            height: 220px;
+            border: 1px solid #eee;
+        }
+        
+        .content-right {
+            flex: 1;
+            background-color: white;
+            height: 220px;
+            border: 1px solid #eee;
+            padding: 15px;
+        }
+        
+        .section-title {
+            background-color: #4682B4;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .more-link {
+            font-size: 12px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .news-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .consultation-banner {
+            background-color: #0e4f9e;
+            padding: 15px 20px;
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        
+        .consultation-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .consultation-btn {
+            background-color: #0e4f9e;
+            border: 2px solid white;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .consultation-btn-text {
+            margin-right: 5px;
+        }
+        
+        .links-section {
+            margin: 20px;
+        }
+        
+        .links-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .links-icon {
+            margin-right: 10px;
+            font-size: 20px;
+            color: #4682B4;
+        }
+        
+        .links-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .links-more {
+            margin-left: auto;
+            color: #999;
+            text-decoration: none;
+        }
+        
+        .common-links {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .link-item {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            border: 1px solid #eee;
+            padding: 15px;
+            margin: 5px;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        
+        .link-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #f0f0f0;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .country-info {
+            background-color: #9cc3e4;
+            margin: 20px;
+            padding: 10px;
+        }
+        
+        .country-title {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .country-list {
+            background-color: white;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .country-item {
+            padding: 5px 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .market-section {
+            background-color: #9cc3e4;
+            margin: 20px;
+            padding: 10px;
+        }
+        
+        .market-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .market-item {
+            background-color: white;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .market-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #f0f0f0;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .law-boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .law-box {
+            background-color: #ff4500;
+            color: white;
+            padding: 15px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .case-box {
+            background-color: #1e90ff;
+            color: white;
+            padding: 15px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background-color: #0e4f9e;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer-left {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .qr-code {
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            margin-right: 5px;
+        }
+        
+        .footer-right {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .footer-link {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .divider {
+            color: white;
+            margin: 0 5px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content-area {
+                flex-direction: column;
+            }
+            
+            .market-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .law-boxes {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-section">
+            <div class="logo-img">
+                <!-- Logo placeholder - to be replaced with actual logo -->
+                <div>IP START</div>
+            </div>
+            <div class="logo-text">
+                <h1>涉外知识产权多语种法务咨询平台</h1>
+                <p>MULTILINGUAL LEGAL COUNSELLING PLATFORM FOR FOREIGN INTELLECTUAL PROPERTY RIGHTS</p>
+            </div>
+        </div>
+        <div class="auth-section">
+            <a href="#" class="auth-btn">登录</a> | 
+            <a href="#" class="auth-btn">注册</a>
+        </div>
+    </div>
+    
+    <div class="search-section">
+        <div class="hot-search">热门搜索: 
+            <span>专利</span>
+            <span>著作权</span>
+            <span>商标</span>
+            <span>专利申请</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="搜索关键词...">
+            <span class="search-icon">🔍</span>
+        </div>
+    </div>
+    
+    <div class="lang-section">
+        语言设置: 
+        <a href="#" class="lang-btn current-lang">中文</a> | 
+        <a href="#" class="lang-btn">English</a> | 
+        <a href="#" class="lang-btn">Español</a>
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="#" class="nav-item">首页</a>
+        <a href="#" class="nav-item">国内市场</a>
+        <a href="#" class="nav-item">海外市场</a>
+        <a href="#" class="nav-item">学习天地</a>
+        <a href="#" class="nav-item">咨询服务</a>
+        <a href="#" class="nav-item">大数据中心</a>
+    </nav>
+    
+    <div class="content-area">
+        <div class="content-left">
+            <!-- Carousel or main content placeholder -->
+        </div>
+        
+        <div class="content-right">
+            <div class="section-title">
+                <span>知识产权要闻</span>
+                <a href="#" class="more-link">更多</a>
+            </div>
+            <div class="news-list">
+                <div class="news-item">关于知识产权最新发展的重要通知</div>
+                <div class="news-item">国际知识产权保护动态与趋势分析</div>
+                <div class="news-item">最新专利申请流程简化措施出台</div>
+                <div class="news-item">知识产权保护法律法规更新情况</div>
+                <div class="news-item">全球知识产权合作新框架探讨</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="consultation-banner">
+        <div class="consultation-title">专利咨询服务</div>
+        <a href="#" class="consultation-btn">
+            <span class="consultation-btn-text">立即进入</span>
+            <span>→</span>
+        </a>
+    </div>
+    
+    <div class="links-section">
+        <div class="links-title">
+            <span class="links-icon">📌</span>
+            <span class="links-text">常用链接</span>
+            <a href="#" class="links-more">更多>>></a>
+        </div>
+        
+        <div class="common-links">
+            <a href="#" class="link-item">
+                <div class="link-icon">CNIPA</div>
+                <span>国家知识产权局</span>
+            </a>
+            <a href="#" class="link-item">
+                <div class="link-icon">WIPO</div>
+                <span>世界知识产权组织（WIPO）</span>
+            </a>
+            <a href="#" class="link-item">
+                <div class="link-icon">Guide</div>
+                <span>海外知识产权纠纷应对指导</span>
+            </a>
+            <a href="#" class="link-item">
+                <div class="link-icon">IPCHN</div>
+                <span>中国知识产权资讯网</span>
+            </a>
+            <a href="#" class="link-item">
+                <div class="link-icon">EPO</div>
+                <span>欧洲专利局（EPO）</span>
+            </a>
+            <a href="#" class="link-item">
+                <div class="link-icon">USPTO</div>
+                <span>美国专利商标局</span>
+            </a>
+        </div>
+    </div>
+    
+    <div class="country-info">
+        <div class="country-title">
+            <span>常用国家信息</span>
+            <a href="#" class="more-link">更多>>></a>
+        </div>
+        <div class="country-list">
+            <a href="#" class="country-item">美国</a>
+            <a href="#" class="country-item">英国</a>
+            <a href="#" class="country-item">欧盟</a>
+            <a href="#" class="country-item">瑞士</a>
+            <a href="#" class="country-item">墨西哥</a>
+        </div>
+    </div>
+    
+    <div class="market-section">
+        <div class="country-title">
+            <span>国内市场</span>
+            <a href="#" class="more-link">更多>>></a>
+        </div>
+        <div class="market-grid">
+            <a href="#" class="market-item">
+                <div class="market-icon">🎡</div>
+                <span>京津冀地区</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">🏙️</div>
+                <span>广深深地区</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">🏞️</div>
+                <span>东南沿海地区</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">🐼</div>
+                <span>西南地区</span>
+            </a>
+            <div class="law-boxes">
+                <div class="law-box">法律法规一览</div>
+                <div class="case-box">经典案例分析</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="market-section">
+        <div class="country-title">
+            <span>海外市场</span>
+            <a href="#" class="more-link">更多>>></a>
+        </div>
+        <div class="market-grid">
+            <a href="#" class="market-item">
+                <div class="market-icon">📄</div>
+                <span>海外知识产权动态信息</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">📝</div>
+                <span>海外知识产权申请流程</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">💰</div>
+                <span>海外知识产权专有费用</span>
+            </a>
+            <a href="#" class="market-item">
+                <div class="market-icon">🔍</div>
+                <span>海外知识产权信息检索</span>
+            </a>
+            <div class="law-boxes">
+                <div class="law-box">各国法律法规</div>
+                <div class="case-box">各国环境概况</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-left">
+            <div class="qr-code"></div>
+            <div class="qr-code"></div>
+            <div class="qr-code"></div>
+        </div>
+        
+        <div class="footer-center">
+            涉外知识产权多语种法务咨询平台<br>
+            MULTILINGUAL LEGAL COUNSELLING PLATFORM<br>
+            FOR FOREIGN INTELLECTUAL PROPERTY RIGHTS
+        </div>
+        
+        <div class="footer-right">
+            <a href="#" class="footer-link">联系我们</a>
+            <span class="divider">|</span>
+            <a href="#" class="footer-link">网站声明</a>
+            <span class="divider">|</span>
+            <a href="#" class="footer-link">关于我们</a>
+            <span class="divider">|</span>
+            <a href="#" class="footer-link">投诉与建议</a>
+        </div>
+    </div>
+    
+    <script>
+        // JavaScript for language switching
+        document.addEventListener('DOMContentLoaded', function() {
+            const langBtns = document.querySelectorAll('.lang-btn');
+            
+            langBtns.forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove current-lang class from all buttons
+                    langBtns.forEach(b => b.classList.remove('current-lang'));
+                    
+                    // Add current-lang class to clicked button
+                    this.classList.add('current-lang');
+                    
+                    const lang = this.textContent.trim();
+                    
+                    // Here you would implement the actual language switching logic
+                    console.log('Switching to language:', lang);
+                    
+                    // For demonstration purposes only
+                    alert('Switching to ' + lang);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
