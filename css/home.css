@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center 1px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.auth-section {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-btn {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #4682B4;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+
+.search-section {
+    margin-top: 20px;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.hot-search {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hot-search span {
+    margin-right: 10px;
+}
+
+.search-box {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-icon {
+    color: #999;
+    margin-left: 5px;
+}
+
+.lang-section {
+    text-align: right;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.lang-btn {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.current-lang {
+    font-weight: bold;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: white;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #4682B4;
+    border-right: 1px solid #d5ebf8;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+.content-area {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.content-left {
+    width: 50%;
+    background-color: white;
+    height: 300px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    /* 隐藏超出部分 */
+}
+
+.content-right {
+    flex: 1;
+    /* 右侧占剩余空间 */
+    background-color: white;
+    height: 300px;
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* 防止图片溢出 */
+}
+
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* 用于绝对定位子项 */
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* 重叠显示 */
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* 默认隐藏 */
+    transition: opacity 0.5s ease;
+    /* 淡入淡出过渡 */
+}
+
+.carousel-slide.active {
+    opacity: 1;
+    /* 激活时显示 */
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+
+.section-title {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-link {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.news-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.consultation-banner {
+    margin: 20px;
+    padding: 0;
+    display: block;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 常用链接和信息部分的整体容器 */
+.links-and-info-section {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* 左侧列：常用链接 */
+.links-column {
+    width: 33.33%;
+}
+
+/* 右侧列：信息部分 */
+.info-column {
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 常用链接样式 */
+.links-section {
+    background-color: #fff;
+    /* 白色背景 */
+}
+
+.links-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.links-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #4682B4;
+}
+
+.links-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.links-more {
+    margin-left: auto;
+    color: #999;
+    text-decoration: none;
+}
+
+.common-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-item {
+    background-color: white;
+    border: 1px solid #eee;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.link-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/* 常用国家信息样式 */
+.country-info {
+    background-color: #9cc3e4;
+    padding: 10px;
+}
+
+.country-title {
+    color: black;
+    /* 修改为黑色，与图片一致 */
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-list {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.country-item {
+    padding: 5px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* 市场部分样式 */
+.market-section {
+    background-color: #9cc3e4;
+    padding: 10px;
+}
+
+.market-content {
+    display: flex;
+    gap: 10px;
+}
+
+.market-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 两列布局 */
+    gap: 10px;
+    flex: 1;
+    /* 占据剩余空间 */
+}
+
+.market-item {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.market-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.law-boxes {
+    width: 200px;
+    /* 固定宽度，与图片一致 */
+}
+
+.law-box {
+    display: block;
+    width: 100%;
+    height: 160px;
+    /* 高度设置为两倍，因为一张图片包含两个部分 */
+}
+
+.law-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 确保图片填满容器 */
+}
+
+/* 调整更多链接样式 */
+.more-link {
+    color: #999;
+    /* 灰色，与图片一致 */
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-area {
+        flex-direction: column;
+    }
+
+    .market-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .law-boxes {
+        grid-template-columns: 1fr;
+    }
+}

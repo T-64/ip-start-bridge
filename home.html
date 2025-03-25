@@ -5,433 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>涉外知识产权多语种法务咨询平台</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background-image: url('img/background.png');
-            background-size: cover;
-            background-position: center 1px;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        .header {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            padding: 25px 20px;
-        }
-
-        .auth-section {
-            display: flex;
-            gap: 15px;
-        }
-
-        .auth-btn {
-            text-decoration: none;
-            color: #333;
-            font-size: 14px;
-            padding: 5px 10px;
-            border: 1px solid #4682B4;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-
-
-        .search-section {
-            margin-top: 20px;
-            text-align: right;
-            padding: 0 20px;
-        }
-
-        .hot-search {
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        .hot-search span {
-            margin-right: 10px;
-        }
-
-        .search-box {
-            display: inline-flex;
-            align-items: center;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            padding: 5px 15px;
-            background-color: white;
-        }
-
-        .search-box input {
-            border: none;
-            outline: none;
-            padding: 5px;
-            width: 200px;
-        }
-
-        .search-icon {
-            color: #999;
-            margin-left: 5px;
-        }
-
-        .lang-section {
-            text-align: right;
-            padding: 10px 20px;
-            border-bottom: 1px solid #eee;
-        }
-
-        .lang-btn {
-            margin-left: 10px;
-            text-decoration: none;
-            color: #333;
-        }
-
-        .current-lang {
-            font-weight: bold;
-        }
-
-        .nav-bar {
-            display: flex;
-            background-color: white;
-        }
-
-        .nav-item {
-            flex: 1;
-            text-align: center;
-            padding: 15px 10px;
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            background-color: #4682B4;
-            border-right: 1px solid #d5ebf8;
-        }
-
-        .nav-item:last-child {
-            border-right: none;
-        }
-
-        .content-area {
-            display: flex;
-            margin: 20px;
-            gap: 20px;
-        }
-
-        .content-left {
-            width: 50%;
-            background-color: white;
-            height: 300px;
-            border: 1px solid #eee;
-            overflow: hidden;
-            /* 隐藏超出部分 */
-        }
-
-        .content-right {
-            flex: 1;
-            /* 右侧占剩余空间 */
-            background-color: white;
-            height: 300px;
-            border: 1px solid #eee;
-            padding: 15px;
-        }
-
-        .carousel {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            /* 防止图片溢出 */
-        }
-
-        .carousel-container {
-            width: 100%;
-            height: 100%;
-            position: relative;
-            /* 用于绝对定位子项 */
-        }
-
-        .carousel-slide {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            /* 重叠显示 */
-            top: 0;
-            left: 0;
-            opacity: 0;
-            /* 默认隐藏 */
-            transition: opacity 0.5s ease;
-            /* 淡入淡出过渡 */
-        }
-
-        .carousel-slide.active {
-            opacity: 1;
-            /* 激活时显示 */
-        }
-
-        .carousel-prev,
-        .carousel-next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            z-index: 10;
-        }
-
-        .carousel-prev {
-            left: 10px;
-        }
-
-        .carousel-next {
-            right: 10px;
-        }
-
-
-        .section-title {
-            background-color: #4682B4;
-            color: white;
-            padding: 10px;
-            font-size: 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .more-link {
-            font-size: 12px;
-            color: white;
-            text-decoration: none;
-        }
-
-        .news-item {
-            padding: 10px;
-            border-bottom: 1px solid #eee;
-            color: #666;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .consultation-banner {
-            margin: 20px;
-            padding: 0;
-            display: block;
-        }
-
-        .banner-image {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .links-section {
-            margin: 20px;
-        }
-
-        .links-title {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .links-icon {
-            margin-right: 10px;
-            font-size: 20px;
-            color: #4682B4;
-        }
-
-        .links-text {
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .links-more {
-            margin-left: auto;
-            color: #999;
-            text-decoration: none;
-        }
-
-        .common-links {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .link-item {
-            flex: 1;
-            min-width: 300px;
-            background-color: white;
-            border: 1px solid #eee;
-            padding: 15px;
-            margin: 5px;
-            text-decoration: none;
-            color: #333;
-            display: flex;
-            align-items: center;
-        }
-
-        .link-icon {
-            width: 40px;
-            height: 40px;
-            background-color: #f0f0f0;
-            margin-right: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .country-info {
-            background-color: #9cc3e4;
-            margin: 20px;
-            padding: 10px;
-        }
-
-        .country-title {
-            color: white;
-            font-size: 18px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .country-list {
-            background-color: white;
-            padding: 10px;
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .country-item {
-            padding: 5px 15px;
-            color: #333;
-            text-decoration: none;
-        }
-
-        .market-section {
-            background-color: #9cc3e4;
-            margin: 20px;
-            padding: 10px;
-        }
-
-        .market-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .market-item {
-            background-color: white;
-            height: 100px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: #333;
-        }
-
-        .market-icon {
-            width: 50px;
-            height: 50px;
-            background-color: #f0f0f0;
-            margin-bottom: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .law-boxes {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
-
-        .law-box {
-            background-color: #ff4500;
-            color: white;
-            padding: 15px;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .case-box {
-            background-color: #1e90ff;
-            color: white;
-            padding: 15px;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .footer {
-            background-color: #0e4f9e;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-left {
-            display: flex;
-            gap: 10px;
-        }
-
-        .qr-code {
-            width: 80px;
-            height: 80px;
-            background-color: white;
-            margin-right: 5px;
-        }
-
-        .footer-right {
-            display: flex;
-            gap: 20px;
-        }
-
-        .footer-link {
-            color: white;
-            text-decoration: none;
-        }
-
-        .divider {
-            color: white;
-            margin: 0 5px;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .content-area {
-                flex-direction: column;
-            }
-
-            .market-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .law-boxes {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 
@@ -506,192 +80,171 @@
         </a>
     </div>
 
-    <div class="links-section">
-        <div class="links-title">
-            <span class="links-icon">📌</span>
-            <span class="links-text">常用链接</span>
-            <a href="#" class="links-more">更多>>></a>
+    <div class="links-and-info-section">
+        <!-- 左侧列：常用链接 -->
+        <div class="links-column">
+            <div class="links-section">
+                <div class="links-title">
+                    <span class="links-icon">📌</span>
+                    <span class="links-text">常用链接</span>
+                    <a href="#" class="links-more">更多>>></a>
+                </div>
+                <div class="common-links">
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/cnipa-logo.png" alt="CNIPA Logo">
+                        </div>
+                        <span>国家知识产权局</span>
+                    </a>
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/wipo-logo.png" alt="WIPO Logo">
+                        </div>
+                        <span>世界知识产权组织（WIPO）</span>
+                    </a>
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/guide-icon.png" alt="Guide Icon">
+                        </div>
+                        <span>海外知识产权纠纷应对指导</span>
+                    </a>
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/iprchn-logo.png" alt="IPRCHN Logo">
+                        </div>
+                        <span>中国知识产权资讯网</span>
+                    </a>
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/epo-logo.png" alt="EPO Logo">
+                        </div>
+                        <span>欧洲专利局（EPO）</span>
+                    </a>
+                    <a href="#" class="link-item">
+                        <div class="link-icon">
+                            <img src="img/uspto-logo.png" alt="USPTO Logo">
+                        </div>
+                        <span>美国专利商标局</span>
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <div class="common-links">
-            <a href="#" class="link-item">
-                <div class="link-icon">CNIPA</div>
-                <span>国家知识产权局</span>
-            </a>
-            <a href="#" class="link-item">
-                <div class="link-icon">WIPO</div>
-                <span>世界知识产权组织（WIPO）</span>
-            </a>
-            <a href="#" class="link-item">
-                <div class="link-icon">Guide</div>
-                <span>海外知识产权纠纷应对指导</span>
-            </a>
-            <a href="#" class="link-item">
-                <div class="link-icon">IPCHN</div>
-                <span>中国知识产权资讯网</span>
-            </a>
-            <a href="#" class="link-item">
-                <div class="link-icon">EPO</div>
-                <span>欧洲专利局（EPO）</span>
-            </a>
-            <a href="#" class="link-item">
-                <div class="link-icon">USPTO</div>
-                <span>美国专利商标局</span>
-            </a>
-        </div>
-    </div>
+        <!-- 右侧列：常用国家信息和市场部分 -->
+        <div class="info-column">
+            <!-- 常用国家信息 -->
+            <div class="country-info">
+                <div class="country-title">
+                    <span>常用国家信息</span>
+                    <a href="#" class="more-link">更多>>></a>
+                </div>
+                <div class="country-list">
+                    <a href="#" class="country-item">美国</a>
+                    <a href="#" class="country-item">英国</a>
+                    <a href="#" class="country-item">欧盟</a>
+                    <a href="#" class="country-item">瑞士</a>
+                    <a href="#" class="country-item">墨西哥</a>
+                </div>
+            </div>
 
-    <div class="country-info">
-        <div class="country-title">
-            <span>常用国家信息</span>
-            <a href="#" class="more-link">更多>>></a>
-        </div>
-        <div class="country-list">
-            <a href="#" class="country-item">美国</a>
-            <a href="#" class="country-item">英国</a>
-            <a href="#" class="country-item">欧盟</a>
-            <a href="#" class="country-item">瑞士</a>
-            <a href="#" class="country-item">墨西哥</a>
-        </div>
-    </div>
+            <!-- 国内市场 -->
+            <div class="market-section domestic-market">
+                <div class="country-title">
+                    <span>国内市场</span>
+                    <a href="#" class="more-link">更多>>></a>
+                </div>
+                <div class="market-content">
+                    <div class="market-grid">
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/ferris-wheel.png" alt="Ferris Wheel">
+                            </div>
+                            <span>京津冀地区</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/cityscape.png" alt="Cityscape">
+                            </div>
+                            <span>广深地区</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/landscape.png" alt="Landscape">
+                            </div>
+                            <span>东南沿海地区</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/panda.png" alt="Panda">
+                            </div>
+                            <span>西南地区</span>
+                        </a>
+                    </div>
+                    <div class="law-boxes">
+                        <a href="#" class="law-box">
+                            <img src="img/law-domestic.png" alt="法律法规一览">
+                        </a>
+                        <a href="#" class="case-box">
+                            <img src="img/case-domestic.png" alt="经典案例分析">
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="market-section">
-        <div class="country-title">
-            <span>国内市场</span>
-            <a href="#" class="more-link">更多>>></a>
-        </div>
-        <div class="market-grid">
-            <a href="#" class="market-item">
-                <div class="market-icon">🎡</div>
-                <span>京津冀地区</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">🏙️</div>
-                <span>广深深地区</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">🏞️</div>
-                <span>东南沿海地区</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">🐼</div>
-                <span>西南地区</span>
-            </a>
-            <div class="law-boxes">
-                <div class="law-box">法律法规一览</div>
-                <div class="case-box">经典案例分析</div>
+            <!-- 海外市场 -->
+            <div class="market-section overseas-market">
+                <div class="country-title">
+                    <span>海外市场</span>
+                    <a href="#" class="more-link">更多>>></a>
+                </div>
+                <div class="market-content">
+                    <div class="market-grid">
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/document.png" alt="Document">
+                            </div>
+                            <span>海外知识产权动态信息</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/checklist.png" alt="Checklist">
+                            </div>
+                            <span>海外知识产权申请流程</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/dollar.png" alt="Dollar">
+                            </div>
+                            <span>海外知识产权专有费用</span>
+                        </a>
+                        <a href="#" class="market-item">
+                            <div class="market-icon">
+                                <img src="img/magnifying-glass.png" alt="Magnifying Glass">
+                            </div>
+                            <span>海外知识产权信息检索</span>
+                        </a>
+                    </div>
+                    <div class="law-boxes">
+                        <a href="#" class="law-box">
+                            <img src="img/law-overseas.png" alt="各国法律法规">
+                        </a>
+                        <a href="#" class="case-box">
+                            <img src="img/magnifying-glass.png" alt="各国环境概况">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="market-section">
-        <div class="country-title">
-            <span>海外市场</span>
-            <a href="#" class="more-link">更多>>></a>
-        </div>
-        <div class="market-grid">
-            <a href="#" class="market-item">
-                <div class="market-icon">📄</div>
-                <span>海外知识产权动态信息</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">📝</div>
-                <span>海外知识产权申请流程</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">💰</div>
-                <span>海外知识产权专有费用</span>
-            </a>
-            <a href="#" class="market-item">
-                <div class="market-icon">🔍</div>
-                <span>海外知识产权信息检索</span>
-            </a>
-            <div class="law-boxes">
-                <div class="law-box">各国法律法规</div>
-                <div class="case-box">各国环境概况</div>
-            </div>
-        </div>
+    <div class="footer-banner">
+        <a href="#" class="banner-link">
+            <img src="img/footer-banner.png" alt="尾栏横幅" class="banner-image">
+        </a>
     </div>
 
-    <div class="footer">
-        <div class="footer-left">
-            <div class="qr-code"></div>
-            <div class="qr-code"></div>
-            <div class="qr-code"></div>
-        </div>
+    <script defer src="js/scripts.js"></script>
 
-        <div class="footer-center">
-            涉外知识产权多语种法务咨询平台<br>
-            MULTILINGUAL LEGAL COUNSELLING PLATFORM<br>
-            FOR FOREIGN INTELLECTUAL PROPERTY RIGHTS
-        </div>
-
-        <div class="footer-right">
-            <a href="#" class="footer-link">联系我们</a>
-            <span class="divider">|</span>
-            <a href="#" class="footer-link">网站声明</a>
-            <span class="divider">|</span>
-            <a href="#" class="footer-link">关于我们</a>
-            <span class="divider">|</span>
-            <a href="#" class="footer-link">投诉与建议</a>
-        </div>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const slides = document.querySelectorAll('.carousel-slide');
-            const prevBtn = document.querySelector('.carousel-prev');
-            const nextBtn = document.querySelector('.carousel-next');
-            let currentIndex = 0;
-
-            // 初始化：显示第一张图片
-            slides[currentIndex].classList.add('active');
-
-            // 切换到下一张
-            function showNextSlide() {
-                slides[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex + 1) % slides.length; // 循环到开头
-                slides[currentIndex].classList.add('active');
-            }
-
-            // 切换到上一张
-            function showPrevSlide() {
-                slides[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex - 1 + slides.length) % slides.length; // 循环到结尾
-                slides[currentIndex].classList.add('active');
-            }
-
-            // 按钮事件
-            nextBtn.addEventListener('click', showNextSlide);
-            prevBtn.addEventListener('click', showPrevSlide);
-
-            setInterval(showNextSlide, 3000); // 每 3 秒切换
-        });
-        // JavaScript for language switching
-        document.addEventListener('DOMContentLoaded', function () {
-            const langBtns = document.querySelectorAll('.lang-btn');
-
-            langBtns.forEach(btn => {
-                btn.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    // Remove current-lang class from all buttons
-                    langBtns.forEach(b => b.classList.remove('current-lang'));
-
-                    // Add current-lang class to clicked button
-                    this.classList.add('current-lang');
-
-                    const lang = this.textContent.trim();
-
-                    // Here you would implement the actual language switching logic
-                    console.log('Switching to language:', lang);
-
-                    // For demonstration purposes only
-                    alert('Switching to ' + lang);
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
