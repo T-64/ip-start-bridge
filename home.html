@@ -4,46 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>涉外知识产权多语种法务咨询平台</title>
+    <title data-i18n="title">涉外知识产权多语种法务咨询平台</title>
     <link rel="stylesheet" href="css/home.css">
-
 </head>
 
 <body>
     <div class="header">
         <div class="auth-section">
-            <a href="#" class="auth-btn">登录</a> |
-            <a href="#" class="auth-btn">注册</a>
+            <a href="#" class="auth-btn" data-i18n="login">登录</a> |
+            <a href="#" class="auth-btn" data-i18n="register">注册</a>
         </div>
     </div>
 
     <div class="search-section">
-        <div class="hot-search">热门搜索:
-            <span>专利</span>
-            <span>著作权</span>
-            <span>商标</span>
-            <span>专利申请</span>
+        <div class="hot-search" data-i18n="hot_search">热门搜索:
+            <span data-i18n="patent">专利</span>
+            <span data-i18n="copyright">著作权</span>
+            <span data-i18n="trademark">商标</span>
+            <span data-i18n="patent_application">专利申请</span>
         </div>
         <div class="search-box">
-            <input type="text" placeholder="搜索关键词...">
+            <input type="text" data-i18n="[placeholder]search_placeholder" placeholder="搜索关键词...">
             <span class="search-icon">🔍</span>
         </div>
     </div>
 
     <div class="lang-section">
-        语言设置:
-        <a href="#" class="lang-btn current-lang">中文</a> |
-        <a href="#" class="lang-btn">English</a> |
-        <a href="#" class="lang-btn">Español</a>
+        <span data-i18n="language_setting">语言设置:</span>
+        <a href="#" class="lang-btn current-lang" data-lang="zh">中文</a> |
+        <a href="#" class="lang-btn" data-lang="en">English</a> |
+        <a href="#" class="lang-btn" data-lang="es">Español</a>
     </div>
 
     <nav class="nav-bar">
-        <a href="#" class="nav-item">首页</a>
-        <a href="#" class="nav-item">国内市场</a>
-        <a href="#" class="nav-item">海外市场</a>
-        <a href="#" class="nav-item">学习天地</a>
-        <a href="#" class="nav-item">咨询服务</a>
-        <a href="#" class="nav-item">大数据中心</a>
+        <a href="#" class="nav-item" data-i18n="home">首页</a>
+        <div class="nav-item dropdown">
+            <a class="dropbtn" data-i18n="domestic_market">国内市场</a>
+            <div class="dropdown-content">
+                <a href="#" data-i18n="beijing_tianjin_hebei">京津冀地区</a>
+                <a href="#" data-i18n="guangdong_shenzhen">广深湾地区</a>
+                <a href="#" data-i18n="southeast_coast">东南沿海地区</a>
+                <a href="#" data-i18n="southwest">西南地区</a>
+                <a href="#" data-i18n="laws_regulations">法律法规</a>
+            </div>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="dropbtn" data-i18n="overseas_market">海外市场</a>
+            <div class="dropdown-content">
+                <a href="#" data-i18n="international_laws">各国法律法规</a>
+                <a href="#" data-i18n="country_overview">各国环境概况</a>
+                <a href="#" data-i18n="ip_news_overseas">海外知识产权动态信息</a>
+                <a href="#" data-i18n="ip_application_process">海外知识产权申请流程</a>
+                <a href="#" data-i18n="ip_search_overseas">海外知识产权信息检索</a>
+            </div>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="dropbtn" data-i18n="learning_center">学习天地</a>
+            <div class="dropdown-content">
+                <a href="#" data-i18n="online_courses">线上课程</a>
+                <a href="#" data-i18n="interactive_forum">互动论坛</a>
+                <a href="#" data-i18n="legal_games">普法小游戏</a>
+            </div>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="dropbtn" data-i18n="consulting_services">咨询服务</a>
+            <div class="dropdown-content">
+                <a href="#" data-i18n="ip_application_service">知识产权申请服务</a>
+                <a href="#" data-i18n="ip_consulting">知识产权咨询</a>
+                <a href="#" data-i18n="patent_translation">专利翻译</a>
+            </div>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="dropbtn" data-i18n="data_center">大数据中心</a>
+            <div class="dropdown-content">
+                <a href="#" data-i18n="patent_search">专利权检索</a>
+                <a href="#" data-i18n="trademark_search">商标权检索</a>
+                <a href="#" data-i18n="copyright_search">著作权检索</a>
+                <a href="#" data-i18n="circuit_search">集成电路检索</a>
+                <a href="#" data-i18n="geographical_indication_search">地理标志检索</a>
+            </div>
+        </div>
     </nav>
 
     <div class="content-area">
@@ -54,22 +94,22 @@
                     <img src="img/slide2.png" alt="Slide 2" class="carousel-slide">
                     <img src="img/slide3.png" alt="Slide 3" class="carousel-slide">
                 </div>
-                <button class="carousel-prev">&#10094;</button>
-                <button class="carousel-next">&#10095;</button>
+                <button class="carousel-prev">❮</button>
+                <button class="carousel-next">❯</button>
             </div>
         </div>
 
         <div class="content-right">
             <div class="section-title">
-                <span>知识产权要闻</span>
-                <a href="#" class="more-link">更多</a>
+                <span data-i18n="ip_news">知识产权要闻</span>
+                <a href="#" class="more-link" data-i18n="more">更多</a>
             </div>
             <div class="news-list">
-                <div class="news-item">关于知识产权最新发展的重要通知</div>
-                <div class="news-item">国际知识产权保护动态与趋势分析</div>
-                <div class="news-item">最新专利申请流程简化措施出台</div>
-                <div class="news-item">知识产权保护法律法规更新情况</div>
-                <div class="news-item">全球知识产权合作新框架探讨</div>
+                <div class="news-item" data-i18n="news_1">关于知识产权最新发展的重要通知</div>
+                <div class="news-item" data-i18n="news_2">国际知识产权保护动态与趋势分析</div>
+                <div class="news-item" data-i18n="news_3">最新专利申请流程简化措施出台</div>
+                <div class="news-item" data-i18n="news_4">知识产权保护法律法规更新情况</div>
+                <div class="news-item" data-i18n="news_5">全球知识产权合作新框架探讨</div>
             </div>
         </div>
     </div>
@@ -81,170 +121,136 @@
     </div>
 
     <div class="links-and-info-section">
-        <!-- 左侧列：常用链接 -->
         <div class="links-column">
             <div class="links-section">
-                <div class="links-title">
-                    <span class="links-icon">📌</span>
-                    <span class="links-text">常用链接</span>
-                    <a href="#" class="links-more">更多>>></a>
-                </div>
+                <a href="#" class="link-item">
+                    <div class="link-icon">
+                        <img src="img/common-links.png" alt="common-links Logo">
+                    </div>
+                </a>
                 <div class="common-links">
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/cnipa-logo.png" alt="CNIPA Logo">
                         </div>
-                        <span>国家知识产权局</span>
                     </a>
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/wipo-logo.png" alt="WIPO Logo">
                         </div>
-                        <span>世界知识产权组织（WIPO）</span>
                     </a>
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/guide-icon.png" alt="Guide Icon">
                         </div>
-                        <span>海外知识产权纠纷应对指导</span>
                     </a>
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/iprchn-logo.png" alt="IPRCHN Logo">
                         </div>
-                        <span>中国知识产权资讯网</span>
                     </a>
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/epo-logo.png" alt="EPO Logo">
                         </div>
-                        <span>欧洲专利局（EPO）</span>
                     </a>
                     <a href="#" class="link-item">
                         <div class="link-icon">
                             <img src="img/uspto-logo.png" alt="USPTO Logo">
                         </div>
-                        <span>美国专利商标局</span>
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- 右侧列：常用国家信息和市场部分 -->
         <div class="info-column">
-            <!-- 常用国家信息 -->
             <div class="country-info">
                 <div class="country-title">
-                    <span>常用国家信息</span>
-                    <a href="#" class="more-link">更多>>></a>
+                    <span data-i18n="common_countries">常用国家信息</span>
+                    <a href="#" class="more-link" data-i18n="more">更多>>></a>
                 </div>
                 <div class="country-list">
-                    <a href="#" class="country-item">美国</a>
-                    <a href="#" class="country-item">英国</a>
-                    <a href="#" class="country-item">欧盟</a>
-                    <a href="#" class="country-item">瑞士</a>
-                    <a href="#" class="country-item">墨西哥</a>
+                    <a href="#" class="country-item" data-i18n="usa">美国</a>
+                    <a href="#" class="country-item" data-i18n="uk">英国</a>
+                    <a href="#" class="country-item" data-i18n="eu">欧盟</a>
+                    <a href="#" class="country-item" data-i18n="switzerland">瑞士</a>
+                    <a href="#" class="country-item" data-i18n="mexico">墨西哥</a>
                 </div>
             </div>
 
-            <!-- 国内市场 -->
             <div class="market-section domestic-market">
                 <div class="country-title">
-                    <span>国内市场</span>
-                    <a href="#" class="more-link">更多>>></a>
+                    <span data-i18n="domestic_market">国内市场</span>
+                    <a href="#" class="more-link" data-i18n="more">更多>>></a>
                 </div>
                 <div class="market-content">
-                    <div class="market-grid">
+                    <div class="market-row">
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/ferris-wheel.png" alt="Ferris Wheel">
-                            </div>
-                            <span>京津冀地区</span>
+                            <img src="img/ferris-wheel.png" alt="京津冀地区">
                         </a>
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/cityscape.png" alt="Cityscape">
-                            </div>
-                            <span>广深地区</span>
+                            <img src="img/cityscape.png" alt="广深地区">
                         </a>
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/landscape.png" alt="Landscape">
-                            </div>
-                            <span>东南沿海地区</span>
-                        </a>
-                        <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/panda.png" alt="Panda">
-                            </div>
-                            <span>西南地区</span>
-                        </a>
-                    </div>
-                    <div class="law-boxes">
-                        <a href="#" class="law-box">
                             <img src="img/law-domestic.png" alt="法律法规一览">
                         </a>
-                        <a href="#" class="case-box">
+                    </div>
+                    <div class="market-row">
+                        <a href="#" class="market-item">
+                            <img src="img/landscape.png" alt="东南沿海地区">
+                        </a>
+                        <a href="#" class="market-item">
+                            <img src="img/panda.png" alt="西南地区">
+                        </a>
+                        <a href="#" class="market-item">
                             <img src="img/case-domestic.png" alt="经典案例分析">
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- 海外市场 -->
             <div class="market-section overseas-market">
                 <div class="country-title">
-                    <span>海外市场</span>
-                    <a href="#" class="more-link">更多>>></a>
+                    <span data-i18n="overseas_market">海外市场</span>
+                    <a href="#" class="more-link" data-i18n="more">更多>>></a>
                 </div>
                 <div class="market-content">
-                    <div class="market-grid">
+                    <div class="market-row">
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/document.png" alt="Document">
-                            </div>
-                            <span>海外知识产权动态信息</span>
+                            <img src="img/document.png" alt="海外知识产权动态信息">
                         </a>
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/checklist.png" alt="Checklist">
-                            </div>
-                            <span>海外知识产权申请流程</span>
+                            <img src="img/checklist.png" alt="海外知识产权申请流程">
                         </a>
                         <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/dollar.png" alt="Dollar">
-                            </div>
-                            <span>海外知识产权专有费用</span>
-                        </a>
-                        <a href="#" class="market-item">
-                            <div class="market-icon">
-                                <img src="img/magnifying-glass.png" alt="Magnifying Glass">
-                            </div>
-                            <span>海外知识产权信息检索</span>
-                        </a>
-                    </div>
-                    <div class="law-boxes">
-                        <a href="#" class="law-box">
                             <img src="img/law-overseas.png" alt="各国法律法规">
                         </a>
-                        <a href="#" class="case-box">
-                            <img src="img/magnifying-glass.png" alt="各国环境概况">
+                    </div>
+                    <div class="market-row">
+                        <a href="#" class="market-item">
+                            <img src="img/dollar.png" alt="海外知识产权专有费用">
+                        </a>
+                        <a href="#" class="market-item">
+                            <img src="img/magnifying-glass.png" alt="海外知识产权信息检索">
+                        </a>
+                        <a href="#" class="market-item">
+                            <img src="img/environment.png" alt="各国环境概况">
                         </a>
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
-
     <div class="footer-banner">
         <a href="#" class="banner-link">
             <img src="img/footer-banner.png" alt="尾栏横幅" class="banner-image">
         </a>
     </div>
-
+    <!-- 引入 i18next -->
+    <script src="https://unpkg.com/i18next@23.11.5/dist/umd/i18next.min.js"></script>
     <script defer src="js/scripts.js"></script>
-
 </body>
 
 </html>
