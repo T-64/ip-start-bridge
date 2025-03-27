@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录注册 - 涉外知识产权多语种法务咨询平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url('img/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            position: relative;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .auth-container {
+            display: flex;
+            max-width: 1000px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .auth-left {
+            flex: 1;
+            padding: 40px;
+            background-color: #4682B4;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .auth-left h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .auth-left p {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .auth-left img {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%
+        }
+
+        .auth-right {
+            flex: 1;
+            padding: 40px;
+            position: relative;
+        }
+
+        .auth-tabs {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .auth-tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .auth-tab.active {
+            color: #4682B4;
+            border-bottom: 3px solid #4682B4;
+            margin-bottom: -2px;
+        }
+
+        .auth-form {
+            display: none;
+        }
+
+        .auth-form.active {
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+
+        .form-control:focus {
+            border-color: #4682B4;
+            outline: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #4682B4;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: #3a6d96;
+        }
+
+        .auth-footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+        }
+
+        .auth-footer a {
+            color: #4682B4;
+            text-decoration: none;
+        }
+
+        .auth-footer a:hover {
+            text-decoration: underline;
+        }
+
+        .lang-section {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .lang-btn {
+            margin-left: 5px;
+            text-decoration: none;
+            color: #333;
+            padding: 3px 8px;
+            border-radius: 12px;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .lang-btn:hover {
+            background-color: #f0f0f0;
+        }
+
+        .current-lang {
+            font-weight: bold;
+            background-color: #4682B4;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .auth-container {
+                flex-direction: column;
+            }
+            
+            .auth-left {
+                padding: 30px;
+            }
+            
+            .auth-right {
+                padding: 30px;
+            }
+            
+            .lang-section {
+                position: static;
+                text-align: right;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="auth-container">
+            <div class="auth-left">
+                <h2 data-i18n="welcome_title">欢迎来到涉外知识产权平台</h2>
+                <p data-i18n="welcome_text">我们提供专业的多语种知识产权法务咨询服务，帮助您在全球范围内保护您的知识产权权益。</p>
+                <img src="img/auth-illustration.png" alt="知识产权保护">
+            </div>
+            <div class="auth-right">
+                <div class="lang-section">
+                    <a href="#" class="lang-btn current-lang" data-lang="zh-CN">中文</a>
+                    <a href="#" class="lang-btn" data-lang="en-US">English</a>
+                    <a href="#" class="lang-btn" data-lang="es-ES">Español</a>
+                </div>
+                
+                <div class="auth-tabs">
+                    <div class="auth-tab active" data-tab="login" data-i18n="login_tab">登录</div>
+                    <div class="auth-tab" data-tab="register" data-i18n="register_tab">注册</div>
+                </div>
+                
+                <form id="login-form" class="auth-form active">
+                    <div class="form-group">
+                        <label for="login-email" data-i18n="email_label">邮箱/用户名</label>
+                        <input type="text" id="login-email" class="form-control" placeholder="请输入邮箱或用户名" data-i18n-placeholder="email_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password" data-i18n="password_label">密码</label>
+                        <input type="password" id="login-password" class="form-control" placeholder="请输入密码" data-i18n-placeholder="password_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn" data-i18n="login_button">登录</button>
+                    </div>
+                    <div class="auth-footer">
+                        <a href="#" id="forgot-password" data-i18n="forgot_password">忘记密码?</a>
+                    </div>
+                </form>
+                
+                <form id="register-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="register-username" data-i18n="username_label">用户名</label>
+                        <input type="text" id="register-username" class="form-control" placeholder="请输入用户名" data-i18n-placeholder="username_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email" data-i18n="email_label">邮箱</label>
+                        <input type="email" id="register-email" class="form-control" placeholder="请输入邮箱" data-i18n-placeholder="email_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password" data-i18n="password_label">密码</label>
+                        <input type="password" id="register-password" class="form-control" placeholder="请输入密码(至少8位)" data-i18n-placeholder="password_placeholder_register">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-confirm" data-i18n="confirm_password_label">确认密码</label>
+                        <input type="password" id="register-confirm" class="form-control" placeholder="请再次输入密码" data-i18n-placeholder="confirm_password_placeholder">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn" data-i18n="register_button">注册</button>
+                    </div>
+                    <div class="auth-footer">
+                        <span data-i18n="have_account">已有账号?</span> <a href="#" id="go-login" data-i18n="login_link">立即登录</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 多语言资源
+        const i18nResources = {
+            'zh-CN': {
+                'welcome_title': '欢迎来到涉外知识产权平台',
+                'welcome_text': '我们提供专业的多语种知识产权法务咨询服务，帮助您在全球范围内保护您的知识产权权益。',
+                'login_tab': '登录',
+                'register_tab': '注册',
+                'email_label': '邮箱/用户名',
+                'email_placeholder': '请输入邮箱或用户名',
+                'password_label': '密码',
+                'password_placeholder': '请输入密码',
+                'password_placeholder_register': '请输入密码(至少8位)',
+                'login_button': '登录',
+                'forgot_password': '忘记密码?',
+                'username_label': '用户名',
+                'username_placeholder': '请输入用户名',
+                'confirm_password_label': '确认密码',
+                'confirm_password_placeholder': '请再次输入密码',
+                'register_button': '注册',
+                'have_account': '已有账号?',
+                'login_link': '立即登录'
+            },
+            'en-US': {
+                'welcome_title': 'Welcome to International IP Platform',
+                'welcome_text': 'We provide professional multilingual IP legal services to help you protect your intellectual property rights globally.',
+                'login_tab': 'Login',
+                'register_tab': 'Register',
+                'email_label': 'Email/Username',
+                'email_placeholder': 'Please enter email or username',
+                'password_label': 'Password',
+                'password_placeholder': 'Please enter password',
+                'password_placeholder_register': 'Please enter password (at least 8 characters)',
+                'login_button': 'Login',
+                'forgot_password': 'Forgot password?',
+                'username_label': 'Username',
+                'username_placeholder': 'Please enter username',
+                'confirm_password_label': 'Confirm Password',
+                'confirm_password_placeholder': 'Please enter password again',
+                'register_button': 'Register',
+                'have_account': 'Already have an account?',
+                'login_link': 'Login now'
+            },
+            'es-ES': {
+                'welcome_title': 'Bienvenido a la Plataforma de PI Internacional',
+                'welcome_text': 'Ofrecemos servicios legales multilingües profesionales de propiedad intelectual para ayudarle a proteger sus derechos de PI a nivel mundial.',
+                'login_tab': 'Iniciar sesión',
+                'register_tab': 'Registrarse',
+                'email_label': 'Correo/Nombre de usuario',
+                'email_placeholder': 'Ingrese correo o nombre de usuario',
+                'password_label': 'Contraseña',
+                'password_placeholder': 'Ingrese contraseña',
+                'password_placeholder_register': 'Ingrese contraseña (mínimo 8 caracteres)',
+                'login_button': 'Iniciar sesión',
+                'forgot_password': '¿Olvidó su contraseña?',
+                'username_label': 'Nombre de usuario',
+                'username_placeholder': 'Ingrese nombre de usuario',
+                'confirm_password_label': 'Confirmar contraseña',
+                'confirm_password_placeholder': 'Ingrese contraseña nuevamente',
+                'register_button': 'Registrarse',
+                'have_account': '¿Ya tiene una cuenta?',
+                'login_link': 'Iniciar sesión ahora'
+            }
+        };
+
+        // 当前语言
+        let currentLang = 'zh-CN';
+
+        // 切换语言
+        function switchLanguage(lang) {
+            currentLang = lang;
+            updateTexts();
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('current-lang');
+                if(btn.dataset.lang === lang) {
+                    btn.classList.add('current-lang');
+                }
+            });
+        }
+
+        // 更新所有文本
+        function updateTexts() {
+            // 更新普通文本
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if(i18nResources[currentLang][key]) {
+                    el.textContent = i18nResources[currentLang][key];
+                }
+            });
+
+            // 更新placeholder文本
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if(i18nResources[currentLang][key]) {
+                    el.placeholder = i18nResources[currentLang][key];
+                }
+            });
+        }
+
+        // 初始化语言切换
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const lang = this.dataset.lang;
+                switchLanguage(lang);
+            });
+        });
+
+        // 切换登录/注册标签
+        document.querySelectorAll('.auth-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // 移除所有active类
+                document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.auth-form').forEach(f => f.classList.remove('active'));
+                
+                // 添加active类到当前标签
+                this.classList.add('active');
+                const tabId = this.dataset.tab;
+                document.getElementById(`${tabId}-form`).classList.add('active');
+            });
+        });
+
+        // 切换登录/注册表单
+        document.getElementById('go-login').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('.auth-tab[data-tab="login"]').click();
+        });
+
+        // 表单提交处理（模拟）
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert(currentLang === 'zh-CN' ? '账号密码错误！' : 
+                  currentLang === 'en-US' ? 'Wrong username or password!' : 
+                  '¡Nombre de usuario o contraseña incorrectos!');
+        });
+
+        document.getElementById('register-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const password = document.getElementById('register-password').value;
+            const confirm = document.getElementById('register-confirm').value;
+            
+            if (password !== confirm) {
+                alert(currentLang === 'zh-CN' ? '两次输入的密码不一致' : 
+                      currentLang === 'en-US' ? 'Passwords do not match' : 
+                      'Las contraseñas no coinciden');
+                return;
+            }
+            
+            if (password.length < 8) {
+                alert(currentLang === 'zh-CN' ? '密码长度不能少于8位' : 
+                      currentLang === 'en-US' ? 'Password must be at least 8 characters' : 
+                      'La contraseña debe tener al menos 8 caracteres');
+                return;
+            }
+            
+            alert(currentLang === 'zh-CN' ? '注册成功！' : 
+                  currentLang === 'en-US' ? 'Registration successful!' : 
+                  '¡Registro exitoso!');
+        });
+
+        // 忘记密码
+        document.getElementById('forgot-password').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert(currentLang === 'zh-CN' ? '忘记了我也没办法' : 
+                  currentLang === 'en-US' ? "Sorry, can't help you" : 
+                  "Lo siento, no puedo ayudarte");
+        });
+    </script>
+</body>
+</html>
