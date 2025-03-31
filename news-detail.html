@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="news_detail_title">新闻详情</title>
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        /* 新闻容器布局 */
+        .news-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* 新闻侧边栏整体样式 */
+        .news-sidebar {
+            width: 250px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 新闻侧边栏标题 - 新增美化样式 */
+        .news-sidebar-header {
+            text-align: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+
+        .news-sidebar-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0 20px 10px;
+            display: inline-block;
+            position: relative;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .news-sidebar-title:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #4682B4, #5D9CEC);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .news-sidebar-title:hover {
+            color: #4682B4;
+        }
+
+        .news-sidebar-title:hover:after {
+            width: 80px;
+            background: linear-gradient(90deg, #5D9CEC, #4682B4);
+        }
+
+        /* 新闻列表样式 */
+        .news-sidebar-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+
+        .news-sidebar-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+        }
+
+        .news-sidebar-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-sidebar-item a {
+            text-decoration: none;
+            color: #555;
+            font-size: 15px;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .news-sidebar-item a:hover {
+            color: #4682B4;
+            background-color: #f8f9fa;
+            padding-left: 15px;
+        }
+
+        .news-sidebar-item.active a {
+            color: #4682B4;
+            font-weight: 600;
+            background-color: #f0f7ff;
+            border-left: 3px solid #4682B4;
+        }
+
+        .news-detail-container {
+            flex: 1;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+
+        .news-detail-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .news-detail-content {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .news-detail-content p {
+            margin-bottom: 15px;
+        }
+        .back-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 32px;
+            height: 32px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4682B4;
+            text-decoration: none;
+            font-size: 18px;
+            z-index: 100;
+        }
+        .back-btn:hover {
+            background: #f0f7ff;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .news-container {
+                flex-direction: column;
+            }
+
+            .news-sidebar {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+                height: auto;
+            }
+
+            .news-sidebar-title {
+                font-size: 20px;
+                padding: 0 15px 8px;
+            }
+
+            .news-sidebar-title:after {
+                width: 50px;
+                height: 2px;
+            }
+
+            .news-sidebar-title:hover:after {
+                width: 65px;
+            }
+            
+            .news-sidebar-list {
+                max-height: none;
+            }
+            .back-btn {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="home.html" class="back-btn" title="返回">←</a>
+    <div class="header">
+        <div class="auth-section">
+            <a href="login.html" class="auth-btn" data-i18n="login">登录</a> |
+            <a href="login.html" class="auth-btn" data-i18n="register">注册</a>
+        </div>
+    </div>
+
+    <div class="lang-section">
+        <span data-i18n="language_setting">语言设置:</span>
+        <a href="#" class="lang-btn current-lang" data-lang="zh">中文</a> |
+        <a href="#" class="lang-btn" data-lang="en">English</a> |
+        <a href="#" class="lang-btn" data-lang="es">Español</a>
+    </div>
+
+    <div class="news-container">
+        <div class="news-sidebar">
+            <div class="news-sidebar-header">
+                <h2 class="news-sidebar-title" data-i18n="ip_news">知识产权要闻</h2>
+            </div>
+            <ul class="news-sidebar-list" id="news-list">
+                <!-- 这里将通过JavaScript动态加载新闻列表 -->
+            </ul>
+        </div>
+
+        <div class="news-detail-container">
+            <h1 class="news-detail-title" id="news-title"></h1>
+            <div class="news-detail-content" id="news-content"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/i18next@23.11.5/dist/umd/i18next.min.js"></script>
+    <script src="js/news-detail.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,430 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "zh": "欧盟知识产权局发布元宇宙IP侵权和执法影响报告",
+        "en": "European Union Intellectual Property Office (EUIPO) Releases Report on IP Infringement and Enforcement Impact in the Metaverse",
+        "es": "La Oficina de Propiedad Intelectual de la Unión Europea (EUIPO) publica informe sobre infracción de PI e impacto en la aplicación de la ley en el Metaverso"
+      },
+      "content": {
+        "zh": [
+          "近日，欧盟知识产权局（EUIPO）发布关于元宇宙（Metaver）、虚拟现实（VR）、混合现实（MR）以及增强现实（AR）技术对知识产权（IP）侵权和执法的影响研究报告[1]，包括\"元宇宙\"的概念和发展、\"元宇宙\"侵权的性质和类型、执法挑战等。",
+          "该报告强调了元宇宙和相关技术如何被用来促成知识产权侵权和知识产权犯罪的总体概念，并提出传统上用于执行知识产权的技术和策略需要适应和发展的地方，以应对元宇宙的挑战。",
+          "主要发现：",
+          "（1）元宇宙是一个基于虚拟现实的互连数字空间，有可能彻底改变人类互动、开展业务和体验数字世界的方式。",
+          "（2）知识产权是这一变革性格局的核心，既带来了机遇，也带来了挑战。",
+          "（3）元宇宙的发展基于向Web 3.0的过渡以及用户界面技术的进步。",
+          "（4）研究表明，根据用户、技术和商业模式的融合程度，未来会出现四种不同的状态或替代方案。",
+          "（5）元宇宙被解构为六个层次，即：物理、数字、虚拟、社会、经济和IP相关。",
+          "（6）元界生态系统可能会面临针对三类资产（即基础设施、用户信息和虚拟财产）的非法活动。",
+          "（7）报告探讨了在未来的元宇宙中，知识产权侵权和犯罪可能呈现的场景。",
+          "（8）开发数字取证等工具的需求日益增长，此类工具可用来支持元宇宙内的执法和调查工作。",
+          "2019年EIPO成立了技术影响专家组，以更好地评估新兴技术对知识产权侵权和执法的影响。本报告是专家组开展的第三次研究，也是对特定技术领域（即元宇宙及其虚拟、混合和增强现实的多种变体）的第二次深入研究。这份报告还为EUIPO欧洲打击犯罪威胁多学科平台（EMPACT）的努力做出了贡献。"
+        ],
+        "en": [
+          "Recently, the European Union Intellectual Property Office (EUIPO) released a research report on the impact of Metaverse, Virtual Reality (VR), Mixed Reality (MR) and Augmented Reality (AR) technologies on intellectual property (IP) infringement and enforcement[1].",
+          "This study and the aim to highlight the overarching concepts of how the Metaverse and related technologies may be misused to facilitate IP infringement and IP crime and suggest where techniques and strategies traditionally used to enforce IP needs to adapt and evolve to cope with the challenges of the Metaverse.",
+          "The deep dive report also contributes to the Observatory's efforts to support the European Multidisciplinary Platform against Criminal Threats (EMPACT), in which IP crime is a dedicated priority.",
+          "Main findings:",
+          "- The Metaverse, a virtual reality-based interconnected digital space, has the potential to revolutionize the way we interact, conduct business, and experience the digital world.",
+          "- IP is at the centre of this transformative landscape, presenting both opportunities and challenges.",
+          "- The Metaverse's development is however dependent upon the transition to Web 3.0 as well as the advancements of user interface technologies.",
+          "- The study indicates that there are four distinct future states or alternatives categorised by the degree of convergence of technologies, business models and user adaptation.",
+          "- In this report the Metaverse was deconstructed to six layers, namely: physical, digital, virtual, social, economic and IP related.",
+          "- The potential weaknesses and vulnerabilities of a Metaverse ecosystem will allow the manifestation of illicit activity targeting three categories of assets, namely infrastructure, user information, and virtual property.",
+          "- The report includes an overall scenario on how IP infringements and IP crime can take place in the different Metaverse futures.",
+          "- This scenario informs the growing need for development of digital forensic and electronic discovery tools to enable enforcement and investigations across the Metaverse.",
+          "In 2019, the Observatory on Infringements of Intellectual Property Rights (the Observatory), created the Impact of Technology Expert Group to support the various activities of the Observatory in the field of emerging and disruptive technologies. This report is the 3rd study carried out by the expert group, and the 2nd deep dive into a specific field of technology, namely the Metaverse and its many variations of virtual, mixed, and augmented reality."
+        ],
+        "es": [
+          "Recientemente, la Oficina de Propiedad Intelectual de la Unión Europea (EUIPO) publicó un informe de investigación sobre el impacto de las tecnologías del Metaverso, Realidad Virtual (RV), Realidad Mixta (RM) y Realidad Aumentada (RA) en la infracción de derechos de propiedad intelectual (PI) y su aplicación[1].",
+          "Este estudio busca destacar los conceptos fundamentales sobre cómo el Metaverso y las tecnologías relacionadas podrían utilizarse indebidamente para facilitar infracciones de PI y delitos relacionados, además de señalar dónde las técnicas y estrategias tradicionales de aplicación de la PI deben adaptarse y evolucionar para enfrentar los desafíos del Metaverso.",
+          "El informe detallado también contribuye a los esfuerzos del Observatorio para respaldar la Plataforma Multidisciplinaria Europea contra las Amenazas Criminales (EMPACT), donde los delitos contra la PI son una prioridad específica.",
+          "Hallazgos principales:",
+          "• El Metaverso, un espacio digital interconectado basado en realidad virtual, tiene el potencial de revolucionar la forma en que interactuamos, hacemos negocios y experimentamos el mundo digital.",
+          "• La PI ocupa un lugar central en este panorama transformador, presentando tanto oportunidades como desafíos.",
+          "• Sin embargo, el desarrollo del Metaverso depende de la transición hacia la Web 3.0 y los avances en tecnologías de interfaz de usuario.",
+          "• El estudio indica que existen cuatro futuros estados o alternativas categorizados por el grado de convergencia de tecnologías, modelos de negocio y adaptación de usuarios.",
+          "• En este informe, el Metaverso se desglosó en seis capas: física, digital, virtual, social, económica y relacionada con la PI.",
+          "• Las posibles debilidades y vulnerabilidades de un ecosistema del Metaverso permitirán la manifestación de actividades ilícitas dirigidas a tres categorías de activos: infraestructura, información de usuarios y propiedad virtual.",
+          "• El informe incluye un escenario general sobre cómo pueden ocurrir infracciones de PI y delitos relacionados en los distintos futuros del Metaverso.",
+          "• Este escenario subraya la creciente necesidad de desarrollar herramientas de informática forense digital y descubrimiento electrónico para facilitar la aplicación de la ley y las investigaciones en el Metaverso.",
+          "En 2019, el Observatorio sobre Infracciones de los Derechos de Propiedad Intelectual creó el Grupo de Expertos en Impacto Tecnológico para respaldar las actividades del Observatorio en el ámbito de las tecnologías emergentes y disruptivas. Este informe es el tercer estudio realizado por el grupo de expertos y la segunda investigación profunda en un campo tecnológico específico: el Metaverso y sus variantes de realidad virtual, mixta y aumentada."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "zh": "萨尔瓦多全新知识产权法即将生效",
+        "en": "El Salvador: Comprehensive New Intellectual Property Law to Take Effect",
+        "es": "El Salvador: Nueva Ley Integral de Propiedad Intelectual entrará en vigor"
+      },
+      "content": {
+        "zh": [
+          "2024年8月15日，萨尔瓦多在第153号官方公报上公布了一部新的立法，从而在推动知识产权事业改革的进程中迈出了重要的一步。这部法律整合了该国现有的知识产权法规，并会在几个月后，即2025年2月15日生效。",
+          "与《商标和其他显著标志法》以及之前的《知识产权法》所建立起的、拥有30年历史的知识产权框架相比，这项立法可谓是一个重大且受到有关各方欢迎的转变。以前的法律仅涉及版权、相关权以及其他与发明专利、实用新型、工业品外观设计有关的工业产权。",
+          "人们认为新法律建立起了一个全面的知识产权制度，以下是这部新法律的主要亮点：",
+          "成立中央知识产权研究所：这部法律在国家注册中心（CNR）内部设立了萨尔瓦多雷诺知识产权研究所（ISPI），并在一个统一的框架下简化了知识产权活动。该研究所将会取代知识产权注册处。",
+          "公开（第121条）：目前，新的知识产权申请会在官方公报和全国发行的主流报纸上对外进行公开。现在，这项新法律创建了一份专门面向知识产权出版物的知识产权公告。在收到授予商标通知后的4个月内，并在申请人支付了相应费用后，ISPI将在这个指定的知识产权公告中以电子方式公开商标申请。",
+          "扩大商标的构成范围（第107条）：新法律扩大了商标的定义，这是一个值得人们称道的举措。经过调整的新定义现在将保护范围扩大到了非显著性商标，例如味觉和纹理。",
+          "升级后的保护事项以及新的时间表：",
+          "商标和其他显著标志",
+          "商号（第171条）：新法律要求每10年续展一次商号，而之前的法律可以提供无限期的保护。注册的有效期为自注册之日起后的10年，并可续展相同的期限。为了续展商号，申请人必须要证明对其进行了使用。在新法律生效之前就已完成注册的商号将会自其注册之日起保持10年的注册期。",
+          "商业广告标志（第166条）：同样地，商业广告标志的有效期是自注册之日起后的10年，而旧法案的保护期是无限制的。人们进行续展时必须证明对其进行了使用。在新法案生效之前就已注册的标志，其保护期是自注册之日后的10年。",
+          "特许经营合同（第140条）：新法律现在提供了注册特许经营合同的可能性。许可证的持有人还可以注册许可证以使用注册商标。",
+          "撤销商标（第144条、第111条）：新法律现在允许利益相关方提起诉讼，以要求撤销注册商标。在此之前，法律规定人们需要在法院提起此类诉讼。",
+          "以\"成为通用商标\"为由撤销商标（第145条）：除上述内容外，利益相关方还可以基于商标（商品或服务）已成为通用商标为由而申请撤销该商标。",
+          "域名（第316条）：如果显著性标志申请包含域名，申请人必须在申请注册时提供证明其使用的文件。但是，提交此类文件并不能保证立即就可获得批准，因为上述申请仍将接受审查，以确保其未侵犯到属于任何其他显著性标志或现有公司名称的权利（第112条e款）。",
+          "专利和工业品外观设计",
+          "工业品外观设计（第249条）：工业品外观设计的保护期已从旧法案中的10年延长到了15年。续展日期将从提交申请之日起计算。专利所有人还必须每5年支付一次维持费。",
+          "博拉豁免（第209条）：新法案现在引入了有关博拉豁免的明确定义，以澄清何时可以就专利侵权指控进行抗辩。",
+          "不能受到保护的发明（第197条）：根据新的法律，已经获得专利的产品或程序不能仅仅因为现在的用途与原始专利的用途不一样就可再次获得专利。",
+          "鼓励知识产权保护的计划（第324条）：这项新的法律为各种实体带来了豁免优惠和灵活性，例如属于国家的机构和市政当局可免缴官方费用，而高等教育机构、在国家文化工作者和艺术注册处注册的个人以及寻求知识产权保护的小微企业主可免除50%的官方费用。",
+          "萨尔瓦多新修订的立法旨在鼓励该国国内和国际企业投资和保护其知识产权。通过使保护知识产权的法律框架变得更加现代化，该法律为申请人提供了一个更加清晰、更加现代的框架。"
+        ],
+        "en": [
+          "On August 15, 2024, El Salvador published a groundbreaking IP law in Official Gazette No. 153, unifying existing regulations and set to enter force on February 15, 2025.",
+          "This law replaces the 30-year-old framework under the Trademark and Other Distinctive Signs Law and the former IP Law, which only covered copyright, related rights, and industrial property (patents, utility models, and industrial designs).",
+          "Key Highlights:",
+          "1. Establishment of Salvadoran Intellectual Property Institute (ISPI)",
+          "Replaces the IP Registry under the National Registry Center (CNR).",
+          "Will publish trademark applications in a dedicated IP Gazette (Art. 121), replacing general newspaper disclosures.",
+          "2. Expanded Trademark Scope (Art. 107)",
+          "Protects non-traditional marks: tastes and textures.",
+          "3. Renewal Requirements",
+          "Trade Names (Art. 171): Decadal renewal with proof of use.",
+          "Commercial Emblems (Art. 166): 10-year validity (previously indefinite).",
+          "4. Franchise Contracts (Art. 140)",
+          "Allows registration of franchise agreements and trademark licenses.",
+          "5. Trademark Cancellation",
+          "By third-party petition (Arts. 144 & 111) or due to genericide (Art. 145).",
+          "6. Domain Names (Art. 316)",
+          "Requires proof-of-use documentation when registering domain-containing signs.",
+          "7. Industrial Designs (Art. 249)",
+          "Protection extended from 10 to 15 years, with 5-year maintenance fees.",
+          "8. Bolar Exemption (Art. 209)",
+          "Clarifies defenses against patent infringement claims.",
+          "9. Fee Reductions (Art. 324)",
+          "Waivers for state entities, universities, registered artists, and SMEs."
+        ],
+        "es": [
+          "El 15 de agosto de 2024, El Salvador publicó en el Diario Oficial N°153 una nueva legislación que marca un hito en la reforma de su sistema de propiedad intelectual (PI). Esta ley unifica las normativas existentes y entrará en vigor el 15 de febrero de 2025.",
+          "La ley sustituye el marco jurídico de 30 años establecido por la Ley de Marcas y Otros Signos Distintivos y la anterior Ley de Propiedad Intelectual, que solo cubrían derechos de autor, derechos conexos y propiedad industrial (patentes, modelos de utilidad y diseños industriales).",
+          "Principales innovaciones:",
+          "1. Creación del Instituto Salvadoreño de Propiedad Intelectual (ISPI)",
+          "Reemplazará a la Dirección de Registro de PI bajo el Centro Nacional de Registros (CNR).",
+          "Publicará solicitudes de marcas en un Boletín Especializado de PI (Art. 121), sustituyendo la divulgación en periódicos generalistas.",
+          "2. Ampliación del concepto de marca (Art. 107)",
+          "Incluye marcas no tradicionales: sabores y texturas.",
+          "3. Nuevos requisitos de renovación",
+          "Nombres comerciales (Art. 171): Renovación decenal con prueba de uso.",
+          "Emblemas comerciales (Art. 166): Vigencia de 10 años (antes indefinida).",
+          "4. Contratos de franquicia (Art. 140)",
+          "Posibilidad de registrar contratos y licencias de uso.",
+          "5. Cancelación de marcas",
+          "Por acción de terceros (Arts. 144 y 111) o por genericidad (Art. 145).",
+          "6. Dominios web (Art. 316)",
+          "Requisito de documentación probatoria al registrar signos distintivos que incluyan dominios.",
+          "7. Diseños industriales (Art. 249)",
+          "Protección extendida de 10 a 15 años, con pagos de mantenimiento quinquenales.",
+          "8. Excepción Bolar (Art. 209)",
+          "Define claramente las defensas contra demandas por infracción de patentes.",
+          "9. Beneficios fiscales (Art. 324)",
+          "Exenciones para instituciones estatales, universidades, artistas registrados y PYMEs."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "zh": "英国就版权与人工智能法律改革征求公众意见",
+        "en": "UK Launches Public Consultation on Copyright and AI Legal Reforms",
+        "es": "Reino Unido inicia consulta pública sobre reformas legales en derechos de autor e inteligencia artificial"
+      },
+      "content": {
+        "zh": [
+          "近日，英国政府将启动版权与人工智能（AI）法律改革提案的公众咨询（2024年12月17日---2025年2月25日），为期十周。新提案旨在为创意与AI行业在模型训练中使用受版权保护的素材提供法律确定性，支持创新并促进相关领域的发展。",
+          "目前，英国版权法在AI领域的不确定性，阻碍了创意与AI行业充分发挥潜力；这可能使创作者难以控制其作品的使用情况或获取作品使用报酬。AI公司也面临法律风险，导致AI的投资、创新及技术采用都受到限制。",
+          "为解决上述问题，提案建议在版权法中新增\"以商业为目的的AI训练\"例外情况，并允许权利人保留自身权利，把控内容使用。同时，结合透明度要求，权利人将拥有更强的确定性和控制权，有助于其达成许可协议。这也将为AI开发者提供明确指导，确保其能在英国广泛获取所需素材。",
+          "意见征询的目标：",
+          "（1）确保受版权保护的素材在模型训练中的合理使用，提供法律确定性，以支持创意与AI行业的创新，推动这两个关键行业的发展。",
+          "（2）加强创作者对其作品的控制权以及因使用其作品而获得报酬的能力。",
+          "（3）要求AI公司提高用于训练AI模型的数据以及AI生成内容标注方式的透明度。",
+          "（4）使AI开发者能在英国广泛获取训练全球领先模型的素材，而法律确定性将促进AI在整个经济领域的应用。",
+          "此次提案改革将有助于释放创意与AI行业的全部潜力，激发英国的创新、投资和繁荣，助力英国政府实现七国集团最高持续增长的目标。"
+        ],
+        "en": [
+          "The UK government has initiated a 10-week public consultation (17 December 2024 -- 25 February 2025) on proposed legal reforms addressing copyright and artificial intelligence (AI). The proposals aim to provide legal certainty for the creative and AI industries regarding the use of copyrighted materials in AI model training, fostering innovation and sectoral growth.",
+          "Current uncertainties in UK copyright law have hindered the full potential of both creative and AI industries. Creators struggle to control how their works are used or secure compensation, while AI companies face legal risks that stifle investment, innovation, and technology adoption.",
+          "To resolve these issues, the proposals introduce a \"commercial AI training\" exception in copyright law, allowing rights holders to retain control over content usage. Coupled with transparency requirements, this framework will strengthen creators' ability to negotiate licensing agreements and provide AI developers with clearer guidelines for accessing materials in the UK.",
+          "Consultation Objectives:",
+          "1. Ensure lawful use of copyrighted materials in AI training to support innovation in both creative and AI sectors.",
+          "2. Enhance creators' control over their works and ability to receive fair compensation.",
+          "3. Mandate transparency from AI companies on training data sources and AI-generated content labeling.",
+          "4. Enable AI developers to access materials in the UK for cutting-edge model training, promoting AI adoption across the economy.",
+          "These reforms aim to unlock the full potential of the creative and AI industries, driving innovation, investment, and prosperity, and supporting the UK government's goal of achieving the highest sustained growth in the G7."
+        ],
+        "es": [
+          "El gobierno británico ha lanzado una consulta pública de 10 semanas (17 de diciembre de 2024 -- 25 de febrero de 2025) sobre reformas legales para abordar los derechos de autor y la inteligencia artificial (IA). Las propuestas buscan brindar certidumbre jurídica a las industrias creativa y de IA respecto al uso de materiales protegidos por derechos de autor en el entrenamiento de modelos de IA, fomentando la innovación y el crecimiento sectorial.",
+          "Las actuales incertidumbres en la ley de derechos de autor del Reino Unido han limitado el potencial de ambas industrias. Los creadores enfrentan dificultades para controlar el uso de sus obras o garantizar compensación, mientras que las empresas de IA asumen riesgos legales que frenan la inversión, la innovación y la adopción tecnológica.",
+          "Para resolverlo, las propuestas introducen una excepción de \"entrenamiento comercial de IA\" en la ley de derechos de autor, permitiendo a los titulares conservar el control sobre el uso de sus contenidos. Junto con requisitos de transparencia, este marco fortalecerá la capacidad de los creadores para negociar licencias y ofrecerá a los desarrolladores de IA pautas claras para acceder a materiales en el Reino Unido.",
+          "Objetivos de la consulta:",
+          "1. Garantizar el uso legal de materiales protegidos en el entrenamiento de IA para apoyar la innovación en ambos sectores.",
+          "2. Mejorar el control de los creadores sobre sus obras y su capacidad para recibir remuneración justa.",
+          "3. Exigir transparencia a las empresas de IA sobre las fuentes de datos de entrenamiento y el etiquetado de contenido generado por IA.",
+          "4. Facilitar el acceso de desarrolladores de IA a materiales en el Reino Unido para el entrenamiento de modelos líderes, promoviendo la adopción de IA en la economía.",
+          "Estas reformas buscan liberar el potencial total de las industrias creativa y de IA, impulsando la innovación, inversión y prosperidad, en línea con el objetivo del gobierno británico de lograr el crecimiento sostenido más alto del G7."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "zh": "英国知识产权局讨论如何保护人工智能行业",
+        "en": "UK Intellectual Property Office Explores Legal Protections for AI Industry",
+        "es": "Oficina de Propiedad Intelectual del Reino Unido debate cómo proteger la industria de IA"
+      },
+      "content": {
+        "zh": [
+          "近期，英国知识产权局（UKIPO）就政府如何确保人工智能与版权法律框架协同支持创意产业和人工智能行业发展展开意见征询。",
+          "当前，版权法适用于人工智能的不确定性，阻碍两领域发展，此前自愿规范努力失败。新提案旨在为模型训练使用版权材料带来法律确定性，推动创新与两领域发展，助力英国实现G7最高持续增长的变革计划。",
+          "平衡的提案计划，一方面让创作者更好控制材料使用并获报酬，许可为创作者获酬奠定基础；另一方面要求人工智能公司在数据及标记方式上提高透明度，使开发者能广泛获取材料训练领先模型。意见征询建议引入版权法例外，允许权利人保留权利，结合透明度要求，明确双方权利与材料使用范围。实施前，两领域需合作确保相关标准有效、可及、通用。",
+          "同时，意见征询对开发者提出新要求，需在模型训练数据集等方面更透明。科学、创新和技术部及文化、媒体和体育部国务大臣均强调提案重要性，称要平衡保护创作者与促进人工智能创新。英国政府欢迎现有许可协议，决心助力更多创意者和企业把控内容、达成协议。此外，意见征询关注人格权保护问题。英国政府欢迎各方意见，愿合作设计合适框架，推动两领域蓬勃发展。"
+        ],
+        "en": [
+          "The UK Intellectual Property Office (UKIPO) has launched a consultation on aligning AI and copyright frameworks to support both the creative and AI industries. This follows failed voluntary initiatives and aims to resolve legal uncertainties hindering sectoral growth, advancing the UK's ambition to achieve the highest sustained growth in the G7.",
+          "Key Proposals:",
+          "1. Introduce a copyright law exception for AI model training, allowing rights holders to retain control while providing legal certainty for using copyrighted materials.",
+          "2. Mandate transparency requirements for AI companies regarding training data sources and content labeling.",
+          "3. Establish collaborative standards between industries to ensure effective implementation.",
+          "Government Stance:",
+          "The Department for Science, Innovation and Technology (DSIT) and the Department for Culture, Media and Sport (DCMS) emphasize balancing creator protections with AI innovation.",
+          "The UK government supports existing licensing agreements and pledges to help creators negotiate content usage terms.",
+          "The consultation also addresses personality rights protections for individuals."
+        ],
+        "es": [
+          "La Oficina de Propiedad Intelectual del Reino Unido (UKIPO) ha iniciado una consulta sobre cómo adaptar los marcos legales de IA y derechos de autor para apoyar a las industrias creativa y tecnológica. Tras el fracaso de iniciativas voluntarias previas, esta propuesta busca resolver incertidumbres jurídicas que frenan el crecimiento, avanzando en el objetivo del Reino Unido de lograr el mayor crecimiento sostenido del G7.",
+          "Propuestas clave:",
+          "1. Introducir una excepción en la ley de derechos de autor para el entrenamiento de modelos de IA, permitiendo a los titulares mantener el control mientras se brinda certidumbre legal sobre el uso de materiales protegidos.",
+          "2. Exigir requisitos de transparencia a empresas de IA sobre fuentes de datos de entrenamiento y etiquetado de contenido.",
+          "3. Establecer estándares colaborativos intersectoriales para una implementación efectiva.",
+          "Postura gubernamental:",
+          "El Departamento de Ciencia, Innovación y Tecnología (DSIT) y el Departamento de Cultura, Medios y Deporte (DCMS) destacan la necesidad de equilibrar la protección de creadores con la innovación en IA.",
+          "El gobierno británico respalda acuerdos de licencia existentes y promete ayudar a creadores a negociar términos de uso.",
+          "La consulta también aborda la protección de derechos de personalidad."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "zh": "美国多部门知识产权执法策略与工作",
+        "en": "The multi-agency of IPEC detailed strategies and activities",
+        "es": "IPEC detalló las estrategias y actividades por múltiples agencias"
+      },
+      "content": {
+        "zh": [
+          "2025年1月13日，美国知识产权执法协调员办公室向国会提交年度知识产权报告，详述2024财年美国多部门知识产权执法策略与工作。",
+          "农业部与多机构合作开展地理标志活动，与多国接触强调程序公正透明及保护通用名称，支持相关行业组织，监测国外地理标志与商申请，开展植物品种保护等。",
+          "商务部通过商法发展计划等参与培训和能力建设项目，加强国际知识产权保护执法。国防部旗下国防军需大学聚焦知识产权关键领域，开展多种线上线下活动，协调合作助力相关工作。",
+          "卫生与公众服务部提高药品供应链安全性，与他国合作打击假冒医疗产品，加强自身能力建设与培训。",
+          "国土安全部保护采购供应链，开展执法行动，进行多方合作与公众教育。司法部在2024财年就版权、假冒商品、商业秘密等多领域开展逮捕、指控等诉讼活动。",
+          "国务院通过各地工作建立知识产权制度，在对话和论坛中加强保护执法，开展能力建设与宣传。",
+          "财政部识别处理知识产权国安风险，对恶意网络行为实施制裁。美国贸易代表办公室针对中国开展301调查，推进协定实施，发布报告名单，参与国际讨论。美国版权局纪念版权索赔委员会成立，开展AI倡议等多项工作，提供政策建议并扩大宣传。"
+        ],
+        "en": [
+          "On January 13, 2025, the Office of the United States Intellectual Property Enforcement Coordinator (IPEC) submitted its annual intellectual property report to Congress, detailing the multi-agency intellectual property enforcement strategies and activities undertaken during the fiscal year 2024.",
+          "The Department of Agriculture, in collaboration with multiple agencies, engaged in geographical indication (GI) initiatives, interacted with various countries to emphasize procedural fairness, transparency, and the protection of generic terms, supported relevant industry organizations, monitored foreign GI and trademark applications, and conducted activities related to plant variety protection.",
+          "The Department of Commerce participated in training and capacity-building programs, such as the Commercial Law Development Program, to strengthen international intellectual property protection and enforcement. The Defense Acquisition University, under the Department of Defense, focused on key areas of intellectual property, organizing various online and offline activities and coordinating efforts to support related work.",
+          "The Department of Health and Human Services enhanced the security of the pharmaceutical supply chain, collaborated with other nations to combat counterfeit medical products, and strengthened its own capacity-building and training initiatives.",
+          "The Department of Homeland Security safeguarded the procurement supply chain, conducted enforcement actions, and engaged in multi-stakeholder cooperation and public education. The Department of Justice carried out arrests, prosecutions, and other litigation activities in fiscal year 2024 across various domains, including copyright, counterfeit goods, and trade secrets.",
+          "The Department of State established intellectual property systems through its global operations, reinforced protection and enforcement in dialogues and forums, and conducted capacity-building and awareness campaigns.",
+          "The Department of the Treasury identified and addressed national security risks related to intellectual property, imposing sanctions on malicious cyber activities.",
+          "The Office of the United States Trade Representative (USTR) conducted a Section 301 investigation targeting China, advanced the implementation of agreements, published report listings, and participated in international discussions.",
+          "The United States Copyright Office commemorated the establishment of the Copyright Claims Board, launched initiatives related to artificial intelligence (AI), provided policy recommendations, and expanded public outreach."
+        ],
+        "es": [
+          "El 13 de enero de 2025, la Oficina del Coordinador de Cumplimiento de Propiedad Intelectual de los Estados Unidos (IPEC) presentó su informe anual de propiedad intelectual al Congreso, detallando las estrategias y actividades de cumplimiento de propiedad intelectual llevadas a cabo por múltiples agencias durante el año fiscal 2024.",
+          "El Departamento de Agricultura, en colaboración con varias agencias, participó en iniciativas de indicaciones geográficas (IG), interactuó con diversos países para enfatizar la equidad procesal, la transparencia y la protección de términos genéricos, apoyó a organizaciones industriales relevantes, monitoreó solicitudes extranjeras de IG y marcas registradas, y llevó a cabo actividades relacionadas con la protección de variedades vegetales.",
+          "El Departamento de Comercio participó en programas de capacitación y desarrollo de capacidades, como el Programa de Desarrollo de Derecho Comercial, para fortalecer la protección y el cumplimiento internacional de la propiedad intelectual. La Universidad de Adquisiciones de Defensa, bajo el Departamento de Defensa, se centró en áreas clave de propiedad intelectual, organizando diversas actividades en línea y fuera de línea y coordinando esfuerzos para apoyar el trabajo relacionado.",
+          "El Departamento de Salud y Servicios Humanos mejoró la seguridad de la cadena de suministro farmacéutico, colaboró con otras naciones para combatir productos médicos falsificados y fortaleció sus iniciativas de desarrollo de capacidades y capacitación.",
+          "El Departamento de Seguridad Nacional protegió la cadena de suministro de adquisiciones, llevó a cabo acciones de cumplimiento y participó en cooperación multisectorial y educación pública. El Departamento de Justicia realizó arrestos, procesamientos y otras actividades de litigio durante el año fiscal 2024 en diversos ámbitos, incluidos derechos de autor, productos falsificados y secretos comerciales.",
+          "El Departamento de Estado estableció sistemas de propiedad intelectual a través de sus operaciones globales, reforzó la protección y el cumplimiento en diálogos y foros, y llevó a cabo campañas de desarrollo de capacidades y concienciación.",
+          "El Departamento del Tesoro identificó y abordó riesgos de seguridad nacional relacionados con la propiedad intelectual, imponiendo sanciones a actividades cibernéticas maliciosas.",
+          "La Oficina del Representante Comercial de los Estados Unidos (USTR) llevó a cabo una investigación bajo la Sección 301 dirigida a China, avanzó en la implementación de acuerdos, publicó listados de informes y participó en discusiones internacionales.",
+          "La Oficina de Derechos de Autor de los Estados Unidos conmemoró el establecimiento de la Junta de Reclamaciones de Derechos de Autor, lanzó iniciativas relacionadas con la inteligencia artificial (IA), proporcionó recomendaciones de políticas y amplió la divulgación pública."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": {
+        "zh": "DeepSeek面临的知识产权挑战",
+        "en": "DeepSeek reflects the intellectual property (IP) challenges",
+        "es": "DeepSeek refleja los desafíos de propiedad intelectual"
+      },
+      "content": {
+        "zh": [
+          "在全球化浪潮与人工智能蓬勃发展的时代，中国AI独角兽DeepSeek却在美国市场遭遇了一场棘手的商标纠纷。这一事件不仅关乎DeepSeek自身的品牌权益，更反映出中国企业在海外拓展时面临的知识产权挑战。",
+          "DeepSeek凭借先进技术和创新产品崛起，计划拓展美国市场，却在申请商标时，被Delson Group Inc．抢先36小时注册相同商标。Delson Group总部位于美国特拉华州，CEO有中国背景，虽在AI领域开展业务，但业内多认为其像\"商标投机者\"，且有多次抢注中国知名企业商标的记录。依美国商标法，DeepSeek若不能证明对方恶意抢注，可能失去品牌使用权并面临起诉。它可收集对方恶意抢注证据，或与对方谈判商标共存，亦或考虑更换品牌名称。",
+          "DeepSeek作为中国AI领域的重要参与者，进军美国市场却遭遇商标争夺战，这不仅凸显AI行业竞争激烈，也警示中国企业在全球化扩张时，必须提前做好商标保护和品牌规划。",
+          "这场商标战的最终走向尚未可知，但AI产业全球化进程中，品牌争夺无疑将成为关键战场。对DeepSeek而言，如何妥善应对此次危机，是其全球化布局的关键一步。"
+        ],
+        "en": [
+          "In the era of globalization and the rapid development of artificial intelligence (AI), the Chinese AI unicorn DeepSeek has encountered a complex trademark dispute in the U.S. market. This incident not only concerns DeepSeek's brand rights but also reflects the intellectual property (IP) challenges faced by Chinese enterprises during their overseas expansion.",
+          "DeepSeek, which has risen to prominence through its advanced technology and innovative products, planned to expand into the U.S. market. However, during its trademark application process, it was discovered that Delson Group Inc., a company headquartered in Delaware, U.S., had preemptively registered an identical trademark just 36 hours prior. Although Delson Group operates in the AI sector and its CEO has Chinese ties, it is widely regarded within the industry as a \"trademark squatter,\" with a history of preemptively registering trademarks of well-known Chinese companies.",
+          "Under U.S. trademark law, if DeepSeek cannot prove that Delson Group acted in bad faith, it risks losing the right to use its brand in the U.S. and may face litigation. To address this, DeepSeek has several options:",
+          "1. Collect Evidence of Bad Faith: DeepSeek can gather and present evidence demonstrating Delson Group's history of trademark squatting and malicious intent.",
+          "2. Negotiate Coexistence: DeepSeek may engage in negotiations with Delson Group to reach a coexistence agreement, allowing both parties to use the trademark under specific conditions.",
+          "3. Rebranding: As a last resort, DeepSeek could consider changing its brand name in the U.S. market, though this would entail significant costs and risks to its brand equity.",
+          "As a significant player in China's AI sector, DeepSeek's entry into the U.S. market has been met with a trademark battle. This not only highlights the intense competition within the AI industry but also serves as a warning to Chinese enterprises to prioritize trademark protection and brand planning during global expansion.",
+          "The outcome of this trademark dispute remains uncertain. However, it is evident that brand protection will be a critical battleground in the globalization of the AI industry. For DeepSeek, effectively navigating this crisis is a crucial step in its global strategy."
+        ],
+        "es": [
+          "En la era de la globalización y el rápido desarrollo de la inteligencia artificial(IA), el unicornio chino de IA DeepSeek se ha enfrentado a una compleja disputa de marca registrada en el mercado estadounidense. Este incidente no solo afecta los derechos de marca de DeepSeek, sino que también refleja los desafíos de propiedad intelectual (PI) que enfrentan las empresas chinas durante su expansión en el extranjero.",
+          "DeepSeek, que ha alcanzado prominencia gracias a su tecnología avanzada y productos innovadores, planeaba expandirse en el mercado estadounidense. Sin embargo, durante el proceso de solicitud de su marca registrada, descubrió que Delson Group Inc., una empresa con sede en Delaware, EE. UU., había registrado preemptivamente una marca idéntica apenas 36 horas antes. Aunque Delson Group opera en el sector de IA y su CEO tiene vínculos chinos, es ampliamente considerado dentro de la industria como un apropiador de marcas, con un historial de registro preemptivo de marcas de empresas chinas reconocidas.",
+          "Según la ley de marcas registradas de EE. UU., si DeepSeek no puede demostrar que Delson Group actuó de mala fe, corre el riesgo de perder el derecho a usar su marca en EE. UU. y podría enfrentar litigios. Para abordar esta situación, DeepSeek tiene varias opciones:",
+          "1. Recopilar Pruebas de Mala Fe: DeepSeek puede reunir y presentar evidencia que demuestre el historial de apropiación de marcas y la intención maliciosa de Delson Group.",
+          "2. Negociar la Coexistencia: DeepSeek podría entablar negociaciones con Delson Group para llegar a un acuerdo de coexistencia, permitiendo que ambas partes utilicen la marca bajo condiciones específicas.",
+          "3. Cambio de Marca: Como último recurso, DeepSeek podría considerar cambiar el nombre de su marca en el mercado estadounidense, aunque esto implicaría costos significativos y riesgos para su valor de marca.",
+          "Como un actor importante en el sector de IA de China, la entrada de DeepSeek en el mercado estadounidense se ha topado con una batalla por la marca registrada. Esto no solo subraya la intensa competencia dentro de la industria de IA, sino que también sirve como advertencia para que las empresas chinas prioricen la protección de marcas y la planificación de marca durante su expansión global.",
+          "El resultado de esta disputa de marca registrada sigue siendo incierto. Sin embargo, es evidente que la protección de la marca será un campo de batalla crucial en la globalización de la industria de IA. Para DeepSeek, navegar eficazmente esta crisis es un paso clave en su estrategia global."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": {
+        "zh": "加拿大维持商标权利",
+        "en": "Maintain trademark rights in Canada",
+        "es": "Mantener los derechos de marca registrada en Canadá"
+      },
+      "content": {
+        "zh": [
+          "若想在加拿大维持住自己的商标权利，人们需要在商业层面上将这些商标投入使用。自2025年1月份开始，由于加拿大的一项全新的试点项目提出了更多的要求，因此人们在加拿大获得的注册商标可能会因未使用而遭到撤销。根据上述项目的要求，在加拿大完成注册至少3年的商标每个月都会被随机选定以接受审计。这个项目类似于另外一个于2019年在美国启动的计划，即注册后审计计划。",
+          "如果加拿大知识产权局（CIPO）随机选择了某件商标的话，该商标的所有人将需要提交令人信服的有关使用的证据，证明其根据注册商标中所罗列出的每一种适用的商品和／或服务进行了使用。如果商标所有人无法提供可以让CIPO接受的使用证据的话，那么其必须要提供基于某些特殊情况而没有使用的理由，否则这件在加拿大注册的商标将会被部分或者全部地撤销掉。如果加拿大的注册商标所有人目前正在根据所适用的商标和／或服务一起使用该标志的话，那么其无需采取任何行动。但是，如果商标所有人在加拿大并没有使用注册商标的话，其或许需要咨询专业的法律顾问应该作出何种选择，以维持一件或者多件商标的保护状态。",
+          "由于这是一个新的项目，因此目前还不清楚当商标所有人提交有关因特殊情况而未使用的证据时，CIPO会采取多么严格的标准。在接受审计之后，若商标所有人请求删除掉那些不再适用的商标／服务的话，CIPO可能会避免撤销掉整件商标。尽管没有任何证据表明CIPO在受理上述删除请求时会有多么的严格，但是考虑到该项目与美国的计划非常相似，因此CIPO作出这种回应并不会让人感到太多的意外。"
+        ],
+        "en": [
+          "To maintain trademark rights in Canada, trademark owners must actively use their marks in commerce. Starting in January 2025, a new pilot program in Canada will introduce additional requirements, potentially leading to the cancellation of registered trademarks due to non-use. Under this program, trademarks registered in Canada for at least three years will be randomly selected each month for audit. This initiative is similar to the Post-Registration Audit Program launched in the United States in 2019.",
+          "If the Canadian Intellectual Property Office (CIPO) randomly selects a trademark for audit, the owner will be required to submit compelling evidence of use, demonstrating that the mark has been used in connection with each of the goods and/or services listed in the registration. If the trademark owner cannot provide evidence acceptable to CIPO, they must provide valid reasons for non-use based on special circumstances. Failure to do so may result in the partial or complete cancellation of the Canadian trademark registration. If the trademark owner is currently using the mark in Canada in connection with the applicable goods and/or services, no action is required. However, if the owner is not using the registered trademark in Canada, they may need to consult legal counsel to determine the best course of action to maintain the protection of one or more trademarks.",
+          "As this is a new program, it remains unclear how strictly CIPO will evaluate evidence of non-use due to special circumstances. If, after an audit, the trademark owner requests the removal of goods/services that are no longer applicable, CIPO may avoid cancelling the entire trademark. While there is no evidence yet on how strictly CIPO will handle such removal requests, it would not be surprising if CIPO adopts a similar approach to the U.S. program, given the similarities between the two initiatives."
+        ],
+        "es": [
+          "Para mantener los derechos de marca registrada en Canadá, los titulares de marcas deben utilizar activamente sus marcas en el comercio. A partir de enero de 2025, un nuevo programa piloto en Canadá introducirá requisitos adicionales, lo que podría llevar a la cancelación de marcas registradas debido al no uso. Según este programa, las marcas registradas en Canadá durante al menos tres años serán seleccionadas al azar cada mes para una auditoría. Esta iniciativa es similar al Programa de Auditoría Posterior al Registro lanzado en los Estados Unidos en 2019.",
+          "Si la Oficina de Propiedad Intelectual de Canadá (CIPO) selecciona al azar una marca para su auditoría, el titular deberá presentar evidencia convincente del uso, demostrando que la marca ha sido utilizada en relación con cada uno de los bienes y/o servicios enumerados en el registro. Si el titular de la marca no puede proporcionar evidencia aceptable para CIPO, deberá presentar razones válidas para el no uso basadas en circunstancias especiales. De no hacerlo, podría resultar en la cancelación parcial o total del registro de la marca en Canadá. Si el titular de la marca está utilizando actualmente la marca en Canadá en relación con los bienes y/o servicios aplicables, no se requiere ninguna acción. Sin embargo, si el titular no está utilizando la marca registrada en Canadá, es posible que deba consultar a un asesor legal para determinar el mejor curso de acción para mantener la protección de una o más marcas.",
+          "Dado que este es un programa nuevo, aún no está claro qué tan estrictamente CIPO evaluará la evidencia de no uso debido a circunstancias especiales. Si, después de una auditoría, el titular de la marca solicita la eliminación de los bienes/servicios que ya no son aplicables, CIPO podría evitar la cancelación de toda la marca. Aunque aún no hay evidencia sobre qué tan estrictamente CIPO manejará tales solicitudes de eliminación, no sería sorprendente que CIPO adopte un enfoque similar al programa de los EE. UU., dada la similitud entre las dos iniciativas."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": {
+        "zh": "美国专利数据库公布美国专利授权50强",
+        "en": "the U.S. patent database published the 2024 rankings of the top 50 U.S. patent assignees",
+        "es": "Bases de datos publicó los rankings de 2024 de los 50 principales titulares de patentes"
+      },
+      "content": {
+        "zh": [
+          "近日，美国专利数据库提供商IFI CLAIMS在其网站上公布了2024年美国专利授权50强和十大增长最快的技术专利排名，旨在为公司的研发活动提供价值洞察。分析发现，美国专利授权量在经历了四年的下滑之后开始上升，较2023年增长3.8%，达到324,043件，三星连续第三年蝉联榜首。主要结论如下：",
+          "(1）除了专利授权量增加之外，美国的专利申请量也创下历史新高，从2023年的418,111件增加到2024年的430,625件，增长了3%，这表明美国整体创新经济比以往任何时候都强劲。",
+          "(2）美国专利授权50强排名中，三星居榜首，从2023年的6,165件增至2024年的6,377件（增长3%)；芯片代工制造商台积电（TSMC）今年跃居第二，从2023年的3,687件增至3,989件（增长8%)；高通（Qualcomm）则跌至第三，苹果（Apple）和华为（Huawei）跻身前五，均领先于排名下滑至第八位的IBM。IBM曾连续29年占据榜首，但该公司采取了更有选择性的专利策略，两年前被三星取代。",
+          "(3）美国专利授权50强排名中，涨幅最大的公司均来自亚洲：长鑫存储技术有限公司上升了57位，腾讯上升了54位，LG能源上升了37位；'七大科技巨头'(Alphabet、亚马逊、苹果、微软、Meta、英伟达和特斯拉）的股票走势继续保持强劲增长，但只有前四家公司因拥有足够的专利量而进入50强。",
+          "(4）美国公司授权专利较少。尽管美国公司获得的专利数量最多（143,382件），但大多数美国专利（56%）是由美国以外的公司获得的，如日本公司获得43,364件专利，排名第2,其后依次是中国（28,258件）、韩国（24,115件）和德国(14,044件）。在专利授权量前10的国家／地区中，有8个国家／地区的专利授权量有所上升。其中，中国的增幅最大，相比2023年增长了32%；瑞士的增幅位居第二，增长了21%。",
+          "(5)2024年，增长最快的技术是电池制造或维修，这是一种与电解方法相关的技术。该技术虽是首次出现在榜单上，但在2020-2024年间已增长了超27%。排名前十的技术中有3项技术致力于减少废物：有色金属回收（复合年增长率26.2%)、废料回收（复合年增长率26.1%）和固体废物销毁（复合年增长率17.7%)，这表明未来全球可持续发展创新将带来更多利润。另一个与可持续性相关且快速增长的技术是从非传统来源获取蛋白质（复合年增长率22.6%)，这是应对全球人口增长的必要举措。尽管人工智能（AI）备受市场关注，但作为AI基础的机器学习等技术却正在下滑。"
+        ],
+        "en": [
+          "Recently, the U.S. patent database provider IFI CLAIMS published the 2024 rankings of the top 50 U.S. patent assignees and the top 10 fastest-growing technology patents on its website, aiming to provide valuable insights for corporate research and development activities. Analysis revealed that U.S. patent grants, after four years of decline, began to rise, increasing by 3.8% compared to 2023, reaching 324,043 grants. Samsung secured the top position for the third consecutive year. Key findings are as follows",
+          "1. Increase in Patent Applications and Grants: In addition to the rise in patent grants, U.S. patent applications also reached a historic high, increasing by 3% from 418,111 in 2023 to 430,625 in 2024. This indicates that the U.S. innovation economy is stronger than ever.",
+          "2. Top 50 U.S. Patent Assignees: Samsung led the rankings, with patent grants increasing from 6,165 in 2023 to 6,377 in 2024 (a 3% increase). Semiconductor foundry TSMC jumped to second place, rising from 3,687 grants in 2023 to 3,989 in 2024 (an 8% increase). Qualcomm fell to third place, while Apple and Huawei entered the top five, both surpassing IBM, which dropped to eighth place. IBM, which held the top position for 29 consecutive years, has adopted a more selective patent strategy and was overtaken by Samsung two years ago.",
+          "3. Fastest-Rising Companies in the Top 50: The companies with the most significant growth in the top 50 rankings are all from Asia: CXMT (ChangXin Memory Technologies) rose by 57 positions, Tencent by 54 positions, and LG Energy Solution by 37 positions. While the 'Big Seven' tech giants (Alphabet, Amazon, Apple, Microsoft, Meta, NVIDIA, and Tesla) continue to show strong stock performance, only the top four companies made it into the top 50 due to their substantial patent portfolios.",
+          "4. Fewer Patents Granted to U.S. Companies: Although U.S. companies received the largest number of patents (143,382), the majority of U.S. patents (56%) were granted to non-U.S. companies. Japanese companies ranked second with 43,364 patents, followed by China (28,258), South Korea (24,115), and Germany (14,044). Among the top 10 countries/regions by patent grants, eight saw an increase. China recorded the highest growth, with a 32% increase compared to 2023, while Switzerland ranked second with a 21% increase.",
+          "5. Fastest-Growing Technologies in 2024: The fastest-growing technology is battery manufacturing or repair, a method related to electrolysis. Although this technology appeared on the list for the first time, it grew by over 27% between 2020 and 2024. Three of the top 10 technologies focus on waste reduction: non-ferrous metal recycling (26.2% CAGR), scrap recycling (26.1% CAGR), and solid waste destruction (17.7% CAGR), indicating that global sustainability innovations will drive future profitability. Another rapidly growing sustainability-related technology is protein extraction from non-traditional sources (22.6% CAGR), a necessary response to global population growth. Despite the market's focus on artificial intelligence (AI), foundational AI technologies such as machine learning are declining."
+        ],
+        "es": [
+          "Recientemente, el proveedor de bases de datos de patentes de EE. UU., IFI CLAIMS, publicó en su sitio web los rankings de 2024 de los 50 principales titulares de patentes de EE. UU. y las 10 tecnologías de patentes de más rápido crecimiento, con el objetivo de proporcionar información valiosa para las actividades de investigación y desarrollo corporativo. El análisis reveló que las concesiones de patentes en EE. UU., después de cuatro años de declive, comenzaron a aumentar, con un crecimiento del 3,8% en comparación con 2023, alcanzando 324.043 concesiones. Samsung se mantuvo en la primera posición por tercer año consecutivo. Los hallazgos clave son los siguientes:",
+          "1. Aumento en Solicitudes y Concesiones de Patentes: Además del aumento en las concesiones de patentes, las solicitudes de patentes en EE. UU. también alcanzaron un récord histórico, aumentando un 3% de 418.111 en 2023 a 430.625 en 2024. Esto indica que la economía de la innovación en EE. UU. es más fuerte que nunca.",
+          "2. Los 50 Principales Titulares de Patentes de EE. UU.: Samsung lideró el ranking, con concesiones de patentes que aumentaron de 6.165 en 2023 a 6.377 en 2024 (un aumento del 3%). El fabricante de semiconductores TSMC escaló al segundo lugar, aumentando de 3.687 concesiones en 2023 a 3.989 en 2024 (un aumento del 8%). Qualcomm cayó al tercer lugar, mientras que Apple y Huawei entraron en el top cinco, superando a IBM, que cayó al octavo lugar. IBM, que mantuvo la primera posición durante 29 años consecutivos, ha adoptado una estrategia de patentes más selectiva y fue superada por Samsung hace dos años.",
+          "3. Empresas de Más Rápido Crecimiento en el Top 50: Las empresas con el crecimiento más significativo en el top 50 son todas de Asia: CXMT (ChangXin Memory Technologies) subió 57 posiciones, Tencent 54 posiciones y LG Energy Solution 37 posiciones. Aunque los 'Siete Grandes' de la tecnología (Alphabet, Amazon, Apple, Microsoft, Meta, NVIDIA y Tesla) continúan mostrando un fuerte desempeño en el mercado de valores, solo las cuatro principales empresas ingresaron al top 50 debido a sus carteras sustanciales de patentes.",
+          "4. Menos Patentes Concedidas a Empresas Estadounidenses: Aunque las empresas estadounidenses recibieron el mayor número de patentes (143.382), la mayoría de las patentes de EE. UU. (56%) fueron concedidas a empresas no estadounidenses. Las empresas japonesas ocuparon el segundo lugar con 43.364 patentes, seguidas por China (28.258), Corea del Sur (24.115) y Alemania (14.044). Entre los 10 principales países/regiones por concesiones de patentes, ocho registraron un aumento. China registró el mayor crecimiento, con un aumento del 32% en comparación con 2023, mientras que Suiza ocupó el segundo lugar con un aumento del 21%.",
+          "5. Tecnologías de Más Rápido Crecimiento en 2024: La tecnología de más rápido crecimiento es la fabricación o reparación de baterías, un método relacionado con la electrólisis. Aunque esta tecnología apareció en la lista por primera vez, creció más del 27% entre 2020 y 2024. Tres de las 10 principales tecnologías se centran en la reducción de residuos: reciclaje de metales no ferrosos (26,2% CAGR), reciclaje de chatarra (26,1% CAGR) y destrucción de residuos sólidos (17,7% CAGR), lo que indica que las innovaciones globales en sostenibilidad impulsarán la rentabilidad futura. Otra tecnología relacionada con la sostenibilidad y de rápido crecimiento es la extracción de proteínas de fuentes no tradicionales (22,6% CAGR), una respuesta necesaria al crecimiento de la población mundial. A pesar del enfoque del mercado en la inteligencia artificial (IA), tecnologías fundamentales de IA como el aprendizaje automático están en declive."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": {
+        "zh": "美国版权局发布版权和人工智能相关法律",
+        "en": "the U.S. Copyright Office released the second part of its report on legal",
+        "es": "La Oficina de Derechos de Autor de EE. UU. publicó la segunda parte de su informe sobre cuestiones legales"
+      },
+      "content": {
+        "zh": [
+          "近日，美国版权局发布版权和人工智能（AI）相关法律及政策问题报告的第二部分。该报告关注生成式AI或使用生成式AI创作的作品的可版权性问题。",
+          "在美国版权局收到的10,000多条回复其调查通知（NOI）[1］的评论意见中，约有一半涉及可版权性问题。绝大多数评论者认为，现行法律在这一领域已经足够证明完全由AI生成的作品不具有可版权性。但是，对于涉及人类贡献的生成式AI创作作品的保护问题，评论者意见不一。许多人认为，应明确AI作为创作工具的使用。",
+          "在政策方面，主流观点认为将保护范围扩大到生成式AI创作的内容，可促进作品创作、推动文化和知识的进，造福公众。但主要的担忧是当生成式AI创作的作品越来越多时，AI会削弱人类创作的积极性。",
+          "美国版权局在报告中提出了用分析可版权性的法律原则，并评估了这些原则对AI创作内容的适用性。",
+          "主要内容：",
+          "(1) AI技术引发的版权问题，概述了版权法适应新技术发展的历史，并介绍了美国版权局正在进行的AI倡议。",
+          "(2）相关技术的背景和现有法律框架涵盖了人类作者资格要求、思想／表达二分法和版权保护的独创性标准。此外，报告探讨了法律在AI辅助创作中，如何适用于不同类型的生成式AI创作成果中的人类贡献（提示、纳入人类创作的表达性输入以及对生成式AI创作成果的修改或编排）。",
+          "(3）围绕国际形势展开讨论，介绍了其他国家如何在本国法律体系内处理可版权性问题。",
+          "(4）探讨为生成式AI创作内容提供额外法律保护的政策影响，并评估了支持和反对立法变革的论点。",
+          "美国版权局基于版权法和政策分析，结合评论与研讨，提出的结论和建议如下：",
+          "(1）可版权性和AI问题可根据现行法律解决，无需修改立法。",
+          "(2）在使用AI工具辅助但不代替人类创造的情况下，产出作品的版权保护不受影响。",
+          "(3）即便作品中融入了生成式AI的创作元素，版权法依然保护着人类作者在作品中所展现的原创性表达。",
+          "(4）版权保护并不延伸至完全由生成式AI创作的内容，或人类对表达元素控制不足的内容。",
+          "(5）人类对生成式AI创作的贡献是否足以赋予其作者身份，必须根据具体情况分析。",
+          "(6）根据目前广泛可获得的技术功能，提示性语言本身并不能提供足够的控制力。",
+          "(7）人类作者有权对其生成式AI创作中可感知的原创作品，以及对创作内容的创造性做出选择、协调、安排，或对创作结果的创造性修改享有版权。",
+          "(8）目前无需为生成式AI创作的内容提供额外的版权保护或特殊保护。",
+          "美国版权局将继续关注技术和法律的发展，以确定是否应重新审议这些结论。美国版权局还将继续向公众提供帮助，包括提供更多的注册指导并更新美国版权局实践汇编。"
+        ],
+        "en": [
+          "Recently, the U.S. Copyright Office released the second part of its report on legal and policy issues related to copyright and artificial intelligence (AI). The report focuses on the copyrightability of works created by generative AI or with the assistance of generative AI.",
+          "Among the more than 10,000 responses to the Copyright Office's Notice of Inquiry (NOI), approximately half addressed issues of copyrightability. The vast majority of commenters agreed that existing law is sufficient to establish that works entirely generated by AI are not eligible for copyright protection. However, opinions were divided regarding the protection of works created with human involvement using generative AI. Many argued that the use of AI as a creative tool should be clearly defined.",
+          "From a policy perspective, the prevailing view is that extending protection to content created by generative AI could promote creative output, advance culture and knowledge, and benefit the public. However, a major concern is that the increasing use of generative AI might diminish human creativity.",
+          "The U.S. Copyright Office outlined legal principles for analyzing copyrightability and evaluated their applicability to AI-generated content.",
+          "Key Contents:",
+          "1. Copyright Issues Raised by AI Technology: The report provides an overview of how copyright law has historically adapted to new technologies and introduces the Copyright Office's ongoing AI initiatives.",
+          "2. Background on Relevant Technologies and Existing Legal Framework: This section covers requirements for human authorship, the idea/expression dichotomy, and the originality standard for copyright protection. Additionally, the report explores how the law applies to human contributions in AI-assisted creations, such as prompts, expressive inputs, and modifications or arrangements of AI-generated content.",
+          "3. International Context: The report discusses how other countries address copyrightability issues within their legal systems.",
+          "4. Policy Implications of Additional Legal Protection for AI-Generated Content: The report evaluates arguments for and against legislative changes.",
+          "Based on its analysis of copyright law and policy, as well as public comments and discussions, the U.S. Copyright Office reached the following conclusions and recommendations:",
+          "1. Copyrightability and AI Issues Can Be Resolved Under Existing Law: No legislative changes are necessary.",
+          "2. Copyright Protection Remains Unaffected for Works Created with AI Tools: As long as AI assists rather than replaces human creativity.",
+          "3. Copyright Law Protects Original Human Expression: Even when works incorporate elements generated by AI.",
+          "4. Copyright Protection Does Not Extend to Works Entirely Generated by AI: Or to works where human control over expressive elements is insufficient.",
+          "5. Human Contributions to AI-Generated Works Must Be Analyzed Case by Case: To determine if they qualify for authorship.",
+          "6. Prompts Alone Do Not Provide Sufficient Control: Based on currently available technological capabilities.",
+          "7. Human Authors May Claim Copyright: For perceptible original works resulting from generative AI, as well as for creative choices, coordination, arrangement, or modifications of AI-generated content.",
+          "8. No Additional or Special Copyright Protection Is Needed for AI-Generated Content: At this time.",
+          "The U.S. Copyright Office will continue to monitor developments in technology and law to determine if these conclusions should be revisited. It will also provide further guidance to the public, including updates to the Compendium of U.S. Copyright Office Practices."
+        ],
+        "es": [
+          "Recientemente, la Oficina de Derechos de Autor de EE. UU. publicó la segunda parte de su informe sobre cuestiones legales y políticas relacionadas con los derechos de autor y la inteligencia artificial (IA). El informe se centra en la protección de derechos de autor de obras creadas por IA generativa o con la asistencia de IA generativa.",
+          "Entre las más de 10.000 respuestas a la Notificación de Investigación (NOI) de la Oficina de Derechos de Autor, aproximadamente la mitad abordó cuestiones de protección de derechos de autor. La gran mayoría de los comentaristas coincidieron en que la ley actual es suficiente para establecer que las obras generadas completamente por IA no son elegibles para protección de derechos de autor. Sin embargo, las opiniones estaban divididas respecto a la protección de obras creadas con participación humana utilizando IA generativa. Muchos argumentaron que el uso de la IA como herramienta creativa debería definirse claramente.",
+          "Desde una perspectiva política, la opinión predominante es que extender la protección al contenido creado por IA generativa podría promover la producción creativa, avanzar en la cultura y el conocimiento, y beneficiar al público. Sin embargo, una preocupación importante es que el uso creciente de la IA generativa podría disminuir la creatividad humana.",
+          "La Oficina de Derechos de Autor de EE. UU. delineó principios legales para analizar la protección de derechos de autor y evaluó su aplicabilidad al contenido generado por IA.",
+          "Contenidos Clave:",
+          "1. Cuestiones de Derechos de Autor Planteadas por la Tecnología de IA: El informe proporciona una visión general de cómo la ley de derechos de autor se ha adaptado históricamente a las nuevas tecnologías e introduce las iniciativas de IA en curso de la Oficina de Derechos de Autor.",
+          "2. Antecedentes sobre Tecnologías Relevantes y Marco Legal Existente: Esta sección cubre los requisitos para la autoría humana, la dicotomía idea/expresión y el estándar de originalidad para la protección de derechos de autor. Además, el informe explora cómo la ley se aplica a las contribuciones humanas en creaciones asistidas por IA, como indicaciones, aportes expresivos y modificaciones o arreglos de contenido generado por IA.",
+          "3. Contexto Internacional: El informe discute cómo otros países abordan cuestiones de protección de derechos de autor dentro de sus sistemas legales.",
+          "4. Implicaciones Políticas de la Protección Legal Adicional para el Contenido Generado por IA: El informe evalúa los argumentos a favor y en contra de los cambios legislativos.",
+          "Basándose en su análisis de la ley y las políticas de derechos de autor, así como en los comentarios y discusiones públicas, la Oficina de Derechos de Autor de EE. UU. llegó a las siguientes conclusiones y recomendaciones:",
+          "1. Las Cuestiones de Protección de Derechos de Autor y IA Pueden Resolverse Bajo la Ley Existente: No son necesarios cambios legislativos.",
+          "2. La Protección de Derechos de Autor Permanece Sin Cambios para las Obras Creadas con Herramientas de IA: Siempre que la IA asista en lugar de reemplazar la creatividad humana.",
+          "3. La Ley de Derechos de Autor Protege la Expresión Original Humana: Incluso cuando las obras incorporan elementos generados por IA.",
+          "4. La Protección de Derechos de Autor No Se Extiende a las Obras Generadas Completamente por IA: Ni a las obras donde el control humano sobre los elementos expresivos es insuficiente.",
+          "5. Las Contribuciones Humanas a las Obras Generadas por IA Deben Analizarse Caso por Caso: Para determinar si califican para la autoría.",
+          "6. Las Indicaciones por Sí Solas No Proporcionan Control Suficiente: Basado en las capacidades tecnológicas actualmente disponibles.",
+          "7. Los Autores Humanos Pueden Reclamar Derechos de Autor: Para obras originales perceptibles resultantes de la IA generativa, así como para elecciones creativas, coordinación, arreglo o modificaciones del contenido generado por IA.",
+          "8. No Se Necesita Protección Adicional o Especial de Derechos de Autor para el Contenido Generado por IA: En este momento.",
+          "La Oficina de Derechos de Autor de EE. UU. continuará monitoreando los desarrollos en tecnología y ley para determinar si estas conclusiones deben revisarse. También proporcionará más orientación al público, incluidas actualizaciones al Compendio de Prácticas de la Oficina de Derechos de Autor de EE. UU."
+        ]
+      }
+    }
+  ]
+}

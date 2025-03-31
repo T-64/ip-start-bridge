@@ -187,6 +187,27 @@
             color: white;
         }
 
+        .back-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 32px;
+            height: 32px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4682B4;
+            text-decoration: none;
+            font-size: 18px;
+            z-index: 100;
+        }
+        .back-btn:hover {
+            background: #f0f7ff;
+        }
+
         @media (max-width: 768px) {
             .auth-container {
                 flex-direction: column;
@@ -205,10 +226,15 @@
                 text-align: right;
                 margin-bottom: 20px;
             }
+            .back-btn {
+                top: 10px;
+                left: 10px;
+            }
         }
     </style>
 </head>
 <body>
+    <a href="home.html" class="back-btn" title="返回">←</a>
     <div class="container">
         <div class="auth-container">
             <div class="auth-left">

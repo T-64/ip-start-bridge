@@ -8,7 +8,7 @@
 body {
     background-image: url('../img/background.png');
     background-size: cover;
-    background-position: center;
+    background-position: center 1px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
@@ -314,11 +314,14 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     transition: all 0.3s;
+    display: block; /* 确保链接占满整行 */
+    text-decoration: none; /* 移除下划线 */
 }
 
 .news-item:hover {
     background-color: #f9f9f9;
     padding-left: 20px;
+    color: #4682B4; /* 悬停时颜色变化 */
 }
 
 .consultation-banner {
