@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="law_cases_title">国家概况</title>
+    <link rel="stylesheet" href="../css/home.css"> <!-- 假设与 news-detail 使用相同的 CSS -->
+    <style>
+        /* 容器布局 */
+        .law-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* 侧边栏整体样式 */
+        .law-sidebar {
+            width: 250px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 侧边栏标题美化 */
+        .law-sidebar-header {
+            text-align: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+
+        .law-sidebar-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0 20px 10px;
+            display: inline-block;
+            position: relative;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .law-sidebar-title:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #4682B4, #5D9CEC);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .law-sidebar-title:hover {
+            color: #4682B4;
+        }
+
+        .law-sidebar-title:hover:after {
+            width: 80px;
+            background: linear-gradient(90deg, #5D9CEC, #4682B4);
+        }
+
+        /* 案例列表样式 */
+        .law-sidebar-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+
+        .law-sidebar-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+        }
+
+        .law-sidebar-item:last-child {
+            border-bottom: none;
+        }
+
+        .law-sidebar-item a {
+            text-decoration: none;
+            color: #555;
+            font-size: 15px;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .law-sidebar-item a:hover {
+            color: #4682B4;
+            background-color: #f8f9fa;
+            padding-left: 15px;
+        }
+
+        .law-sidebar-item.active a {
+            color: #4682B4;
+            font-weight: 600;
+            background-color: #f0f7ff;
+            border-left: 3px solid #4682B4;
+        }
+
+        /* 内容区域 */
+        .law-detail-container {
+            flex: 1;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+
+        .law-detail-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .law-detail-content {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .law-detail-content p {
+            margin-bottom: 15px;
+        }
+
+        /* 返回按钮 */
+        .back-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 32px;
+            height: 32px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4682B4;
+            text-decoration: none;
+            font-size: 18px;
+            z-index: 100;
+        }
+
+        .back-btn:hover {
+            background: #f0f7ff;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .law-container {
+                flex-direction: column;
+            }
+
+            .law-sidebar {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+                height: auto;
+            }
+
+            .law-sidebar-title {
+                font-size: 20px;
+                padding: 0 15px 8px;
+            }
+
+            .law-sidebar-title:after {
+                width: 50px;
+                height: 2px;
+            }
+
+            .law-sidebar-title:hover:after {
+                width: 65px;
+            }
+
+            .law-sidebar-list {
+                max-height: none;
+            }
+
+            .back-btn {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../home.html" class="back-btn" title="返回">←</a>
+    <div class="header">
+        <div class="auth-section">
+            <a href="../login.html" class="auth-btn" data-i18n="login">登录</a> |
+            <a href="../login.html" class="auth-btn" data-i18n="register">注册</a>
+        </div>
+    </div>
+
+    <div class="lang-section">
+        <span data-i18n="language_setting">语言设置:</span>
+        <a href="#" class="lang-btn current-lang" data-lang="zh">中文</a> |
+        <a href="#" class="lang-btn" data-lang="en">English</a> |
+        <a href="#" class="lang-btn" data-lang="es">Español</a>
+    </div>
+
+    <div class="law-container">
+        <div class="law-sidebar">
+            <div class="law-sidebar-header">
+                <h2 class="law-sidebar-title" data-i18n="law_cases">国家概况</h2>
+            </div>
+            <ul class="law-sidebar-list" id="law-list">
+                <!-- 通过JavaScript动态加载案例列表 -->
+            </ul>
+        </div>
+
+        <div class="law-detail-container">
+            <h1 class="law-detail-title" id="law-title"></h1>
+            <div class="law-detail-content" id="law-content"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/i18next@23.11.5/dist/umd/i18next.min.js"></script>
+    <script>
+        // 初始化 i18next
+        i18next.init({
+            lng: 'zh', // 默认语言
+            resources: {
+                zh: {
+                    translation: {
+                        "law_cases_title": "国家概况",
+                        "law_cases": "国家概况",
+                        "language_setting": "语言设置",
+                        "login": "登录",
+                        "register": "注册"
+                    }
+                },
+                en: {
+                    translation: {
+                        "law_cases_title": "National Overview",
+                        "law_cases": "National Overview",
+                        "language_setting": "Language Setting",
+                        "login": "Login",
+                        "register": "Register"
+                    }
+                },
+                es: {
+                    translation: {
+                        "law_cases_title": "Resumen Nacional",
+                        "law_cases": "Resumen Nacional",
+                        "language_setting": "Configuración de Idioma",
+                        "login": "Iniciar Sesión",
+                        "register": "Registrarse"
+                    }
+                }
+            }
+        }, function (err, t) {
+            // 初始化完成后更新页面
+            updateContent();
+        });
+
+        // 更新页面内容的函数
+        function updateContent() {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                element.textContent = i18next.t(element.getAttribute('data-i18n'));
+            });
+        }
+
+        // 加载案例数据
+        fetch('data/country_overview.json')
+            .then(response => response.json())
+            .then(data => {
+                const lawList = document.getElementById('law-list');
+                const lawTitle = document.getElementById('law-title');
+                const lawContent = document.getElementById('law-content');
+                let currentLang = 'zh'; // 默认语言
+
+                // 渲染侧边栏列表
+                lawList.innerHTML = data.cases.map(caseItem => `
+            <li class="law-sidebar-item" data-id="${caseItem.id}">
+                <a href="#">${caseItem.title[currentLang]}</a>
+            </li>
+        `).join('');
+
+                // 默认显示第一个案例
+                lawTitle.textContent = data.cases[0].title[currentLang];
+                lawContent.innerHTML = data.cases[0].content[currentLang].map(paragraph => `<p>${paragraph}</p>`).join('');
+
+                // 设置默认选中项
+                lawList.querySelector('.law-sidebar-item').classList.add('active');
+
+                // 点击切换案例
+                lawList.querySelectorAll('.law-sidebar-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        lawList.querySelectorAll('.law-sidebar-item').forEach(i => i.classList.remove('active'));
+                        item.classList.add('active');
+
+                        const caseId = item.getAttribute('data-id');
+                        const selectedCase = data.cases.find(c => c.id === caseId);
+                        lawTitle.textContent = selectedCase.title[currentLang];
+                        lawContent.innerHTML = selectedCase.content[currentLang].map(paragraph => `<p>${paragraph}</p>`).join('');
+                    });
+                });
+
+                // 语言切换
+                document.querySelectorAll('.lang-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('current-lang'));
+                        btn.classList.add('current-lang');
+
+                        currentLang = btn.getAttribute('data-lang');
+                        i18next.changeLanguage(currentLang, () => {
+                            updateContent();
+
+                            // 更新侧边栏和内容
+                            lawList.innerHTML = data.cases.map(caseItem => `
+                        <li class="law-sidebar-item" data-id="${caseItem.id}">
+                            <a href="#">${caseItem.title[currentLang]}</a>
+                        </li>
+                    `).join('');
+
+                            const activeItem = lawList.querySelector('.law-sidebar-item.active');
+                            const activeId = activeItem ? activeItem.getAttribute('data-id') : data.cases[0].id;
+                            const selectedCase = data.cases.find(c => c.id === activeId);
+                            lawTitle.textContent = selectedCase.title[currentLang];
+                            lawContent.innerHTML = selectedCase.content[currentLang].map(paragraph => `<p>${paragraph}</p>`).join('');
+
+                            // 重新绑定点击事件
+                            lawList.querySelectorAll('.law-sidebar-item').forEach(item => {
+                                item.addEventListener('click', (e) => {
+                                    e.preventDefault();
+                                    lawList.querySelectorAll('.law-sidebar-item').forEach(i => i.classList.remove('active'));
+                                    item.classList.add('active');
+
+                                    const caseId = item.getAttribute('data-id');
+                                    const selectedCase = data.cases.find(c => c.id === caseId);
+                                    lawTitle.textContent = selectedCase.title[currentLang];
+                                    lawContent.innerHTML = selectedCase.content[currentLang].map(paragraph => `<p>${paragraph}</p>`).join('');
+                                });
+                            });
+                        });
+                    });
+                });
+            })
+            .catch(error => console.error('Error loading law cases:', error));
+
+
+
+    </script>
+</body>
+
+</html>

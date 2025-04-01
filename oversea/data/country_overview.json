@@ -1,0 +1,162 @@
+{
+    "cases": [
+        {
+            "id": "brazil_ip_protection",
+            "title": {
+                "zh": "巴西的知识产权保护类型有哪些？",
+                "en": "What types of intellectual property protection are there in Brazil?",
+                "es": "¿Cuáles son los tipos de protección de la propiedad intelectual en Brasil?"
+            },
+            "content": {
+                "zh": [
+                    "巴西的知识产权保护类型包括发明专利、实用新型专利、外观设计专利、版权、商标、商号、未公开信息、植物新品种、集成电路布图设计和地理标志。",
+                    "发明专利：包含创新性步骤且具有工业应用价值的创新，有效期20年（《工业产权法》第8条）。",
+                    "实用新型：应用于工业的新形态或结构，包含创造性活动，有效期15年。",
+                    "外观设计：装饰性设计，具有新的原创视觉效果，有效期10年（《工业产权法》第95条）。",
+                    "版权：人类创造性智力成果，保护期限为作者终身加死后70年。",
+                    "商标：视觉上可辨识，具显著性等特性，保护期10年（《工业产权法》第122条）。",
+                    "商号：需公共登记注册，适用于特定商业活动。",
+                    "未公开信息：包括商业化药品审批信息及保密的工业或商业信息。",
+                    "植物新品种：基因特征明显且稳定，保护期15年（2366号法令第5条）。",
+                    "集成电路布图设计：要求原创和新颖，保护期10年。",
+                    "地理标志：包括原产地标识和名称，需反映地理环境影响（《工业产权法》第177-182条）。"
+                ],
+                "en": [
+                    "Brazil’s intellectual property protection types include invention patents, utility model patents, design patents, copyrights, trademarks, trade names, undisclosed information, new plant varieties, integrated circuit layout designs, and geographical indications.",
+                    "Invention Patent: Innovations with inventive steps and industrial applicability, valid for 20 years (Industrial Property Law, Article 8).",
+                    "Utility Model: New forms or structures applicable in industry with creative activity, valid for 15 years.",
+                    "Design Patent: Decorative designs with new and original visual effects, valid for 10 years (Industrial Property Law, Article 95).",
+                    "Copyright: Creative intellectual works, protected for the author’s lifetime plus 70 years post-mortem.",
+                    "Trademark: Visually identifiable with distinctiveness, valid for 10 years (Industrial Property Law, Article 122).",
+                    "Trade Name: Requires public registration for specific commercial activities.",
+                    "Undisclosed Information: Covers approval data for commercial drugs and confidential industrial/commercial information.",
+                    "Plant Variety: Distinct and stable genetic traits, protected for 15 years (Decree No. 2366, Article 5).",
+                    "Integrated Circuit Layout Design: Original and novel, protected for 10 years.",
+                    "Geographical Indications: Include designations and names of origin linked to geographical environment (Industrial Property Law, Articles 177-182)."
+                ],
+                "es": [
+                    "Los tipos de protección de propiedad intelectual en Brasil incluyen patentes de invención, modelos de utilidad, diseños, derechos de autor, marcas, nombres comerciales, información no divulgada, nuevas variedades de plantas, diseños de circuitos integrados e indicaciones geográficas.",
+                    "Patente de Invención: Innovaciones con pasos inventivos y aplicabilidad industrial, válida por 20 años (Ley de Propiedad Industrial, Artículo 8).",
+                    "Modelo de Utilidad: Nuevas formas o estructuras aplicables en la industria con actividad creativa, válida por 15 años.",
+                    "Diseño: Diseños decorativos con efectos visuales nuevos y originales, válido por 10 años (Ley de Propiedad Industrial, Artículo 95).",
+                    "Derechos de Autor: Obras intelectuales creativas, protegidas durante la vida del autor más 70 años tras su muerte.",
+                    "Marca: Identificable visualmente con distintividad, válida por 10 años (Ley de Propiedad Industrial, Artículo 122).",
+                    "Nombre Comercial: Requiere registro público para ciertas actividades comerciales.",
+                    "Información No Divulgada: Incluye datos de aprobación de medicamentos y secretos industriales/comerciales.",
+                    "Variedad Vegetal: Rasgos genéticos distintivos y estables, protegida por 15 años (Decreto 2366, Artículo 5).",
+                    "Diseño de Circuito Integrado: Original y novedoso, protegido por 10 años.",
+                    "Indicaciones Geográficas: Designaciones y nombres de origen vinculados al entorno geográfico (Ley de Propiedad Industrial, Artículos 177-182)."
+                ]
+            }
+        },
+        {
+            "id": "us_ip_management",
+            "title": {
+                "zh": "美国的知识产权管理体系是怎样的？",
+                "en": "What is the intellectual property management system in the United States?",
+                "es": "¿Cuál es el sistema de gestión de propiedad intelectual en Estados Unidos?"
+            },
+            "content": {
+                "zh": [
+                    "行政确权：(1) 美国专利商标局负责专利和商标的登记、审查、公开等事务。(2) 美国图书馆版权局负责版权登记管理，采取自动生成制度，但登记是法律保护必要手段。",
+                    "司法：(1) 联邦地区法院审理版权、商标、专利等侵权案件，上诉归联邦巡回上诉法院管辖。(2) 对联邦巡回上诉法院判决不服，可向最高法院申请上诉。",
+                    "行政执法：美国国际贸易委员会（ITC）依据《美国关税法》第337条款，对侵犯知识产权的进口商品案件有管辖权。"
+                ],
+                "en": [
+                    "Administrative Confirmation: (1) The U.S. Patent and Trademark Office handles patent and trademark registration, examination, and disclosure. (2) The Copyright Office under the Library of Congress manages copyright registration, using an automatic generation system, though registration is necessary for legal protection.",
+                    "Judicial: (1) Federal district courts hear infringement cases involving copyrights, trademarks, patents, etc., with appeals under the Federal Circuit Court of Appeals’ jurisdiction. (2) Dissatisfied parties may appeal to the U.S. Supreme Court.",
+                    "Administrative Enforcement: The U.S. International Trade Commission (ITC) has jurisdiction over cases involving IP-infringing imports under Section 337 of the U.S. Tariff Act (1930)."
+                ],
+                "es": [
+                    "Confirmación Administrativa: (1) La Oficina de Patentes y Marcas de EE.UU. gestiona el registro, examen y divulgación de patentes y marcas. (2) La Oficina de Derechos de Autor bajo la Biblioteca del Congreso administra el registro de derechos de autor, con un sistema de generación automática, aunque el registro es necesario para protección legal.",
+                    "Judicial: (1) Los tribunales federales de distrito conocen casos de infracción de derechos de autor, marcas, patentes, etc., con apelaciones bajo la jurisdicción del Tribunal Federal de Apelaciones del Circuito. (2) Las partes insatisfechas pueden apelar al Tribunal Supremo de EE.UU.",
+                    "Cumplimiento Administrativo: La Comisión de Comercio Internacional de EE.UU. (ITC) tiene jurisdicción sobre casos de importaciones que infringen IP según la Sección 337 de la Ley Arancelaria de 1930."
+                ]
+            }
+        },
+        {
+            "id": "eu_ip_protection_strength",
+            "title": {
+                "zh": "欧盟的知识产权保护力度是怎样的？",
+                "en": "How strong is the EU’s intellectual property protection?",
+                "es": "¿Cuál es la intensidad de la protección de la propiedad intelectual en la UE?"
+            },
+            "content": {
+                "zh": [
+                    "欧盟法律体系结合成文法和判例法。成文法包括基本立法（如单一欧洲法案等条约）和二次立法（规定、指令、决定）。",
+                    "二次立法：规定对所有成员国统一适用；指令需成员国制定转换法案；决定可针对国家或个人。",
+                    "判例法：欧洲联盟法院和初审法院裁决对成员国法院具约束力。",
+                    "欧盟对专利、外观设计、商标和版权实行统一保护，通过二次立法和判例实现。",
+                    "基本保护问题由欧盟理事会法令规定，如第608/2013号令；未规定问题可由成员国法院请求欧洲联盟法院意见，其回复具约束力并对后续判决有法律效力。"
+                ],
+                "en": [
+                    "The EU legal system combines statutory and case law. Statutory law includes primary legislation (e.g., Single European Act) and secondary legislation (regulations, directives, decisions).",
+                    "Secondary Legislation: Regulations apply uniformly to all member states; directives require national transposition laws; decisions may target states or individuals.",
+                    "Case Law: Decisions by the Court of Justice of the EU and the Court of First Instance are binding on member state courts.",
+                    "The EU provides uniform protection for patents, designs, trademarks, and copyrights via secondary legislation and case law.",
+                    "Basic protection issues are set by EU Council decrees (e.g., No. 608/2013); unresolved issues can be referred to the Court of Justice of the EU, whose binding replies influence future rulings."
+                ],
+                "es": [
+                    "El sistema legal de la UE combina leyes estatutarias y jurisprudencia. Las leyes incluyen legislación primaria (como el Acta Única Europea) y secundaria (reglamentos, directivas, decisiones).",
+                    "Legislación Secundaria: Los reglamentos se aplican uniformemente a todos los estados miembros; las directivas requieren leyes de transposición nacionales; las decisiones pueden dirigirse a estados o individuos.",
+                    "Jurisprudencia: Las decisiones del Tribunal de Justicia de la UE y del Tribunal de Primera Instancia son vinculantes para los tribunales de los estados miembros.",
+                    "La UE ofrece protección uniforme para patentes, diseños, marcas y derechos de autor mediante legislación secundaria y jurisprudencia.",
+                    "Los problemas básicos de protección están regulados por decretos del Consejo de la UE (ej. N° 608/2013); los temas no especificados pueden remitirse al Tribunal de Justicia de la UE, cuyas respuestas vinculantes afectan futuras sentencias."
+                ]
+            }
+        },
+        {
+            "id": "eu_ip_infringement_response",
+            "title": {
+                "zh": "欧盟的知识产权侵权纠纷如何应对？",
+                "en": "How to deal with intellectual property infringement disputes in the EU?",
+                "es": "¿Cómo abordar las disputas por infracción de propiedad intelectual en la UE?"
+            },
+            "content": {
+                "zh": [
+                    "欧洲是我国企业重要市场，每年出口价值上万亿，但面临频繁侵权诉讼。欧盟严厉打击侵权，海关查扣和诉讼败诉可能导致巨大损失甚至禁售风险。",
+                    "应对策略：(1) 进入市场前进行专利预警，分析竞争对手、侵权可能性及目标国法律法规，预估风险并布置应对措施，如‘鱼雷’策略延长审判时间。(2) 进入市场后若遇纠纷，采取积极应对，如出庭、提出无效抗辩或上诉，避免消极应对导致不利结果。(3) 借助专业人士意见，利用法律武器和救济途径减少损失。"
+                ],
+                "en": [
+                    "Europe is a key market for Chinese firms, exporting trillions annually, yet facing frequent infringement lawsuits. The EU’s strict enforcement, including customs seizures and litigation losses, poses significant risks, including potential sales bans.",
+                    "Response Strategies: (1) Conduct pre-entry patent early warning, analyzing competitors, infringement likelihood, and target country laws to assess risks and plan countermeasures, e.g., the ‘torpedo’ strategy to delay trials. (2) Actively respond to disputes post-entry by appearing in court, raising invalidity defenses, or appealing, avoiding passive responses that favor plaintiffs. (3) Seek professional advice to leverage legal tools and remedies to minimize losses."
+                ],
+                "es": [
+                    "Europa es un mercado clave para empresas chinas, exportando billones anualmente, pero enfrentando frecuentes demandas por infracción. La estricta aplicación de la UE, con decomisos aduaneros y pérdidas en juicios, plantea riesgos significativos, incluyendo posibles prohibiciones de venta.",
+                    "Estrategias de Respuesta: (1) Realizar advertencias de patentes previas a la entrada, analizando competidores, probabilidad de infracción y leyes del país objetivo para evaluar riesgos y planificar contramedidas, como la estrategia ‘torpedo’ para retrasar juicios. (2) Responder activamente a disputas tras la entrada asistiendo a juicio, planteando defensas de invalidez o apelando, evitando respuestas pasivas que favorezcan a los demandantes. (3) Buscar asesoría profesional para usar herramientas legales y remedios que reduzcan pérdidas."
+                ]
+            }
+        },
+        {
+            "id": "uk_ip_admin_enforcement",
+            "title": {
+                "zh": "英国的知识产权行政执法制度是怎样的？",
+                "en": "What is the administrative enforcement system for intellectual property rights in the UK?",
+                "es": "¿Cuál es el sistema administrativo de control de la propiedad intelectual del Reino Unido?"
+            },
+            "content": {
+                "zh": [
+                    "行政调解：自1993年起，英国设立郡专利法院并推广替代性纠纷解决方式。2004年《专利法》新增条款允许请求不具约束力的意见书，2006年起提供调解服务，具保密性、中立性和自愿性。",
+                    "适用范围：适用于专利、商标、版权等民事纠纷，但涉及公共利益的不适合调解。",
+                    "优势：调解节省成本、灵活性高，避免信息扩散，适合复杂或敏感纠纷。",
+                    "适合调解的纠纷：许可合同、侵权、商标异议、专利权属等纠纷。",
+                    "行政执法：英国边境管理局依据国内法和欧盟第608/2013号令，查扣非欧盟来源的侵权货物，权利人可申请销毁。"
+                ],
+                "en": [
+                    "Administrative Mediation: Since 1993, the UK established the Patents County Court and promoted alternative dispute resolution. The 2004 Patents Act added provisions for non-binding opinions, and mediation services began in 2006, offering confidentiality, neutrality, and voluntariness.",
+                    "Scope: Applies to civil disputes over patents, trademarks, and copyrights, but not those involving public interest.",
+                    "Advantages: Cost-effective, flexible, prevents information spread, ideal for complex or sensitive disputes.",
+                    "Suitable Disputes: Licensing contracts, infringement, trademark opposition, patent ownership disputes.",
+                    "Administrative Enforcement: The UK Border Agency, under domestic law and EU Directive 608/2013, seizes infringing goods from non-EU sources, with rights holders able to request destruction."
+                ],
+                "es": [
+                    "Mediación Administrativa: Desde 1993, el Reino Unido creó el Tribunal de Patentes del Condado y promovió la resolución alternativa de disputas. La Ley de Patentes de 2004 añadió disposiciones para opiniones no vinculantes, y desde 2006 se ofrecen servicios de mediación con confidencialidad, neutralidad y voluntariedad.",
+                    "Ámbito: Aplicable a disputas civiles sobre patentes, marcas y derechos de autor, pero no a casos de interés público.",
+                    "Ventajas: Rentable, flexible, evita la difusión de información, ideal para disputas complejas o sensibles.",
+                    "Disputas Aptas: Contratos de licencia, infracciones, oposición de marcas, disputas de propiedad de patentes.",
+                    "Cumplimiento Administrativo: La Agencia de Fronteras del Reino Unido, bajo leyes nacionales y la Directiva 608/2013 de la UE, confisca bienes infractores de origen no UE, permitiendo a los titulares solicitar su destrucción."
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "cases": [
+        {
+            "id": "beijing",
+            "title": {
+                "zh": "北京 | IWNCOMM诉日本索尼案",
+                "en": "Beijing | IWNCOMM v. Sony (Japan) Case",
+                "es": "Beijing | Caso IWNCOMM vs. Sony de Japón"
+            },
+            "content": {
+                "zh": [
+                    "中国公司IWNCOMM与日本公司索尼专利侵权纠纷案",
+                    "该案涉及中国公司IWNCOMM与日本公司索尼之间的专利侵权纠纷。IWNCOMM公司指控索尼未经授权使用其持有的标准必要专利（Standard Essential Patent，简称SEP），侵犯了其专利权。北京知识产权法院在审理过程中，详细审查了专利的有效性、侵权情况和专利授权条件，最终判决支持了IWNCOMM公司的诉讼请求。",
+                    "《专利法》第2条规定了专利的三种类型：发明专利、实用新型专利和外观设计专利。IWNCOMM案中涉及的是发明专利，并且该专利被认定为标准必要专利（SEP）。",
+                    "根据《专利法》第11条，专利的有效性是案件审理的前提。法院需要确认IWNCOMM的专利在法律上是有效的，且该专利技术确实属于行业标准的一部分，即标准必要专利。",
+                    "标准必要专利通常要求专利权人在许可时遵循公平、合理、无歧视（FRAND）原则，即使其他公司需要使用该专利技术时，专利权人必须提供合理的授权条件。这一原则对跨国公司间的专利纠纷尤为重要。",
+                    "FRAND原则虽然不直接写入《专利法》中，但它在国际标准化组织（ISO）及多个国家和地区的专利许可实践中得到了广泛认可，并被中国法院接受和适用。",
+                    "《专利法》第11条规定专利权人应遵守公平的授权程序，索尼若未能遵守FRAND原则，法院可判定其构成侵权。",
+                    "《专利法》第52条定义了专利侵权行为的范围，包括未经授权使用、销售和许诺销售侵犯专利权的产品。法院需要审查索尼是否未经授权使用IWNCOMM的标准必要专利，并对比索尼产品与IWNCOMM专利的技术方案，看是否存在实质性相似，进而认定是否构成侵权。",
+                    "法院还会根据《专利法》第60条和《专利法》第64条，来判断索尼是否应承担停止侵权行为和赔偿经济损失的责任。",
+                    "在此案中，由于涉及跨国公司，法院还需要遵循国际通行的标准必要专利许可和侵权判定规则。FRAND原则的适用保障了国际间的专利交易公平性，也促使法院在审理类似案件时平衡专利权人的利益与市场竞争的公平性。",
+                    "该案件结合了《专利法》的相关规定与国际专利许可惯例，体现了法院在专利侵权案件中的专业性，特别是在标准必要专利（SEP）领域。法院不仅审查了专利的有效性和侵权行为，还考虑了FRAND原则的适用，为跨国专利纠纷提供了法律指导。"
+                ],
+                "en": [
+                    "The case involved a patent infringement dispute between IWNCOMM, a China company, and Sony, a Japanese company.",
+                    "IWNCOMM accused Sony of using its Standard Essential Patent (SEP) without authorization, which infringed its patent right. During the trial, Beijing Intellectual Property Court examined the validity, infringement and licensing conditions of the patent in detail, and finally decided to support the claim of IWNCOMM Company.",
+                    "Article 2 of the Patent Law stipulates three types of patents: invention patents, utility model patents and design patents. The case of IWNCOMM involved an invention patent, and this patent was recognized as a standard essential patent (SEP).",
+                    "According to Article 11 of the Patent Law, the validity of a patent is a prerequisite for the trial of a case. The court needs to confirm that IWNCOMM's patent is legally valid, and the patented technology is indeed part of the industry standard, that is, the standard essential patent.",
+                    "Standard essential patents usually require the patentee to follow the principle of fairness, reasonableness and nondiscrimination (FRAND) when licensing, even if other companies need to use the patented technology, the patentee must provide reasonable authorization conditions. This principle is particularly important for patent disputes between multinational companies.",
+                    "Although the FRAND principle is not directly written into the Patent Law, it has been widely recognized in the patent licensing practice of the International Organization for Standardization (ISO) and many countries and regions, and has been accepted and applied by the courts in China.",
+                    "Article 11 of the Patent Law stipulates that the patentee shall abide by fair authorization procedures. If Sony fails to abide by the FRAND principle, the court may determine that it constitutes infringement.",
+                    "Article 52 of the Patent Law defines the scope of patent infringement, including unauthorized use, sale and promise to sell products that infringe patent rights. The court needs to examine whether Sony uses IWNCOMM's standard essential patents without authorization, and compare the technical solutions of Sony products and IWNCOMM patents to see if there are substantial similarities, and then determine whether it constitutes infringement.",
+                    "According to Article 60 and Article 64 of the Patent Law, the court will judge whether Sony should bear the responsibility of stopping the infringement and compensating the economic losses.",
+                    "In this case, because multinational companies are involved, the court also needs to follow the internationally accepted standard necessary patent licensing and infringement judgment rules. The application of FRAND principle ensures the fairness of international patent transactions, and also urges the court to balance the interests of the patentee and the fairness of market competition when trying similar cases.",
+                    "This case combines the relevant provisions of the Patent Law with international patent licensing practices, reflecting the court's professionalism in patent infringement cases, especially in the field of standard essential patents (SEP). The court not only examined the validity of the patent and the infringement, but also considered the application of the FRAND principle, providing legal guidance for transnational patent disputes."
+                ],
+                "es": [
+                    "Disputa por Infracción de Patente entre la Empresa China IWNCOMM y la Japonesa Sony",
+                    "Este caso involucra una disputa de infracción de patente entre la empresa china IWNCOMM y la japonesa Sony. IWNCOMM acusó a Sony de utilizar sin autorización su patente esencial estándar (SEP, por sus siglas en inglés), violando sus derechos de propiedad intelectual. El Tribunal de Propiedad Intelectual de Beijing, durante el proceso judicial, examinó en detalle la validez de la patente, los hechos de infracción y las condiciones de licenciamiento, resolviendo finalmente a favor de IWNCOMM.",
+                    "Base Legal y Análisis",
+                    "1. Artículo 2 de la Ley de Patentes de China: Define tres tipos de patentes: Patentes de invención, Patentes de modelo de utilidad, Patentes de diseño industrial. En este caso, la patente en disputa es una patente de invención, reconocida como SEP.",
+                    "2. Artículo 11 de la Ley de Patentes: Establece que la validez de la patente es un requisito previo para el litigio. El tribunal verificó: Validez legal de la patente de IWNCOMM, Inclusión de la tecnología en estándares industriales (SEP).",
+                    "3. Principios FRAND (justos, razonables y no discriminatorios): Aunque no están explícitos en la Ley de Patentes, son reconocidos globalmente por organizaciones como ISO y aplicados por tribunales chinos. Obligan al titular de una SEP a ofrecer licencias bajo términos equitativos.",
+                    "4. Artículo 52 de la Ley de Patentes: Define actos de infracción, incluyendo: Uso no autorizado, Venta de productos que infringen patentes. El tribunal comparó la tecnología de Sony con la patente de IWNCOMM para determinar similitud sustancial.",
+                    "5. Artículos 60 y 64 de la Ley de Patentes: Establecen las responsabilidades por infracción: Cese de actividades ilegales, Compensación por daños económicos.",
+                    "Relevancia Internacional",
+                    "Este caso integra la legislación china con prácticas globales de licenciamiento de SEP. El tribunal aplicó los principios FRAND para equilibrar: Derechos del titular de la patente, Competencia justa en el mercado.",
+                    "Proporciona orientación jurídica para disputas transfronterizas, reforzando la previsibilidad en la protección de SEP."
+                ]
+            }
+        },
+        {
+            "id": "guangzhou",
+            "title": {
+                "zh": "广州 | P2I公司诉菲沃泰公司案",
+                "en": "Guangzhou | P2I v. Feiwootai Case",
+                "es": "Guangzhou | Caso P2I vs. Feiwootai"
+            },
+            "content": {
+                "zh": [
+                    "P2I公司诉菲沃泰公司等侵害发明专利权纠纷案",
+                    "原告：P2I公司（外国企业），专利权人，持有涉案专利权，涉及化工领域（聚合物技术）。",
+                    "被告：菲沃泰公司（国内企业）及相关企业，被控侵犯原告的发明专利权。",
+                    "争议核心：是否构成侵害专利权，关键在于被控产品的技术方案是否与涉案专利的保护范围构成实质相同；聚合物领域的专利纠纷具有技术复杂性，主要涉及化学组成、性能指标及工艺流程的比对。",
+                    "关键点：技术方案的实质相同判断",
+                    "广州知识产权法院在本案中确立了化工产品技术方案“实质相同”的判断标准。依据《中华人民共和国专利法》第59条第1款，专利权的保护范围以权利要求书的内容为准，说明书及附图可用于解释权利要求。在具体认定过程中，通过技术调查官的全面勘验比对，结合化工领域的专业知识，来确定被控产品是否落入专利保护范围。当被控技术方案与专利技术方案在实质性特征上相同或等同，依据“等同原则”，即可认定侵权。",
+                    "广州知识产权法院在审理案件过程中，充分利用技术调查官制度的优势。该制度是知识产权法院解决高技术案件的重要辅助机制，其设立的目的在于提升案件的审理效率和准确性。在此过程中，技术调查官作为中立专家，肩负着辅助法庭对复杂技术问题进行释明和解释的重要职责。在实际工作开展中，技术调查官会积极参与现场勘验、深入进行实验数据分析，同时对技术特征展开细致的比对和说明，以此为法官提供具有专业性的意见，助力案件的公正、高效审理。",
+                    "证据规则：在相关案件中，证据规则涵盖多个重要方面。在举证责任分配上，原告需证明被告产品涉及专利权保护范围，这是推动诉讼进程的关键环节。而证据形式丰富多样，其中包括技术鉴定报告、检测数据、实验对比报告等，这些证据为案件的判定提供有力支撑。同时，在整个司法程序中，法院高度重视保护商业秘密，在审理过程中对双方的核心技术秘密采取了严格的保密措施，旨在切实保障当事人的技术权益，维护公平公正且有序的市场竞争环境。",
+                    "侵权认定标准：在专利侵权判定中，有两个重要的规则。全面覆盖原则是指，若被控侵权产品的技术特征覆盖了涉案专利权利要求的全部必要技术特征，便构成侵权，这是从直接的技术特征对应角度来判断侵权与否；而间接侵权规则强调，即便被控企业并非直接完整实施侵权行为，而是通过第三方方式实施部分侵权行为，在这种情况下，仍可能构成侵权，这一规则进一步完善了侵权判定体系，防止侵权者通过间接手段规避法律责任。",
+                    "专利保护的地域性：虽为涉外企业，但本案适用中国专利法和司法解释，依据涉案专利权的有效性和保护范围进行审理。",
+                    "司法裁判的权威性：广州知识产权法院作为国内重要的知识产权审判机构，其裁决对同类专利侵权案件具有重要指导意义。",
+                    "该案涉及中外企业之间的专利纠纷，技术难度大，社会影响广泛。广州知识产权法院充分发挥技术调查官制度优势，对涉案技术问题进行全面细致的勘验比对和释明，确立了化工产品技术方案实质相同的判断标准，对聚合物专利侵权案件的审理提供了重要指引，展示了知识产权保护领域技术与法律结合的审判机制。"
+                ],
+                "en": [
+                    "The core of the dispute:",
+                    "Whether it constitutes infringement of patent rights depends on whether the technical scheme of the accused product is essentially the same as the protection scope of the patent involved; Patent disputes in the field of polymers are technically complex, mainly involving the comparison of chemical composition, performance indicators and technological processes.",
+                    "In this case, Guangzhou Intellectual Property Court established the judgment standard of 'essentially the same' for the technical scheme of chemical products. According to the first paragraph of Article 59 of the Patent Law of People's Republic of China (PRC), the scope of protection of the patent right shall be subject to the contents of the claim, and the description and drawings can be used to explain the claim. In the process of specific identification, it is determined whether the accused product falls within the scope of patent protection through comprehensive inspection and comparison by technical investigators and combined with professional knowledge in the chemical field. When the accused technical scheme and the patented technical scheme are identical or equivalent in substantive features, infringement can be identified according to the principle of equivalence.",
+                    "Guangzhou Intellectual Property Court makes full use of the advantages of the technical investigator system in the process of hearing cases. This system is an important auxiliary mechanism for intellectual property courts to solve high-tech cases, and its purpose is to improve the efficiency and accuracy of trial. In this process, the technical investigator, as a neutral expert, shoulders the important responsibility of assisting the court to explain and explain complex technical issues. In the actual work, technical investigators will actively participate in on-site inspection, conduct in-depth analysis of experimental data, and at the same time conduct detailed comparison and explanation of technical characteristics, so as to provide professional opinions for judges and help the fair and efficient trial of cases.",
+                    "Rules of evidence: In related cases, the rules of evidence cover many important aspects. In the distribution of burden of proof, the plaintiff needs to prove that the defendant's products involve the scope of patent protection, which is the key link to promote the litigation process. There are various forms of evidence, including technical appraisal report, test data and experimental comparison report, which provide strong support for the judgment of the case. At the same time, in the whole judicial process, the court attached great importance to the protection of trade secrets, and adopted strict confidentiality measures for the core technical secrets of both parties during the trial, aiming at effectively protecting the technical rights and interests of the parties and maintaining a fair, just and orderly market competition environment.",
+                    "Infringement determination standard: There are two important rules in judging patent infringement. Principle of universal coverage means that if the technical characteristics of the accused infringing product cover all the necessary technical characteristics of the patent claim involved, it constitutes infringement, which is to judge whether the infringement is from the perspective of direct technical characteristics correspondence; The indirect infringement rule emphasizes that even if the accused enterprise does not directly and completely commit the infringement, but partially commits the infringement through a third party, in this case, it may still constitute infringement. This rule further improves the infringement judgment system and prevents the infringer from evading legal responsibility through indirect means.",
+                    "The regionality of patent protection: Although it is a foreign-related enterprise, the patent law and judicial interpretation of China shall apply to this case, and the trial shall be conducted according to the validity and protection scope of the patent right involved.",
+                    "The authority of judicial judgment: As an important intellectual property trial institution in China, Guangzhou Intellectual Property Court's ruling has important guiding significance for similar patent infringement cases."
+                ],
+                "es": [
+                    "Demanda por Infracción de Patente de Invención entre P2I y Feiwootai",
+                    "Partes:",
+                    "Demandante: P2I (empresa extranjera), titular de una patente en el campo químico (tecnología de polímeros).",
+                    "Demandados: Feiwootai (empresa local) y entidades relacionadas, acusadas de infringir la patente.",
+                    "Núcleo de la Controversia: Determinar si los productos demandados infringen la patente, centrándose en si su solución técnica es sustancialmente idéntica al ámbito de protección de la patente. Los litigios en tecnología de polímeros implican complejidades técnicas, incluyendo comparaciones de composición química, parámetros de rendimiento y procesos industriales.",
+                    "Criterios Clave del Tribunal",
+                    "1. Estándar de 'Identidad Sustancial' (Artículo 59.1 de la Ley de Patentes de China): El alcance de protección se define por las reivindicaciones de la patente, apoyadas por la descripción y gráficos. Mediante peritaje técnico especializado, el tribunal comparó las características técnicas de los productos demandados con las reivindicaciones de la patente. Se aplicó el principio de equivalencia: si las soluciones técnicas comparten características esenciales idénticas o equivalentes, se declara infracción.",
+                    "2. Rol de los Investigadores Técnicos: Mecanismo auxiliar clave para casos de alta complejidad tecnológica. Funciones: Participación en inspecciones in situ, Análisis detallado de datos experimentales, Comparación técnica rigurosa para asesorar a los jueces. Objetivo: Garantizar precisión y eficiencia en la resolución de disputas técnicas.",
+                    "3. Normas de Prueba: Carga de la prueba: El demandante debe demostrar que los productos caen dentro del ámbito de protección de la patente. Tipos de evidencia: Informes de peritaje técnico, datos de laboratorio, análisis comparativos. Protección de secretos comerciales: El tribunal implementó medidas estrictas para salvaguardar información confidencial durante el proceso.",
+                    "4. Criterios de Infracción: Principio de cobertura total: Infracción si el producto reproduce todas las características técnicas esenciales de la patente. Infracción indirecta: Responsabilidad incluso si la ejecución parcial se realiza mediante terceros.",
+                    "5. Territorialidad de las Patentes: Aplicación estricta de la legislación china, pese a la naturaleza transnacional del caso.",
+                    "Impacto Jurisprudencial: El Tribunal de Propiedad Intelectual de Guangzhou estableció un precedente para casos de polímeros, definiendo estándares claros de comparación técnica. Refleja la integración efectiva de conocimientos técnicos y legales en el sistema judicial chino. Reafirma la importancia de mecanismos especializados (ej. investigadores técnicos) en litigios de alta tecnología."
+                ]
+            }
+        },
+        {
+            "id": "shanghai",
+            "title": {
+                "zh": "上海 | 美国某公司诉岳阳某生物科技公司",
+                "en": "Shanghai | U.S. Company v. Yueyang Biotech Case",
+                "es": "Shanghái | Caso Empresa Estadounidense vs. Empresa de Biotecnología de Yueyang"
+            },
+            "content": {
+                "zh": [
+                    "美国某公司、岳阳某生物科技公司等侵害发明专利权纠纷",
+                    "日本某株式会社拥有“内切葡聚糖酶STCE和含有内切葡聚糖酶的纤维素酶配制品”发明专利（专利号200480036105.7），美国某公司获排他许可授权。2017年4-5月，美国某公司发现岳阳某生物科技公司展出、销售，宜昌某药业公司生产的相关型号纤维素酶产品疑似侵权，后续又两次公证购买到其他型号产品。经检测，这些产品均落入专利保护范围。2017年10月25日，美国某公司向上海知识产权法院起诉，要求二被告停止侵权、销毁产品并赔偿损失。",
+                    "在涉外知识产权纠纷中，中国司法机关严格遵循法律，平等对待中外当事人。本案中，法院全面审查证据，精准认定侵权事实与责任，既不偏袒外国权利人，也不歧视国内企业，有力维护了公平公正的法治环境，增强了外国企业对中国知识产权司法保护的信任，也为国内企业应对类似纠纷提供信心与范例。",
+                    "此案进一步明晰了专利侵权判定标准与赔偿计算方法。在侵权判定上，依据专利权利要求书和相关法律规定，准确判断被诉侵权产品是否落入专利保护范围。赔偿方面，综合考虑侵权人的侵权获利、侵权行为性质及情节，全额支持权利人合理赔偿诉求。岳阳某生物科技公司侵权获利远超权利人主张，法院据此全额支持美国某公司1850万元经济损失诉求，还因被诉侵权人虚假陈述增加权利人维权工作量，全额支持150万元维权合理开支，为同类案件赔偿数额确定提供重要参考。",
+                    "对国内企业而言，本案警示企业要强化知识产权管理与风险防控。一方面，需加强自主研发与创新，及时申请专利保护创新成果；另一方面，在国际贸易与合作中，要密切关注知识产权动态，避免侵权风险。若涉诉，应积极应诉，如实陈述事实，提供有力证据，维护自身合法权益。",
+                    "随着知识产权国际化发展，国际间交流合作愈发重要。本案引发国际关注，为国际社会了解中国知识产权司法保护提供窗口，促进中国与其他国家在知识产权保护规则、司法实践等方面交流，有助于推动全球知识产权保护体系完善，营造良好国际创新环境。",
+                    "2023年12月14日，最高院终审判决维持一审法院停止侵权的判决，撤销一审关于赔偿的判决，判令二被告共同赔偿美国某公司经济损失1850万元及合理开支150万元，驳回双方其他上诉请求。涉案专利三次无效申请均维持有效，体现中国涉外知识产权司法公正与规则完善。"
+                ],
+                "en": [
+                    "A Japanese company has an invention patent (Patent No.200480036105.7) for 'Endoglucanase STCE and Cellulase Preparation Containing Endoglucanase', and an American company has been granted exclusive license.",
+                    "From April to May, 2017, a company in the United States discovered that a biotechnology company in Yueyang exhibited and sold related cellulase products produced by a pharmaceutical company in Yichang, which were suspected of infringement, and subsequently purchased other products through notarization twice. After testing, these products all fall within the scope of patent protection. On October 25, 2017, an American company sued the Shanghai Intellectual Property Court, demanding that the two defendants stop the infringement, destroy the products and compensate for the losses.",
+                    "In foreign-related intellectual property disputes, China judicial organs strictly abide by the law and treat Chinese and foreign parties equally. In this case, the court comprehensively examined the evidence, accurately identified the facts and responsibilities of infringement, neither favored foreign obligees nor discriminated against domestic enterprises, effectively safeguarded a fair and just legal environment, enhanced the trust of foreign enterprises in judicial protection of intellectual property rights in China, and provided confidence and examples for domestic enterprises to deal with similar disputes.",
+                    "This case further clarified the criteria for judging patent infringement and the calculation method of compensation. In the infringement judgment, according to the patent claims and relevant laws and regulations, accurately judge whether the accused infringing products fall into the scope of patent protection. In terms of compensation, comprehensively consider the infringer's infringement profit, the nature and circumstances of the infringement, and fully support the obligee's reasonable compensation claim. The infringement profit of a biotechnology company in Yueyang far exceeds the claim of the obligee. Based on this, the court fully supported the claim of an American company for economic loss of 18.5 million yuan, and also increased the workload of the obligee's rights protection due to the false statement of the accused infringer, fully supported the reasonable expenditure of 1.5 million yuan for rights protection, providing an important reference for determining the compensation amount of similar cases.",
+                    "For domestic enterprises, this case warns enterprises to strengthen intellectual property management and risk prevention and control. On the one hand, it is necessary to strengthen independent R&D and innovation, and timely apply for patent protection of innovation achievements; On the other hand, in international trade and cooperation, we should pay close attention to the development of intellectual property rights and avoid the risk of infringement. If involved in litigation, they should actively respond to the lawsuit, truthfully state the facts, provide strong evidence and safeguard their legitimate rights and interests.",
+                    "With the internationalization of intellectual property rights, international exchanges and cooperation are becoming more and more important. This case has aroused international concern, provided a window for the international community to understand the judicial protection of intellectual property rights in China, promoted the exchange of intellectual property protection rules and judicial practices between China and other countries, and helped to improve the global intellectual property protection system and create a good international innovation environment."
+                ],
+                "es": [
+                    "Demanda por Infracción de Patente entre una Empresa Estadounidense y una Empresa China de Biotecnología",
+                    "Antecedentes del Caso",
+                    "Titular de la patente: Una corporación japonesa, propietaria de la patente de invención 'Endoglucanasa STCE y preparación de celulasa que contiene endoglucanasa' (N° de patente: 200480036105.7). Licenciatario exclusivo: Una empresa estadounidense, que detectó en abril y mayo de 2017 que la empresa china Yueyang XX Biotech Co., Ltd. exhibía y vendía productos de celulasa presuntamente infractores, producidos por Yichang XX Pharmaceutical Co., Ltd.",
+                    "Evidencia: Mediante compras notariales de dos lotes adicionales y análisis técnicos, se confirmó que los productos infringían el ámbito de protección de la patente.",
+                    "Proceso Legal: Demanda presentada: 25 de octubre de 2017 ante el Tribunal de Propiedad Intelectual de Shanghái. Petitorios: 1. Cese inmediato de la infracción, 2. Destrucción de los productos infractores, 3. Indemnización por daños económicos y gastos legales.",
+                    "Fallo Judicial: Primera instancia (Tribunal de Shanghái): Confirmó la infracción y ordenó el cese de actividades. Determinó una indemnización basada en beneficios ilícitos y gravedad de los actos. Sentencia final del Tribunal Supremo (14/12/2023): Mantuvo: La orden de cese de infracción, Revocó: El monto inicial de indemnización, fijando una compensación total de 18,5 millones de RMB por pérdidas económicas y 1,5 millones de RMB por gastos legales, Rechazó: Otros recursos de ambas partes.",
+                    "Aspectos Jurídicos Destacados",
+                    "1. Igualdad Jurídica en Casos Transnacionales: El tribunal aplicó estrictamente la Ley de Patentes de China (Artículo 11 y 65), tratando por igual a empresas locales y extranjeras. Demostró la imparcialidad del sistema judicial chino, reforzando la confianza internacional en la protección de PI.",
+                    "2. Criterios de Indemnización: Cálculo basado en: Beneficios ilícitos obtenidos por los demandados, Naturaleza deliberada y escala de la infracción. Incremento por mala fe: Los demandados presentaron declaraciones falsas, aumentando los costos procesales del demandante, lo que justificó la compensación total de gastos legales.",
+                    "3. Validez de la Patente: Tres solicitudes de invalidación presentadas por los demandados fueron rechazadas, confirmando la solidez técnica y legal de la patente.",
+                    "Implicaciones para Empresas: Para empresas chinas: Fortalecer la gestión de PI y evitar riesgos en colaboraciones internacionales. En caso de litigio, presentar pruebas sólidas y actuar de buena fe. Para empresas extranjeras: Confianza en la protección judicial china de PI, incluso en casos complejos.",
+                    "Impacto Global: Este caso, seguido internacionalmente, muestra: La madurez del sistema judicial chino en disputas tecnológicas, La alineación de China con estándares globales de PI, facilitando la cooperación internacional en innovación."
+                ]
+            }
+        },
+        {
+            "id": "chongqing",
+            "title": {
+                "zh": "重庆 | OPPO与诺基亚案",
+                "en": "Chongqing | OPPO v. Nokia Case",
+                "es": "Chongqing | Caso OPPO vs. Nokia"
+            },
+            "content": {
+                "zh": [
+                    "OPPO与诺基亚标准必要专利使用费纠纷案",
+                    "2018年，OPPO与诺基亚签订为期三年涵盖2G、3G及4G标准必要专利的许可协议。",
+                    "2021年6月底协议到期，双方就续约协议未能达成一致。",
+                    "管辖权确定彰显中国司法立场：在本案中，诺基亚对中国法院管辖权提出异议，认为双方未订立合同、本案非专利侵权诉讼、中国非主要实施地等，中国法院无管辖权。但最高法从OPPO为中国企业、双方主要磋商地点在中国、中国专利占比高及合理预见合同履行地主要在中国等多方面考量，认定中国法院对本案具有管辖权，原审法院行使管辖权适当且适宜对全球许可条件作出裁判。这一裁定继OPPO诉夏普案后，再次明确中国法院对SEP全球许可费纠纷的管辖权，为中国法院在涉外知识产权案件中争取管辖权提供了重要参考，增强了中国企业在全球专利纠纷中的信心，体现中国在涉外知识产权纠纷司法管辖上的积极态度和对本国企业的司法支持。",
+                    "法院在确定诺基亚标准必要专利全球性的公平、合理和无歧视（FRAND）许可费率时，采用了一系列方法和考量因素。如将全球市场区域划分为三个区，依据不同区域的经济水平、专利布局、双方销售额等确定不同的许可费率，以2018年协议作为可比协议，结合诺基亚专利实力变化等因素确定4G、5G多模手机许可费。这是中国司法机关首次对5G标准必要专利全球许可费率作出裁判，为全球范围内类似纠纷提供了重要参考和示范，有助于推动行业就专利许可费率形成合理共识，促进知识产权在全球通信行业的合理使用和保护。",
+                    "该案在全球多个国家引发平行诉讼，涉及专利侵权、禁令、专利无效等多方面。重庆法院率先制定5G SEP许可费率，很可能与其他司法辖区正在进行的平行诉讼相冲突，如英国和印度高等法院也涉及5G SEP全球费率裁定。印度高等法院虽表示尊重中国法院主权，不会发布冲突命令，但也体现出国际上不同司法辖区在处理此类涉外知识产权纠纷时协调的重要性。未来，如何在国际层面协调不同司法辖区的裁判，避免冲突，促进全球知识产权保护规则的统一和协调，是需要进一步思考和解决的问题。",
+                    "对企业而言，本案凸显了知识产权战略布局的重要性。OPPO在全球拥有大量专利申请，在5G标准必要专利实力全球综合排名位居前列，这为其在与诺基亚的专利纠纷中提供了有力的谈判和诉讼筹码。同时，企业在面对涉外知识产权纠纷时，应积极应对，敢于通过法律手段维护自身权益，像OPPO不仅在中国起诉，还在欧洲对诺基亚发起专利侵权诉讼，运用法律武器进行反制，这为中国企业应对类似国际知识产权纠纷提供了宝贵经验。",
+                    "2024年1月24日，OPPO与诺基亚签署全球专利交叉许可协议，双方结束在所有司法管辖区的所有未决诉讼，OPPO将向诺基亚支付专利费用及追加款项以补齐争议期间费用。"
+                ],
+                "en": [
+                    "In 2018, OPPO and Nokia signed a three-year license agreement covering the necessary patents of 2G, 3G and 4G standards.",
+                    "The agreement expired at the end of June 2021, and the two parties failed to reach an agreement on renewing the agreement.",
+                    "The determination of jurisdiction shows China's judicial position: in this case, Nokia raised an objection to the jurisdiction of the China court, arguing that the China court has no jurisdiction over the absence of a contract between the two parties, the non-patent infringement lawsuit in this case, and the non-main place of enforcement in China. However, considering that OPPO is a China enterprise, the main negotiation place between the two parties is China and China, and it is reasonable to foresee that the contract performance place is mainly in China, the Supreme Law concludes that the China court has jurisdiction over this case, and it is appropriate for the court of first instance to exercise jurisdiction and judge the global licensing conditions. This ruling, following the OPPO v. Sharp case, once again clarified the jurisdiction of the China court over the SEP global license fee dispute, provided an important reference for the China court to strive for jurisdiction in foreign-related intellectual property cases, enhanced the confidence of China enterprises in global patent disputes, and reflected China's positive attitude in the judicial jurisdiction of foreign-related intellectual property disputes and judicial support for domestic enterprises.",
+                    "The court adopted a series of methods and considerations when determining the global fair, reasonable and nondiscriminatory (FRAND) licensing rate for Nokia's standard essential patents. For example, if the global market region is divided into three regions, different license rates will be determined according to the economic level, patent layout and sales of both parties in different regions, and the 2018 agreement will be used as a comparable agreement, and the license fees for 4G and 5G multi-mode mobile phones will be determined in combination with factors such as changes in Nokia's patent strength. This is the first time that the judicial authorities in China have ruled on the global licensing rate of essential patents of 5G standard, which provides an important reference and demonstration for similar disputes around the world, helps to promote the industry to form a reasonable consensus on patent licensing rate, and promotes the rational use and protection of intellectual property rights in the global communication industry.",
+                    "The case triggered parallel lawsuits in many countries around the world, involving patent infringement, injunction, patent invalidation and many other aspects. The Chongqing court took the lead in setting the license rate of 5G SEP, which is likely to conflict with the ongoing parallel litigation in other jurisdictions. For example, the British and Indian high courts also involved in the global rate ruling of 5G SEP. Although the Indian High Court has expressed its respect for the sovereignty of China courts and will not issue conflict orders, it also shows the importance of coordination among different international jurisdictions in handling such foreign-related intellectual property disputes. In the future, how to coordinate the judgments of different jurisdictions at the international level, avoid conflicts and promote the unification and coordination of global intellectual property protection rules is a problem that needs further consideration and solution.",
+                    "For enterprises, this case highlights the importance of the strategic layout of intellectual property rights. OPPO has a large number of patent applications all over the world, and ranks among the top in the global comprehensive ranking of the necessary patent strength of the 5G standard, which provides it with a powerful bargaining chip in the patent dispute with Nokia. At the same time, enterprises should actively respond to foreign-related intellectual property disputes and dare to protect their rights and interests through legal means. For example, OPPO not only sued in China, but also launched a patent infringement lawsuit against Nokia in Europe, using legal weapons to counter it, which provided valuable experience for China enterprises to deal with similar international intellectual property disputes."
+                ],
+                "es": [
+                    "Disputa Global por Tarifas FRAND de Patentes Esenciales Estándar (SEP)",
+                    "Antecedentes",
+                    "2018: OPPO y Nokia firmaron un acuerdo de licencia de tres años para SEP de 2G, 3G y 4G.",
+                    "Junio 2021: El acuerdo expiró sin renovación debido a desacuerdos en los términos.",
+                    "Determinación de Jurisdicción por el Tribunal Supremo Chino: Objeción de Nokia: Argumentó falta de jurisdicción china por ausencia de contrato, no ser un caso de infracción, y que China no era el lugar principal de implementación. Resolución del Tribunal Supremo (2023): Factores clave: 1. OPPO es una empresa china, 2. Negociaciones principales realizadas en China, 3. Alto porcentaje de patentes chinas en disputa. Conclusión: China tiene jurisdicción y competencia para fijar tarifas globales, reforzando su papel en disputas transnacionales de SEP.",
+                    "Metodología para Fijar Tarifas FRAND: Segmentación del mercado global en tres zonas: Zona  Criterios: 1 (China, UE, EE.UU.) | Alta densidad de patentes, alto PIB, 2 (Asia emergente, América Latina) | Crecimiento económico medio, 3 (Resto del mundo) | Mercados en desarrollo. Tarifas diferenciadas: Basadas en ventas históricas, valor tecnológico de las SEP 4G/5G y acuerdos comparables (ej. contrato 2018). Primer fallo chino sobre tarifas 5G: Establece un precedente para licencias globales, promoviendo consensos industriales.",
+                    "Conflictos con Litigios Paralelos: Tribunales involucrados: Reino Unido, India y Alemania. Postura internacional: India: Reconoció la jurisdicción china pero evitó órdenes contradictorias, UE: Procesos en curso por infracción e invalidación de patentes. Reto global: Armonizar fallos jurisdiccionales para evitar fragmentación legal.",
+                    "Estrategias Empresariales Clave: OPPO: Portafolio de patentes 5G: Posición líder global (top 10 según IPlytics, 2023), Contraataque legal: Demandas por infracción en Europa y Asia. Lecciones para empresas chinas: Priorizar I+D y patentar innovaciones críticas, Enfrentar disputas con estrategias legales proactivas.",
+                    "Acuerdo Final (24/01/2024): Licencia cruzada global: Ambas partes retiran todas las demandas pendientes. Pagos: OPPO compensa a Nokia por tarifas históricas y periodos en disputa.",
+                    "Impacto Jurídico: 1. Refuerza el rol de China: Como árbitro clave en tarifas SEP globales, 2. Equilibrio FRAND: Promueve licencias justas sin asfixiar la competencia, 3. Modelo para economías emergentes: Brasil y México estudian adoptar enfoques similares."
+                ]
+            }
+        }
+    ]
+}

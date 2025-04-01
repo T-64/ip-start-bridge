@@ -1,0 +1,135 @@
+{
+    "cases": [
+        {
+            "id": "patentability_search",
+            "title": {
+                "zh": "可专利性检索",
+                "en": "Patentability Search",
+                "es": "Búsqueda de Patentabilidad"
+            },
+            "content": {
+                "zh": [
+                    "可专利性检索是为了判断一项发明创造是否具备新颖性和创造性而进行的检索。通过从现有技术文献中查找出与发明创造最相关的对比文献，并按照新颖性和创造性的判断标准对发明创造进行评价，进而得出是否具备可专利性的结论。可专利性检索常用于专利申请前或者技术贸易中的技术评价以及立项前研发是否具有获得知识产权保护的前景预测。",
+                    "新颖性检索是指为确定发明创造是否具有新颖性，从发明创造的主题对包括专利文献在内的全球范围内的各种公开出版物进行检索，其目的是找出可进行新颖性对比的文献。",
+                    "创造性检索指的是为确定发明创造是否具有创造性，从发明创造的主题对包括专利文献在内的全球范围内的各种公开出版物进行检索，其目的是找出可进行创造性对比的文献。创造性检索是在新颖性检索的基础上进行的，只有当新颖性检索中未发现破坏新颖性的文献时，才继续进行创造性检索，通过几篇最接近的对比文件结合起来进行创造性对比。",
+                    "可专利性检索的检索范围为国内外各种公开的出版物，检索结果要求精准。在检索系统的选择上，一般各个国家的国家知识产权局以及一些国际专利组织都提供免费的检索系统，例如中国国家知识产权局、美国专利与商标局、欧洲专利局、日本特许厅、韩国专利局、英国专利局、加拿大知识产权局、德国专利商标局、澳大利亚知识产权局以及专利合作条约（PCT）等网站都提供有检索系统。除了这些国家和地区的专利部门提供的检索系统外，还有一些数据库服务商等也提供各自的检索系统。为了保证专利文献的查全率和查准率，查新人员应该优先选择专业、集成度高的专利检索系统进行专利检索。目前，集成度高的专利检索系统主要有：德温特创新索引数据库（DII），它集成了德温特世界专利索引（DWPI）和专利引文索引（PCI）中的记录，覆盖全球90%国家的专利。TotalPatent专利数据库，包括全球99个国家原始专利文献，标题和摘要进行机器翻译，方便检索。IncoPat科技创新情报平台，包括全球102个国家超过1亿条专利数据等。这些集成度高的商业性专利数据库为查找全球范围内专利信息的有力工具。",
+                    "可专利性检索一般步骤为：(1) 在全球范围内检索所有公开出版物，通过阅读专利标题、摘要，确定与检索主题的相关程度，找到相近的发明创造技术文献。对于密切相关的专利文献，要阅读专利全文。(2) 经过筛选后的对比专利，与查新的技术点进行对比分析。确定对比文献是否可以影响到查新技术的新颖性，若不影响新颖性，则要对查新技术的创造性进行检索。对于专利查新的检索结果分析部分，对比文献的相关度，可以参考世界专利合作条约组织（PCT）和欧洲专利局（EPO）的检索报告以及国家知识产权局的专业人员出具的检索报告，文献对比分析部分可以借鉴专利对比文献相关度的表示符号，X：单独影响权利要求新颖性的文件，Y：与检索报告中其他Y类文件组合影响权利要求创造性的文件；A：背景技术文件，即反应权利要求的部分技术特征或者现有技术一部分的文件；E：单独影响权利要求新颖性的抵触申请文件。"
+                ],
+                "en": [
+                    "A patentability search is conducted to determine whether an invention possesses novelty and inventiveness. This involves identifying the most relevant prior art from existing technical literature and evaluating the invention according to the standards of novelty and inventiveness, ultimately concluding whether it is patentable. Patentability searches are commonly utilized prior to patent applications, in technical evaluations for technology transactions, and to forecast the prospects of obtaining intellectual property protection before initiating research and development projects.",
+                    "Novelty Search: A novelty search aims to ascertain whether an invention has novelty by searching various publicly available publications worldwide, including patent literature, based on the subject matter of the invention. The objective is to identify documents that can be compared for novelty.",
+                    "Inventiveness Search: An inventiveness search is conducted to determine whether an invention demonstrates inventiveness. Similar to the novelty search, it involves searching various publicly available publications worldwide, including patent literature, based on the invention's subject matter. The goal is to identify documents suitable for comparing inventiveness. This search is performed only if no documents compromising novelty have been found during the novelty search, using several of the closest prior art documents to conduct the inventiveness comparison.",
+                    "Scope of Patentability Search: The scope of patentability searches includes various publicly available publications from both domestic and international sources, and the search results must be precise. In terms of search systems, national intellectual property offices in various countries and some international patent organizations offer free search systems. For example, the State Intellectual Property Office of China, the United States Patent and Trademark Office, the European Patent Office, the Japan Patent Office, the Korean Intellectual Property Office, the UK Intellectual Property Office, the Canadian Intellectual Property Office, the German Patent and Trademark Office, and the Australian Intellectual Property Office, as well as the Patent Cooperation Treaty (PCT), all provide search systems. In addition to these, some database service providers also offer their own search systems. To ensure comprehensive and accurate retrieval, professionals should prioritize specialized and integrated patent search systems like the Derwent Innovation Index (DII), TotalPatent, and IncoPat.",
+                    "General Steps for Patentability Search: (1) Global Publication Search: Conduct a search of all publicly available publications worldwide. Read patent titles and abstracts to assess relevance and identify closely related technological literature. For closely related patents, read the full text. (2) Comparison Analysis: Analyze selected comparison patents against the technical points of interest. Determine if they affect novelty; if not, proceed to search for inventiveness. Analysis can reference PCT and EPO reports, using symbols like X, Y, A, and E to indicate relevance."
+                ],
+                "es": [
+                    "Una búsqueda de patentabilidad es una búsqueda realizada para determinar si una invención tiene novedad e inventiva. Al buscar los documentos comparativos más relevantes para la invención y la creación a partir de los documentos técnicos existentes, y evaluar la invención y la creación según los criterios de novedad e inventiva, se puede llegar a una conclusión sobre si es patentable. Las búsquedas de patentabilidad se utilizan a menudo para la evaluación de tecnologías antes de la solicitud de patente o en el comercio de tecnología, y para predecir si la I+D tiene posibilidades de obtener protección de propiedad intelectual antes del establecimiento del proyecto.",
+                    "La búsqueda de novedades se refiere a la búsqueda en varias publicaciones públicas de todo el mundo, incluidos documentos de patente, sobre el tema de la invención para determinar si la invención es novedosa. El objetivo es encontrar documentos que puedan compararse en cuanto a novedad.",
+                    "La búsqueda inventiva se refiere a la búsqueda en varias publicaciones públicas de todo el mundo, incluidos documentos de patente, sobre el tema de la invención para determinar si la invención es creativa. El propósito es encontrar documentos que puedan compararse en términos de inventiva. La búsqueda de creatividad se realiza sobre la base de la búsqueda de novedad. Sólo cuando en la búsqueda de novedad no se encuentren documentos que socaven la novedad, se continuará con la búsqueda de creatividad y se combinarán varios documentos de comparación más cercanos para una comparación creativa.",
+                    "El alcance de la búsqueda de patentabilidad son varias publicaciones públicas nacionales y extranjeras, y los resultados de la búsqueda deben ser precisos. En cuanto a la selección de sistemas de búsqueda, generalmente las oficinas nacionales de propiedad intelectual de varios países y algunas organizaciones internacionales de patentes ofrecen sistemas de búsqueda gratuitos, como la Oficina Estatal de Propiedad Intelectual de China, la Oficina de Patentes y Marcas de los Estados Unidos, la Oficina Europea de Patentes, la Oficina de Patentes de Japón, la Oficina de Patentes de Corea, entre otros. Para garantizar la recuperación y la exactitud, se priorizan sistemas integrados como DII, TotalPatent e IncoPat.",
+                    "Pasos generales para una búsqueda de patentabilidad: (1) Busque en todas las publicaciones públicas a nivel mundial, determine el grado de relevancia leyendo títulos y resúmenes, y encuentre documentos técnicos similares. Para documentos de patente estrechamente relacionados, lea el texto completo. (2) Analice las patentes comparativas seleccionadas frente a los puntos técnicos de la búsqueda. Determine si afectan la novedad; si no, busque la creatividad. Los resultados se pueden analizar con informes de PCT y EPO, usando símbolos como X, Y, A y E para indicar relevancia."
+                ]
+            }
+        },
+        {
+            "id": "infringement_search",
+            "title": {
+                "zh": "侵权检索",
+                "en": "Infringement Search",
+                "es": "Búsqueda de Infracciones"
+            },
+            "content": {
+                "zh": [
+                    "侵权检索包括防止侵权检索和被动侵权检索。防止侵权检索是指为了避免发生专利纠纷而主动对某一新技术、新产品进行专利检索，其目的是要找出可能受到其侵害的专利；被动侵权检索则是指被别人指控侵权时进行的专利检索，其目的是要找出对受到侵害的专利提无效诉讼的依据。",
+                    "检索文献类型：防止侵权检索的文献类型包括世界各国和知识产权组织的发明、实用新型或外观设计专利。被动侵权检索的文献类型包括各种出版物，如专利文献、科技杂志等。",
+                    "检索结果表达：防止侵权检索列出密切相关的专利文献基本信息，如标题、摘要等；被动侵权检索列出对比文件，判断专利新颖性或创造性。",
+                    "侵权判定：防止侵权检索分析侵权产品与风险专利对比，提示可能风险；被动侵权检索验证专利有效性，判断是否存在无效理由。",
+                    "侵权检索步骤：(i) 防止侵权检索包括最大范围的技术主题检索、对比权利要求的人工筛查、高关联专利侵权分析等。(ii) 被动侵权检索确定专利有效性，分析是否侵权，若不侵权则终止，若侵权则进行无效诉讼检索。"
+                ],
+                "en": [
+                    "Infringement searches encompass both proactive and passive infringement searches. A proactive search aims to avoid patent disputes by identifying potential infringed patents, while a passive search seeks grounds for invalidation when accused of infringement.",
+                    "Types of Search Literature: Proactive searches include invention, utility model, or design patents globally; passive searches cover various publications like patent documents and technical journals.",
+                    "Expression of Search Results: Proactive searches list closely related patent details (title, abstract, etc.); passive searches list comparison documents to assess novelty or inventiveness.",
+                    "Infringement Determination: Proactive searches analyze products against risk patents to highlight risks; passive searches verify patent validity and check for invalidation grounds.",
+                    "Steps for Infringement Search: (i) Proactive: Wide-ranging technical topic search, manual claim comparison, risk patent analysis. (ii) Passive: Verify patent validity, analyze infringement, and search for invalidation if necessary."
+                ],
+                "es": [
+                    "Las búsquedas de infracciones incluyen búsquedas de prevención de infracciones y búsquedas pasivas. La búsqueda preventiva busca evitar disputas identificando patentes potencialmente infringidas, mientras que la pasiva busca bases para invalidación cuando se es acusado.",
+                    "Tipos de documentos buscados: Las preventivas incluyen patentes de invención, modelos de utilidad o diseño globales; las pasivas cubren varias publicaciones como documentos de patente y revistas técnicas.",
+                    "Expresión de resultados: Las preventivas listan información básica de patentes relevantes (título, resumen, etc.); las pasivas listan documentos comparativos para evaluar novedad o inventiva.",
+                    "Determinación de infracción: Las preventivas analizan productos frente a patentes riesgosas para señalar riesgos; las pasivas verifican validez y buscan motivos de invalidación.",
+                    "Pasos de búsqueda: (i) Preventiva: Búsqueda amplia de temas técnicos, comparación manual de reclamaciones, análisis de riesgo. (ii) Pasiva: Verificar validez, analizar infracción, y buscar invalidación si aplica."
+                ]
+            }
+        },
+        {
+            "id": "technical_topic_search",
+            "title": {
+                "zh": "技术主题检索",
+                "en": "Technical Topic Search",
+                "es": "Búsqueda de Temas Técnicos"
+            },
+            "content": {
+                "zh": [
+                    "专利技术主题一般指相同技术属性的一个以上技术方案集合。相同技术属性可指某一相同特定技术领域，也可以指某一相同特定技术领域内相同特定技术范围。",
+                    "在企业科技创新之前，要对所要研发的课题进行技术主题检索，将所涉及技术主题的相关技术文献以及专利数据全部检索出来。具体检索过程为：分析检索方案→提取检索要素→找出检索要素表达→选择检索系统→组织检索提问式→检索结果优化→技术方案评价。"
+                ],
+                "en": [
+                    "Patent technical topics generally refer to a collection of one or more technical solutions with similar technical attributes, which may denote a specific technical field or range within that field.",
+                    "Before technological innovation, companies should conduct a technical topic search related to their R&D projects, retrieving all relevant technical literature and patent data. The process includes analyzing the search plan, extracting search elements, identifying expressions, selecting a search system, organizing queries, optimizing results, and evaluating technical solutions."
+                ],
+                "es": [
+                    "Los temas de tecnología de patentes generalmente se refieren a una colección de más de una solución técnica con los mismos atributos técnicos, que pueden referirse al mismo campo técnico específico o a un rango específico dentro de ese campo.",
+                    "Antes de la innovación tecnológica, las empresas deben realizar una búsqueda técnica sobre el tema a desarrollar, recuperando toda la literatura técnica y datos de patentes relevantes. El proceso incluye analizar el plan, extraer elementos, identificar expresiones, seleccionar sistemas, organizar consultas, optimizar resultados y evaluar soluciones."
+                ]
+            }
+        },
+        {
+            "id": "public_domain_patent_search",
+            "title": {
+                "zh": "公知公用专利检索",
+                "en": "Public Domain Patent Search",
+                "es": "Búsqueda de Patentes Públicas Conocidas"
+            },
+            "content": {
+                "zh": [
+                    "公知公用专利是指由于特定原因在中国不受法律保护，可以在中国免费使用的专利。包括已经失效的中国专利，法律状态为驳回、撤回、放弃、视为撤回、无效，且未以该专利为基础要求优先权提出在后申请的专利申请或专利，已过优先权期限且未进入中国的国外专利。",
+                    "公知公用技术的类型：(1) 时效性失效专利，包括保护期届满及保护期未满丧失专利权两种情形。(2) 地域性失效专利，指未在我国申请专利保护的外国专利技术情报。",
+                    "竞争对手研究中的专利信息检索：需收集竞争对手名称及发明人信息，确定检索要素，编写检索式，选择检索系统，优化检索式，分析结果，提出应对策略。"
+                ],
+                "en": [
+                    "Public domain patents are those no longer protected by law in China and can be freely used. This includes expired Chinese patents, rejected, withdrawn, or invalidated patents, and foreign patents not filed in China.",
+                    "Types: (1) Timeliness expired patents (protection period ended or rights lost early). (2) Geographic expired patents (foreign patents not protected in China).",
+                    "Competitor Analysis: Collect competitor names and inventors, determine search elements, draft queries, select systems, optimize searches, and analyze results to develop strategies."
+                ],
+                "es": [
+                    "Las patentes públicas conocidas son aquellas que no están protegidas por la ley en China por razones específicas y pueden usarse gratuitamente. Incluyen patentes chinas vencidas, rechazadas, retiradas o invalidadas, y patentes extranjeras no registradas en China.",
+                    "Tipos: (1) Patentes vencidas por puntualidad (fin del período o pérdida anticipada). (2) Patentes vencidas regionalmente (tecnologías extranjeras no protegidas en China).",
+                    "Análisis de Competidores: Recopilar nombres e inventores, determinar elementos de búsqueda, redactar consultas, seleccionar sistemas, optimizar búsquedas y analizar resultados para desarrollar estrategias."
+                ]
+            }
+        },
+        {
+            "id": "patent_family_search",
+            "title": {
+                "zh": "同族专利检索",
+                "en": "Patent Family Search",
+                "es": "Búsqueda de Familias de Patentes"
+            },
+            "content": {
+                "zh": [
+                    "同族专利检索是指对与被检索的专利或专利申请具有共同优先权的其它专利或专利申请及其公布情况进行的检索，其目的是找出专利或专利申请的同族专利文献。",
+                    "专利无效请求中的专利信息检索：包括分析技术方案、阅读权利要求、提取检索要素、选择检索系统、构建检索式、调整策略、评价新颖性和创造性以找出无效证据。"
+                ],
+                "en": [
+                    "A patent family search examines other patents or applications sharing common priority rights with the searched patent, aiming to identify family patent literature.",
+                    "Patent Invalidity Requests: Involve analyzing technical solutions, reading claims, extracting search elements, selecting systems, constructing queries, adjusting strategies, and evaluating novelty and inventiveness to find invalidation evidence."
+                ],
+                "es": [
+                    "La búsqueda de familia de patentes examina otras patentes o solicitudes que comparten derechos de prioridad comunes con la patente buscada, con el objetivo de identificar literatura de familia de patentes.",
+                    "Solicitudes de Invalidación: Implican analizar soluciones técnicas, leer reclamaciones, extraer elementos, seleccionar sistemas, construir consultas, ajustar estrategias y evaluar novedad e inventiva para encontrar evidencia de invalidación."
+                ]
+            }
+        }
+    ]
+}
