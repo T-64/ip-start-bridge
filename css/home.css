@@ -440,11 +440,12 @@ body {
     color: white;
 }
 
+/* 确保 market-section 样式生效 */
 .market-section {
-    background-color: #9cc3e4;
+    background-color: #9cc3e4; /* 浅蓝色背景 */
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .market-content {
@@ -461,28 +462,55 @@ body {
 
 .market-item {
     flex: 1;
-    height: 150px;
-    background: #fff;
+    height: 150px; /* 保持高度与原设计一致 */
+    background: #fff; /* 每个项的白色背景 */
     border-radius: 12px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
+    text-decoration: none;
+    color: #333;
 }
 
 .market-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.market-item img {
-    width: auto;
+.market-item-content {
+    display: flex;
+    flex-direction: column; /* 图片和文字垂直排列 */
+    align-items: center; /* 居中对齐 */
+    justify-content: center;
     height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+    width: 100%;
+}
+
+.market-item-content img {
+    width: 100%; /* 图片宽度占满容器 */
+    height: 100px; /* 图片高度，接近原设计 */
+    object-fit: contain; /* 保持图片比例 */
+    margin-bottom: 5px; /* 图片与文字的间距 */
+}
+
+.market-item-content span {
+    font-size: 16px; /* 增大字体 */
+    font-weight: bold; /* 加粗文字 */
+    text-align: center;
+    line-height: 1.2; /* 行高，防止文字过紧 */
+}
+
+/* 针对无文字的项，确保图片居中 */
+.market-item-content:has(img:only-child) {
+    justify-content: center;
+}
+
+.market-item-content:has(img:only-child) img {
+    margin-bottom: 0; /* 无文字时，图片不需要底部间距 */
 }
 
 .footer-banner {
