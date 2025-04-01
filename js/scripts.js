@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.title = i18next.t('title');
     }
 
-    // 语言切换（移除 alert）
+    // 语言切换
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', function (e) {
             e.preventDefault();
