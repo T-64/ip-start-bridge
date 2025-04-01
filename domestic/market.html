@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="market_title">市场概况</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <style>
+        .news-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .news-sidebar {
+            width: 250px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .news-sidebar-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .news-sidebar-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+        }
+
+        .news-sidebar-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-sidebar-item a {
+            text-decoration: none;
+            color: #555;
+            font-size: 16px;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .news-sidebar-item a:hover {
+            color: #4682B4;
+            background-color: #f8f9fa;
+            padding-left: 15px;
+        }
+
+        .news-sidebar-item.active a {
+            color: #4682B4;
+            font-weight: 600;
+            background-color: #f0f7ff;
+            border-left: 3px solid #4682B4;
+        }
+
+        .news-detail-container {
+            flex: 1;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+
+        .news-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .news-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            transition: all 0.3s ease;
+            max-height: 200px;
+            overflow: hidden;
+        }
+
+        .news-card:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .news-card h4 {
+            font-size: 18px;
+            color: #333;
+            margin: 0 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .news-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+
+        .news-card .read-more {
+            margin-top: 10px;
+            text-align: right;
+        }
+
+        .news-card .read-more a {
+            color: #4682B4;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .news-card .read-more a:hover {
+            text-decoration: underline;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            color: #666;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .modal-close:hover {
+            color: #4682B4;
+        }
+
+        .modal-content h2 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modal-content p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 32px;
+            height: 32px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4682B4;
+            text-decoration: none;
+            font-size: 18px;
+            z-index: 100;
+        }
+
+        .back-btn:hover {
+            background: #f0f7ff;
+        }
+
+        @media (max-width: 768px) {
+            .news-container {
+                flex-direction: column;
+            }
+
+            .news-sidebar {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .news-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../home.html" class="back-btn" title="返回">←</a>
+    <div class="header">
+        <div class="auth-section">
+            <a href="login.html" class="auth-btn" data-i18n="login">登录</a> |
+            <a href="login.html" class="auth-btn" data-i18n="register">注册</a>
+        </div>
+    </div>
+
+    <div class="lang-section">
+        <span data-i18n="language_setting">语言设置:</span>
+        <a href="#" class="lang-btn current-lang" data-lang="zh">中文</a> |
+        <a href="#" class="lang-btn" data-lang="en">English</a> |
+        <a href="#" class="lang-btn" data-lang="es">Español</a>
+    </div>
+
+    <div class="news-container">
+        <div class="news-sidebar">
+            <ul class="news-sidebar-list" id="news-sidebar-list">
+                <!-- 通过JavaScript动态加载三个板块 -->
+            </ul>
+        </div>
+
+        <div class="news-detail-container">
+            <div class="news-cards" id="news-cards">
+                <!-- 通过JavaScript动态加载小卡片 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="news-modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/i18next@23.11.5/dist/umd/i18next.min.js"></script>
+    <script src="../js/market.js"></script>
+</body>
+</html>

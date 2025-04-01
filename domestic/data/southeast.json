@@ -1,0 +1,121 @@
+{
+    "sections": [
+        {
+            "id": "policy",
+            "content": {
+                "zh": [
+                    {
+                        "title": "服务国家战略与区域协同创新",
+                        "text": "聚焦长三角一体化、长江经济带等国家战略，推动知识产权跨区域协作。例如，上海自贸区设立知识产权国际仲裁中心，浙江发布《数字经济促进条例》支持数据知识产权保护，江苏推进“知识产权强省”计划。"
+                    },
+                    {
+                        "title": "强化涉外知识产权保护",
+                        "text": "建立海外知识产权维权援助体系，如浙江“知识产权海外护航”行动，为企业提供侵权预警和纠纷应对服务。试点数据知识产权登记制度（如上海数据交易所），探索人工智能生成内容（AIGC）的权属规则。"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Serving National Strategies and Regional Collaborative Innovation",
+                        "text": "Focus on national strategies like the Yangtze River Delta integration and Yangtze River Economic Belt, promoting cross-regional IP collaboration. Examples include Shanghai FTZ’s International IP Arbitration Center, Zhejiang’s Digital Economy Promotion Regulations for data IP protection, and Jiangsu’s 'Strong IP Province' initiative."
+                    },
+                    {
+                        "title": "Strengthening Foreign-Related IP Protection",
+                        "text": "Establish overseas IP rights protection mechanisms, e.g., Zhejiang’s 'IP Overseas Escort' program, offering infringement alerts and dispute resolution for enterprises. Pilot data IP registration systems (e.g., Shanghai Data Exchange) and explore ownership rules for AI-generated content (AIGC)."
+                    }
+                ],
+                "es": [
+                    {
+                        "title": "Servicio a Estrategias Nacionales e Innovación Colaborativa Regional",
+                        "text": "Enfoque en estrategias nacionales como la integración del Delta del Yangtsé y el Cinturón Económico del Río Yangtsé, promoviendo la colaboración transfronteriza de PI. Ejemplos: Centro Internacional de Arbitraje de PI en la Zona Franca de Shanghái, Reglamento de Promoción de la Economía Digital de Zhejiang para protección de datos, e iniciativa de Jiangsu 'Provincia Fuerte en PI'."
+                    },
+                    {
+                        "title": "Reforzamiento de la Protección de PI en Ámbito Internacional",
+                        "text": "Crear mecanismos de protección de PI en el extranjero, como el programa 'Escolta de PI en el Exterior' de Zhejiang, brindando alertas de infracción y resolución de disputas. Proyectos piloto de registro de datos como PI (ej. Bolsa de Datos de Shanghái) y normas de propiedad para contenido generado por IA."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "industry",
+            "content": {
+                "zh": [
+                    {
+                        "title": "集成电路",
+                        "text": "长三角占全国芯片产能60%，上海、无锡、南京为制造核心。《长三角集成电路产业链协同发展行动计划》，江苏设立千亿级产业基金。"
+                    },
+                    {
+                        "title": "生物医药",
+                        "text": "上海张江、苏州全球排名前列，2023年长三角生物医药产值超1.2万亿元，浙江“凤凰行动”推动企业上市，上海自贸区试行基因治疗数据跨境流动便利化。"
+                    },
+                    {
+                        "title": "新能源与新材料",
+                        "text": "宁德时代（福建）全球动力电池市占率37%，宁波石墨烯产业园为国家级基地，福建“电动福建”计划，浙江“未来材料先导区”政策。"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Semiconductors",
+                        "text": "Yangtze River Delta produces 60% of China’s chips, with Shanghai/Wuxi/Nanjing as hubs. 'Yangtze Delta IC Industry Chain Plan', Jiangsu’s RMB 100 billion industry fund."
+                    },
+                    {
+                        "title": "Biopharma",
+                        "text": "Shanghai Zhangjiang and Suzhou BioBay rank globally; output exceeded RMB 1.2 trillion in 2023, Zhejiang’s 'Phoenix Initiative' for IPOs, Shanghai FTZ’s cross-border data flow policies for gene therapy."
+                    },
+                    {
+                        "title": "New Energy & Materials",
+                        "text": "CATL (Fujian) holds 37% global EV battery share; Ningbo Graphene Industrial Park as national hub, Fujian’s 'Electric Fujian' plan, Zhejiang’s 'Future Materials Pilot Zone' policies."
+                    }
+                ],
+                "es": [
+                    {
+                        "title": "Circuitos Integrados",
+                        "text": "Delta del Yangtsé produce el 60% de los chips de China, con Shanghái/Wuxi/Nankín como núcleos. 'Plan de Cadena de Suministro de Circuitos Integrados', fondo industrial de Jiangsu de 100 mil millones RMB."
+                    },
+                    {
+                        "title": "Biotecnología",
+                        "text": "Zhangjiang (Shanghái) y BioBay (Suzhou) entre los líderes mundiales; producción superó 1.2 billones RMB en 2023, 'Iniciativa Fénix' de Zhejiang para salidas a bolsa, políticas de flujo transfronterizo de datos en Shanghái."
+                    },
+                    {
+                        "title": "Energía Limpia y Materiales",
+                        "text": "CATL (Fujian) con 37% de cuota global en baterías; Parque Industrial de Grafeno de Ningbo como base nacional, Plan 'Fujian Eléctrico', políticas de 'Zona Piloto de Materiales Futuros' de Zhejiang."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip",
+            "content": {
+                "zh": [
+                    {
+                        "title": "数据知识产权",
+                        "text": "上海试点数据资产确权、交易与质押融资，杭州互联网法院审理首例AIGC著作权纠纷，2024年浙江签发首张数据知识产权登记证书。"
+                    },
+                    {
+                        "title": "商业秘密",
+                        "text": "江苏高院发布《商业秘密司法保护白皮书》，2023年长三角商业秘密案件胜诉率78%，无锡某光伏企业通过商业秘密保护避免技术外泄，估值提升20%。"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Data Intellectual Property",
+                        "text": "Shanghai pilots data asset ownership, trading, and pledge financing; Hangzhou Internet Court hears first AIGC copyright case, Zhejiang issued China’s first data IP certificate in 2024."
+                    },
+                    {
+                        "title": "Trade Secrets",
+                        "text": "Jiangsu High Court’s 'White Paper on Judicial Protection of Trade Secrets'; 78% win rate in Yangtze River Delta trade secret cases in 2023, a Wuxi solar company prevented tech leaks via trade secret protection, valuation increased by 20%."
+                    }
+                ],
+                "es": [
+                    {
+                        "title": "Propiedad Intelectual de Datos",
+                        "text": "Shanghái prueba propiedad, comercialización y financiación con garantía de datos; primer caso de derechos de autor de IA en Hangzhou, Zhejiang emitió el primer certificado de PI de datos en 2024."
+                    },
+                    {
+                        "title": "Secretos Comerciales",
+                        "text": "Libro Blanco de Protección Judicial de Jiangsu; tasa de éxito del 78% en casos del Delta del Yangtsé en 2023, una empresa solar de Wuxi evitó fugas técnicas, valoración aumentó un 20%."
+                    }
+                ]
+            }
+        }
+    ]
+}

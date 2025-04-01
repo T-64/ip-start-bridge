@@ -186,14 +186,13 @@ document.addEventListener('DOMContentLoaded', function () {
         document.title = i18next.t('title');
     }
 
-    // 语言切换（保留 alert）
+    // 语言切换（移除 alert）
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', function (e) {
             e.preventDefault();
             const lang = this.getAttribute('data-lang');
             const langText = this.textContent.trim(); // 获取按钮文本（中文、English、Español）
             console.log('Switching to language:', langText); // 可选：保留调试日志
-            alert('Switching to ' + langText); // 添加 alert 提示
             i18next.changeLanguage(lang, () => {
                 updateContent();
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('current-lang'));

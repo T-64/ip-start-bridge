@@ -1,0 +1,107 @@
+{
+    "sections": [
+        {
+            "id": "policy",
+            "name": {
+                "zh": "政策导向",
+                "en": "Policy Orientation",
+                "es": "Orientación de Políticas"
+            },
+            "items": [
+                {
+                    "id": "policy1",
+                    "title": {
+                        "zh": "政策1标题",
+                        "en": "Policy 1 Title",
+                        "es": "Título de la Política 1"
+                    },
+                    "content": {
+                        "zh": [
+                            "这是政策1的简短描述，可能会很长，但这里只显示部分。",
+                            "这是第二段完整内容，用户点击‘阅读更多’可以看到完整文章。"
+                        ],
+                        "en": [
+                            "This is a brief description of Policy 1, which might be long.",
+                            "This is the second paragraph, visible in full via 'Read More'."
+                        ],
+                        "es": [
+                            "Esta es una breve descripción de la Política 1, que podría ser larga.",
+                            "Este es el segundo párrafo, visible completo con 'Leer más'."
+                        ]
+                    }
+                },
+                {
+                    "id": "policy2",
+                    "title": {
+                        "zh": "政策2标题",
+                        "en": "Policy 2 Title",
+                        "es": "Título de la Política 2"
+                    },
+                    "content": {
+                        "zh": ["这是政策2的唯一内容，短小精悍。"],
+                        "en": ["This is the only content for Policy 2, short and concise."],
+                        "es": ["Este es el único contenido de la Política 2, corto y conciso."]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "industry",
+            "name": {
+                "zh": "重点产业",
+                "en": "Key Industries",
+                "es": "Industrias Clave"
+            },
+            "items": [
+                {
+                    "id": "industry1",
+                    "title": {
+                        "zh": "产业1标题",
+                        "en": "Industry 1 Title",
+                        "es": "Título de la Industria 1"
+                    },
+                    "content": {
+                        "zh": [
+                            "这是产业1的第一段内容，简短展示。",
+                            "这是第二段，详细描述产业情况。",
+                            "这是第三段，用户可查看完整内容。"
+                        ],
+                        "en": [
+                            "This is the first paragraph of Industry 1, briefly shown.",
+                            "This is the second paragraph, detailing the industry.",
+                            "This is the third paragraph, fully viewable."
+                        ],
+                        "es": [
+                            "Este es el primer párrafo de la Industria 1, mostrado brevemente.",
+                            "Este es el segundo párrafo, detallando la industria.",
+                            "Este es el tercer párrafo, visible en su totalidad."
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ip",
+            "name": {
+                "zh": "知识产权类型",
+                "en": "IP Types",
+                "es": "Tipos de Propiedad Intelectual"
+            },
+            "items": [
+                {
+                    "id": "ip1",
+                    "title": {
+                        "zh": "类型1标题",
+                        "en": "Type 1 Title",
+                        "es": "Título del Tipo 1"
+                    },
+                    "content": {
+                        "zh": ["这是知识产权类型1的内容，简短但重要。"],
+                        "en": ["This is the content for IP Type 1, short but important."],
+                        "es": ["Este es el contenido del Tipo 1 de PI, corto pero importante."]
+                    }
+                }
+            ]
+        }
+    ]
+}
