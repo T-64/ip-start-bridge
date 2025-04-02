@@ -18,20 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "语言设置:",
                     "home": "首页",
                     "domestic_market": "国内市场",
-                    "beijing_tianjin_hebei": "京津冀地区",
-                    "guangdong_shenzhen": "广深湾地区",
-                    "southeast_coast": "东南沿海地区",
-                    "southwest": "西南地区",
-                    "laws_regulations": "法律法规",
                     "overseas_market": "海外市场",
-                    "international_laws": "各国法律法规",
-                    "country_overview": "各国环境概况",
-                    "ip_news_overseas": "海外知识产权动态信息",
-                    "ip_application_process": "海外知识产权申请流程",
-                    "ip_search_overseas": "海外知识产权信息检索",
-                    "laws_regulations_overview": "法律法规一览",
-                    "classic_case_analysis": "经典案例分析",
-                    "ip_exclusive_fees": "海外知识产权专有费用",
                     "learning_center": "学习天地",
                     "online_courses": "线上课程",
                     "interactive_forum": "互动论坛",
@@ -75,20 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "Language Settings:",
                     "home": "Home",
                     "domestic_market": "Domestic Market",
-                    "beijing_tianjin_hebei": "Beijing-Tianjin-Hebei Region",
-                    "guangdong_shenzhen": "Guangdong-Shenzhen Bay Area",
-                    "southeast_coast": "Southeast Coastal Region",
-                    "southwest": "Southwest Region",
-                    "laws_regulations": "Laws and Regulations",
                     "overseas_market": "Overseas Market",
-                    "international_laws": "International Laws and Regulations",
-                    "country_overview": "Country Environment Overview",
-                    "ip_news_overseas": "Overseas IP News and Updates",
-                    "ip_application_process": "Overseas IP Application Process",
-                    "ip_search_overseas": "Overseas IP Information Search",
-                    "laws_regulations_overview": "Laws and Regulations Overview",
-                    "classic_case_analysis": "Classic Case Analysis",
-                    "ip_exclusive_fees": "Overseas IP Exclusive Fees",
                     "learning_center": "Learning Center",
                     "online_courses": "Online Courses",
                     "interactive_forum": "Interactive Forum",
@@ -132,20 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "Configuración de idioma:",
                     "home": "Inicio",
                     "domestic_market": "Mercado nacional",
-                    "beijing_tianjin_hebei": "Región Beijing-Tianjin-Hebei",
-                    "guangdong_shenzhen": "Área de la Bahía Guangdong-Shenzhen",
-                    "southeast_coast": "Región costera del sureste",
-                    "southwest": "Región suroeste",
-                    "laws_regulations": "Leyes y regulaciones",
                     "overseas_market": "Mercado internacional",
-                    "international_laws": "Leyes y regulaciones internacionales",
-                    "country_overview": "Panorama del entorno de los países",
-                    "ip_news_overseas": "Información dinámica sobre propiedad intelectual en el extranjero",
-                    "ip_application_process": "Proceso de solicitud de propiedad intelectual en el extranjero",
-                    "ip_search_overseas": "Búsqueda de información sobre propiedad intelectual en el extranjero",
-                    "laws_regulations_overview": "Resumen de leyes y regulaciones",
-                    "classic_case_analysis": "Análisis de casos clásicos",
-                    "ip_exclusive_fees": "Tarifas exclusivas de propiedad intelectual en el extranjero",
                     "learning_center": "Centro de aprendizaje",
                     "online_courses": "Cursos en línea",
                     "interactive_forum": "Foro interactivo",
@@ -178,11 +139,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }, function (err, t) {
         if (err) return console.error(err);
-        updateContent();
+        updateContent('zh'); // 初始化时显示中文图片
     });
 
-    // 更新页面内容
-    function updateContent() {
+    // 更新页面内容，包括图片切换
+    function updateContent(lang) {
+        // 更新文字内容（仅对非图片部分生效）
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (key.startsWith('[placeholder]')) {
@@ -193,6 +155,12 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
         document.title = i18next.t('title');
+
+        // 更新图片显示
+        document.querySelectorAll('.lang-img').forEach(img => {
+            const imgLang = img.getAttribute('data-lang');
+            img.style.display = (imgLang === lang) ? 'block' : 'none';
+        });
     }
 
     // 语言切换
@@ -200,17 +168,15 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.addEventListener('click', function (e) {
             e.preventDefault();
             const lang = this.getAttribute('data-lang');
-            const langText = this.textContent.trim(); // 获取按钮文本（中文、English、Español）
-            console.log('Switching to language:', langText); // 可选：保留调试日志
             i18next.changeLanguage(lang, () => {
-                updateContent();
+                updateContent(lang);
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('current-lang'));
                 this.classList.add('current-lang');
             });
         });
     });
 
-    // 轮播图功能
+    // 轮播图功能（保持不变）
     const slides = document.querySelectorAll('.carousel-slide');
     const prevBtn = document.querySelector('.carousel-prev');
     const nextBtn = document.querySelector('.carousel-next');
