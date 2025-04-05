@@ -18,6 +18,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "语言设置:",
                     "home": "首页",
                     "domestic_market": "国内市场",
+                    "beijing_tianjin_hebei": "京津冀地区",
+                    "guangdong_shenzhen": "广深湾地区",
+                    "southeast_coast": "东南沿海地区",
+                    "southwest": "西南地区",
+                    "laws_regulations": "法律法规",
+                    "international_laws": "各国法律法规",
+                    "country_overview": "各国环境概况",
+                    "ip_news_overseas": "海外知识产权动态信息",
+                    "ip_application_process": "海外知识产权申请流程",
+                    "ip_search_overseas": "海外知识产权信息检索",
                     "overseas_market": "海外市场",
                     "learning_center": "学习天地",
                     "online_courses": "线上课程",
@@ -62,6 +72,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "Language Settings:",
                     "home": "Home",
                     "domestic_market": "Domestic Market",
+                    "beijing_tianjin_hebei": "Beijing-Tianjin-Hebei Region",
+                    "guangdong_shenzhen": "Guangdong-Shenzhen Bay Area",
+                    "southeast_coast": "Southeast Coastal Region",
+                    "southwest": "Southwest Region",
+                    "laws_regulations": "Laws and Regulations",
+                    "international_laws": "International Laws",
+                    "country_overview": "Country Overview",
+                    "ip_news_overseas": "Overseas IP News",
+                    "ip_application_process": "Overseas IP Application Process",
+                    "ip_search_overseas": "Overseas IP Search",
                     "overseas_market": "Overseas Market",
                     "learning_center": "Learning Center",
                     "online_courses": "Online Courses",
@@ -106,6 +126,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     "language_setting": "Configuración de idioma:",
                     "home": "Inicio",
                     "domestic_market": "Mercado nacional",
+                    "beijing_tianjin_hebei": "Región de Beijing-Tianjin-Hebei",
+                    "guangdong_shenzhen": "Área de la Bahía de Guangdong-Shenzhen",
+                    "southeast_coast": "Región Costera del Sureste",
+                    "southwest": "Región del Suroeste",
+                    "laws_regulations": "Leyes y Reglamentos",
+                    "international_laws": "Leyes Internacionales",
+                    "country_overview": "Descripción General del País",
+                    "ip_news_overseas": "Noticias de PI en el Extranjero",
+                    "ip_application_process": "Proceso de Solicitud de PI en el Extranjero",
+                    "ip_search_overseas": "Búsqueda de PI en el Extranjero",
                     "overseas_market": "Mercado internacional",
                     "learning_center": "Centro de aprendizaje",
                     "online_courses": "Cursos en línea",
@@ -199,4 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBtn.addEventListener('click', showNextSlide);
     prevBtn.addEventListener('click', showPrevSlide);
     setInterval(showNextSlide, 3000); // 每3秒切换
+
+
+    
 });
